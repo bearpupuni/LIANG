@@ -1,0 +1,1440 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<?xml-stylesheet type="text/xsl" href="nlp_style.xsl" ?>
+<xml4nlp>
+    <doc>
+        <para id="0">
+            <sent id="0" cont="台湾破获首宗外国人刺探军事机密案 逮捕十多人 " tag="">
+                <word id="0" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="1" relate="SBV" />
+                <word id="1" cont="破获" pos="v" ne="O" wsd="Hm05" wsdexp="逮捕_押送_释放" parent="9" relate="ADV">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="4" />
+                    <arg id="2" type="受事" beg="5" end="5" />
+                </word>
+                <word id="2" cont="首" pos="m" ne="O" wsd="Dn04" wsdexp="基数_序数" parent="3" relate="QUN" />
+                <word id="3" cont="宗" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="4" relate="ATT" />
+                <word id="4" cont="外国人" pos="n" ne="O" wsd="Ad02" wsdexp="本国人_外国人_外族人" parent="1" relate="VOB" />
+                <word id="5" cont="刺探" pos="v" ne="O" wsd="Hi24" wsdexp="打听_试探" parent="1" relate="VOB" />
+                <word id="6" cont="军事" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="7" relate="ATT" />
+                <word id="7" cont="机密" pos="n" ne="O" wsd="Ed44" wsdexp="公开_秘密" parent="8" relate="ATT" />
+                <word id="8" cont="案" pos="n" ne="O" wsd="Da03" wsdexp="事例_案件" parent="9" relate="SBV" />
+                <word id="9" cont="逮捕" pos="v" ne="O" wsd="Hm05" wsdexp="逮捕_押送_释放" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="6" end="8" />
+                    <arg id="1" type="受事" beg="10" end="12" />
+                </word>
+                <word id="10" cont="十" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="12" relate="QUN" />
+                <word id="11" cont="多" pos="m" ne="I-Nm" wsd="Dn05" wsdexp="半_概数_若干" parent="10" relate="RAD" />
+                <word id="12" cont="人" pos="n" ne="E-Nm" wsd="Aa01" wsdexp="人_人民_众人" parent="9" relate="VOB" />
+            </sent>
+        </para>
+        <para id="1" />
+        <para id="2">
+            <sent id="0" cont="近日，台湾“国防部”宣布，台湾反间谍机构前不久破获首宗外籍人士刺探军事机密案。" tag="10%">
+                <word id="0" cont="近日" pos="nt" ne="O" wsd="Ca11" wsdexp="过去_近来" parent="6" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="6" relate="SBV" />
+                <word id="3" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="国防部" pos="n" ne="O" wsd="Dm01" wsdexp="政府" parent="6" relate="SBV" />
+                <word id="5" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="宣布" pos="v" ne="O" wsd="Hc11" wsdexp="召集_宣布_下令" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="0" />
+                    <arg id="1" type="施事" beg="2" end="2" />
+                    <arg id="2" type="施事" beg="4" end="4" />
+                </word>
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="9" relate="SBV" />
+                <word id="9" cont="反" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="13" relate="ADV">
+                    <arg id="0" type="施事" beg="8" end="8" />
+                    <arg id="1" type="受事" beg="10" end="11" />
+                </word>
+                <word id="10" cont="间谍" pos="n" ne="O" wsd="Ae11" wsdexp="情报员" parent="11" relate="ATT" />
+                <word id="11" cont="机构" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="9" relate="VOB" />
+                <word id="12" cont="前不久" pos="nt" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="13" relate="ADV" />
+                <word id="13" cont="破获" pos="v" ne="O" wsd="Hm05" wsdexp="逮捕_押送_释放" parent="6" relate="VV">
+                    <arg id="0" type="时间" beg="12" end="12" />
+                    <arg id="1" type="受事" beg="14" end="17" />
+                    <arg id="2" type="受事" beg="18" end="21" />
+                </word>
+                <word id="14" cont="首" pos="m" ne="O" wsd="Dn04" wsdexp="基数_序数" parent="15" relate="QUN" />
+                <word id="15" cont="宗" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="17" relate="ATT" />
+                <word id="16" cont="外籍" pos="n" ne="O" wsd="Dd16" wsdexp="籍贯_资格_出身_辈分" parent="17" relate="ATT" />
+                <word id="17" cont="人士" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="13" relate="VOB" />
+                <word id="18" cont="刺探" pos="v" ne="O" wsd="Hi24" wsdexp="打听_试探" parent="13" relate="VOB">
+                    <arg id="0" type="受事" beg="19" end="21" />
+                </word>
+                <word id="19" cont="军事" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="20" relate="ATT" />
+                <word id="20" cont="机密" pos="n" ne="O" wsd="Ed44" wsdexp="公开_秘密" parent="21" relate="ATT" />
+                <word id="21" cont="案" pos="n" ne="O" wsd="Da03" wsdexp="事例_案件" parent="18" relate="VOB" />
+                <word id="22" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="以英国籍男子泰勒为首的国际情报贩售集团，两年多来在台湾东部花莲、台东空军基地搜集F—16战机编号、起降等情报。" tag="10%">
+                <word id="0" cont="以" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="8" relate="ADV" />
+                <word id="1" cont="英国籍" pos="n" ne="O" wsd="-1" wsdexp="" parent="2" relate="ATT" />
+                <word id="2" cont="男子" pos="n" ne="O" wsd="Ab01" wsdexp="男人_女人_男女" parent="3" relate="ATT" />
+                <word id="3" cont="泰勒" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="7" relate="ATT" />
+                <word id="4" cont="为首" pos="v" ne="O" wsd="Ie11" wsdexp="占先_殿后_命中" parent="5" relate="DE" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ATT" />
+                <word id="6" cont="国际" pos="n" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="7" relate="ATT" />
+                <word id="7" cont="情报" pos="n" ne="I-Ni" wsd="Da19" wsdexp="消息_音信" parent="0" relate="POB" />
+                <word id="8" cont="贩" pos="v" ne="I-Ni" wsd="He03" wsdexp="买_卖" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="10" end="10" />
+                </word>
+                <word id="9" cont="售" pos="v" ne="I-Ni" wsd="He03" wsdexp="买_卖" parent="8" relate="COO" />
+                <word id="10" cont="集团" pos="n" ne="E-Ni" wsd="Di10" wsdexp="团体_派别" parent="8" relate="VOB" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="两" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="13" relate="QUN" />
+                <word id="13" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="15" relate="ATT" />
+                <word id="14" cont="多" pos="a" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="13" relate="RAD" />
+                <word id="15" cont="来" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="8" relate="VV" />
+                <word id="16" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="8" relate="IC" />
+                <word id="17" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="18" relate="ATT" />
+                <word id="18" cont="东部" pos="nd" ne="O" wsd="Cb01" wsdexp="方向_位置" parent="19" relate="ATT" />
+                <word id="19" cont="花莲" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="16" relate="POB" />
+                <word id="20" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="台东" pos="nh" ne="B-Ns" wsd="-1" wsdexp="" parent="22" relate="ATT" />
+                <word id="22" cont="空军" pos="n" ne="I-Ns" wsd="Di11" wsdexp="军队_战争" parent="23" relate="ATT" />
+                <word id="23" cont="基地" pos="n" ne="E-Ns" wsd="Cb12" wsdexp="前方_后方_驻地_战场" parent="24" relate="ATT" />
+                <word id="24" cont="搜集" pos="v" ne="O" wsd="Hj25" wsdexp="采集_搜罗_挑选_取长补短" parent="16" relate="POB">
+                    <arg id="0" type="受事" beg="25" end="25" />
+                </word>
+                <word id="25" cont="F" pos="ws" ne="O" wsd="-1" wsdexp="" parent="24" relate="VOB" />
+                <word id="26" cont="—" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="27" cont="16" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="29" relate="QUN" />
+                <word id="28" cont="战机" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="29" relate="ATT" />
+                <word id="29" cont="编号" pos="n" ne="O" wsd="Dk04" wsdexp="号码_记号_曲谱_标点符号" parent="31" relate="SBV" />
+                <word id="30" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="31" cont="起降" pos="v" ne="O" wsd="Ih06" wsdexp="削弱" parent="24" relate="COO">
+                    <arg id="0" type="施事" beg="27" end="29" />
+                    <arg id="1" type="受事" beg="32" end="33" />
+                </word>
+                <word id="32" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="33" relate="ATT" />
+                <word id="33" cont="情报" pos="n" ne="O" wsd="Da19" wsdexp="消息_音信" parent="31" relate="VOB" />
+                <word id="34" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="经过长期监控侦破，台反间谍部门于近日逮捕了十多名该组织成员。" tag="10%">
+                <word id="0" cont="经过" pos="p" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="6" relate="ADV" />
+                <word id="1" cont="长期" pos="d" ne="O" wsd="Eb24" wsdexp="长久_永远" parent="3" relate="ADV" />
+                <word id="2" cont="监控" pos="v" ne="O" wsd="Hc19" wsdexp="监督_查点" parent="3" relate="ATT" />
+                <word id="3" cont="侦破" pos="v" ne="O" wsd="Hb09" wsdexp="接应_掩护_牵制_侦察" parent="0" relate="POB" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="台" pos="j" ne="S-Ns" wsd="Dn08" wsdexp="数量单位" parent="6" relate="SBV" />
+                <word id="6" cont="反" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="5" end="5" />
+                    <arg id="1" type="受事" beg="7" end="8" />
+                    <arg id="2" type="受事" beg="9" end="12" />
+                    <arg id="3" type="受事-数量性质" beg="13" end="15" />
+                    <arg id="4" type="受事" beg="16" end="18" />
+                </word>
+                <word id="7" cont="间谍" pos="n" ne="O" wsd="Ae11" wsdexp="情报员" parent="8" relate="ATT" />
+                <word id="8" cont="部门" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="6" relate="VOB" />
+                <word id="9" cont="于" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="11" relate="ADV" />
+                <word id="10" cont="近日" pos="nt" ne="O" wsd="Ca11" wsdexp="过去_近来" parent="9" relate="POB" />
+                <word id="11" cont="逮捕" pos="v" ne="O" wsd="Hm05" wsdexp="逮捕_押送_释放" parent="6" relate="VOB">
+                    <arg id="0" type="时间" beg="9" end="10" />
+                </word>
+                <word id="12" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="11" relate="MT" />
+                <word id="13" cont="十" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="15" relate="QUN" />
+                <word id="14" cont="多" pos="m" ne="I-Nm" wsd="Dn05" wsdexp="半_概数_若干" parent="13" relate="RAD" />
+                <word id="15" cont="名" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="6" relate="VOB" />
+                <word id="16" cont="该" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="17" relate="ATT" />
+                <word id="17" cont="组织" pos="v" ne="O" wsd="Di10" wsdexp="团体_派别" parent="6" relate="VOB">
+                    <arg id="0" type="受事" beg="18" end="18" />
+                </word>
+                <word id="18" cont="成员" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="17" relate="VOB" />
+                <word id="19" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="3">
+            <sent id="0" cont="进行了两年的全程追踪" tag="">
+                <word id="0" cont="进行" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="4" relate="DE">
+                    <arg id="0" type="受事-数量性质" beg="2" end="3" />
+                </word>
+                <word id="1" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="0" relate="MT" />
+                <word id="2" cont="两" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="3" relate="QUN" />
+                <word id="3" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="0" relate="VOB" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="5" cont="全程" pos="n" ne="O" wsd="Dn02" wsdexp="距离" parent="6" relate="SBV" />
+                <word id="6" cont="追踪" pos="v" ne="O" wsd="Hj39" wsdexp="跟踪_追踪" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="5" />
+                </word>
+            </sent>
+        </para>
+        <para id="4" />
+        <para id="5">
+            <sent id="0" cont="2001年1月5日，一个神色匆匆的外国人手拿一台小型数码摄影机，进入台空军花莲基地旁的一家大型商场。" tag="">
+                <word id="0" cont="2001年" pos="nt" ne="B-Nr" wsd="-1" wsdexp="" parent="1" relate="ATT" />
+                <word id="1" cont="1月" pos="nt" ne="I-Nr" wsd="-1" wsdexp="" parent="2" relate="ATT" />
+                <word id="2" cont="5日" pos="nt" ne="E-Nr" wsd="-1" wsdexp="" parent="10" relate="ADV" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="5" relate="QUN" />
+                <word id="5" cont="神色" pos="n" ne="O" wsd="Dc04" wsdexp="仪表_神情_风度" parent="10" relate="SBV" />
+                <word id="6" cont="匆匆" pos="a" ne="O" wsd="Ef06" wsdexp="繁忙_匆忙_空闲" parent="7" relate="DE" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="8" cont="外国人" pos="n" ne="O" wsd="Ad02" wsdexp="本国人_外国人_外族人" parent="9" relate="ATT" />
+                <word id="9" cont="手" pos="n" ne="O" wsd="Bk08" wsdexp="四肢_臂_手_腿_脚" parent="10" relate="SBV" />
+                <word id="10" cont="拿" pos="v" ne="O" wsd="Fa06" wsdexp="拿_撮_揪_挎_夹" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="2" />
+                    <arg id="1" type="施事" beg="4" end="5" />
+                    <arg id="2" type="施事" beg="6" end="9" />
+                    <arg id="3" type="受事" beg="11" end="15" />
+                </word>
+                <word id="11" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="12" relate="QUN" />
+                <word id="12" cont="台" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="15" relate="ATT" />
+                <word id="13" cont="小型" pos="b" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="14" relate="ATT" />
+                <word id="14" cont="数码" pos="n" ne="O" wsd="Dn03" wsdexp="数量" parent="15" relate="ATT" />
+                <word id="15" cont="摄影机" pos="n" ne="O" wsd="Bp15" wsdexp="照相机_胶片" parent="10" relate="VOB" />
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="进入" pos="v" ne="O" wsd="Hj64" wsdexp="出_进_出入" parent="10" relate="VV">
+                    <arg id="0" type="受事" beg="18" end="19" />
+                    <arg id="1" type="受事" beg="20" end="28" />
+                </word>
+                <word id="18" cont="台" pos="j" ne="S-Ns" wsd="Dn08" wsdexp="数量单位" parent="19" relate="ATT" />
+                <word id="19" cont="空军" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="17" relate="VOB" />
+                <word id="20" cont="花" pos="v" ne="O" wsd="Bh02" wsdexp="花_花卉" parent="17" relate="VOB">
+                    <arg id="0" type="受事" beg="21" end="21" />
+                    <arg id="1" type="受事" beg="22" end="28" />
+                </word>
+                <word id="21" cont="莲" pos="n" ne="O" wsd="Bh02" wsdexp="花_花卉" parent="20" relate="VOB" />
+                <word id="22" cont="基地" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="23" relate="ATT" />
+                <word id="23" cont="旁" pos="nd" ne="O" wsd="Cb06" wsdexp="旁边_附近_周围_对面" parent="24" relate="DE" />
+                <word id="24" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="28" relate="ATT" />
+                <word id="25" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="26" relate="QUN" />
+                <word id="26" cont="家" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="28" relate="ATT" />
+                <word id="27" cont="大型" pos="b" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="28" relate="ATT" />
+                <word id="28" cont="商场" pos="n" ne="O" wsd="Cb28" wsdexp="场所" parent="20" relate="VOB" />
+                <word id="29" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="他似乎对身旁琳琅满目的商品没有丝毫兴趣，而是一路走入顶楼。" tag="">
+                <word id="0" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="7" relate="SBV" />
+                <word id="1" cont="似乎" pos="d" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="7" relate="ADV" />
+                <word id="2" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="7" relate="ADV" />
+                <word id="3" cont="身旁" pos="nl" ne="O" wsd="Cb06" wsdexp="旁边_附近_周围_对面" parent="6" relate="ATT" />
+                <word id="4" cont="琳琅满目" pos="i" ne="O" wsd="Eb30" wsdexp="美丽_丑陋" parent="5" relate="DE" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="6" cont="商品" pos="n" ne="O" wsd="Ba04" wsdexp="货物_产品" parent="2" relate="POB" />
+                <word id="7" cont="没有" pos="v" ne="O" wsd="Ka18" wsdexp="不_没" parent="13" relate="ADV">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="8" end="9" />
+                </word>
+                <word id="8" cont="丝毫" pos="m" ne="S-Nm" wsd="Eb01" wsdexp="多_少_稀少" parent="9" relate="QUN" />
+                <word id="9" cont="兴趣" pos="n" ne="O" wsd="Df12" wsdexp="兴趣_嗜好" parent="7" relate="VOB" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="而是" pos="c" ne="O" wsd="Kc06" wsdexp="连_凡是" parent="13" relate="CNJ" />
+                <word id="12" cont="一路" pos="m" ne="O" wsd="Ka23" wsdexp="共同_分头_独自_互相_从中" parent="13" relate="ADV" />
+                <word id="13" cont="走" pos="v" ne="O" wsd="Fb01" wsdexp="走_跑" parent="-1" relate="HED" />
+                <word id="14" cont="入" pos="v" ne="O" wsd="Hj64" wsdexp="出_进_出入" parent="13" relate="CMP">
+                    <arg id="0" type="受事" beg="15" end="15" />
+                </word>
+                <word id="15" cont="顶楼" pos="n" ne="O" wsd="Bn01" wsdexp="建筑_房屋" parent="14" relate="VOB" />
+                <word id="16" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="到顶楼后，只见他仰望天空，拿起数码摄像机便开始拍摄台军基地几架正在训练的F—16战机的起降情况，并在手中的掌上电脑中不断记录着什么。" tag="">
+                <word id="0" cont="到" pos="p" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="4" relate="ADV" />
+                <word id="1" cont="顶楼" pos="n" ne="O" wsd="Bn01" wsdexp="建筑_房屋" parent="2" relate="ATT" />
+                <word id="2" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="0" relate="POB" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="只见" pos="v" ne="O" wsd="Fc04" wsdexp="看" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="2" />
+                    <arg id="1" type="受事" beg="5" end="6" />
+                    <arg id="2" type="受事" beg="7" end="7" />
+                </word>
+                <word id="5" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="6" relate="SBV" />
+                <word id="6" cont="仰望" pos="v" ne="O" wsd="Fc04" wsdexp="看" parent="4" relate="VOB">
+                    <arg id="0" type="施事" beg="5" end="5" />
+                </word>
+                <word id="7" cont="天空" pos="n" ne="O" wsd="Cb07" wsdexp="天_地" parent="4" relate="VOB" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="拿" pos="v" ne="O" wsd="Fa06" wsdexp="拿_撮_揪_挎_夹" parent="23" relate="DE">
+                    <arg id="0" type="受事" beg="11" end="12" />
+                    <arg id="1" type="受事-数量性质" beg="19" end="20" />
+                    <arg id="2" type="受事" beg="21" end="22" />
+                </word>
+                <word id="10" cont="起" pos="v" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="9" relate="CMP" />
+                <word id="11" cont="数码" pos="n" ne="O" wsd="Dn03" wsdexp="数量" parent="12" relate="ATT" />
+                <word id="12" cont="摄像机" pos="n" ne="O" wsd="Bp15" wsdexp="照相机_胶片" parent="9" relate="VOB" />
+                <word id="13" cont="便" pos="d" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="14" relate="ADV" />
+                <word id="14" cont="开始" pos="v" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="15" relate="ADV" />
+                <word id="15" cont="拍摄" pos="v" ne="O" wsd="Hh03" wsdexp="摄影_录音_放映_广播" parent="9" relate="VV">
+                    <arg id="0" type="受事" beg="16" end="18" />
+                </word>
+                <word id="16" cont="台" pos="j" ne="S-Ns" wsd="Dn08" wsdexp="数量单位" parent="17" relate="ATT" />
+                <word id="17" cont="军" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="18" relate="ATT" />
+                <word id="18" cont="基地" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="15" relate="VOB" />
+                <word id="19" cont="几" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="20" relate="QUN" />
+                <word id="20" cont="架" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="9" relate="VOB" />
+                <word id="21" cont="正在" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="22" relate="ADV" />
+                <word id="22" cont="训练" pos="v" ne="O" wsd="Hg06" wsdexp="训练_锻炼" parent="9" relate="VOB" />
+                <word id="23" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="24" relate="ATT" />
+                <word id="24" cont="F" pos="ws" ne="O" wsd="-1" wsdexp="" parent="41" relate="SBV" />
+                <word id="25" cont="—" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="26" cont="16" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="27" relate="QUN" />
+                <word id="27" cont="战机" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="28" relate="DE" />
+                <word id="28" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="30" relate="ATT" />
+                <word id="29" cont="起降" pos="v" ne="O" wsd="Ih06" wsdexp="削弱" parent="30" relate="ATT" />
+                <word id="30" cont="情况" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="41" relate="SBV" />
+                <word id="31" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="32" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="41" relate="CNJ" />
+                <word id="33" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="35" relate="DE" />
+                <word id="34" cont="手中" pos="nl" ne="O" wsd="Cb05" wsdexp="内_外" parent="33" relate="POB" />
+                <word id="35" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="38" relate="ATT" />
+                <word id="36" cont="掌" pos="n" ne="O" wsd="Bk08" wsdexp="四肢_臂_手_腿_脚" parent="37" relate="ATT" />
+                <word id="37" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="38" relate="ATT" />
+                <word id="38" cont="电脑" pos="n" ne="O" wsd="Bo01" wsdexp="机器_工具_泵" parent="39" relate="ATT" />
+                <word id="39" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="41" relate="ADV" />
+                <word id="40" cont="不断" pos="d" ne="O" wsd="Ka11" wsdexp="不断_一直_动辄" parent="41" relate="ADV" />
+                <word id="41" cont="记录" pos="v" ne="O" wsd="Hg11" wsdexp="挥笔_记录_留言_附笔" parent="4" relate="VV">
+                    <arg id="0" type="施事" beg="9" end="24" />
+                    <arg id="1" type="施事" beg="26" end="30" />
+                    <arg id="2" type="方位" beg="33" end="39" />
+                    <arg id="3" type="受事" beg="43" end="43" />
+                </word>
+                <word id="42" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="41" relate="MT" />
+                <word id="43" cont="什么" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="41" relate="VOB" />
+                <word id="44" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="他的不寻常举动引起了商场保安人员的注意，一名保安员马上向台湾反间谍机构———国安局和法务部调查局花莲调查站做了汇报。" tag="">
+                <word id="0" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="1" relate="DE" />
+                <word id="1" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="ATT" />
+                <word id="2" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="3" relate="ADV" />
+                <word id="3" cont="寻常" pos="a" ne="O" wsd="Ed04" wsdexp="杰出_异常_普通" parent="4" relate="ATT" />
+                <word id="4" cont="举动" pos="n" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="5" relate="SBV" />
+                <word id="5" cont="引起" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="10" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="4" />
+                    <arg id="1" type="受事" beg="7" end="9" />
+                </word>
+                <word id="6" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="5" relate="MT" />
+                <word id="7" cont="商场" pos="n" ne="O" wsd="Cb28" wsdexp="场所" parent="8" relate="ATT" />
+                <word id="8" cont="保安" pos="b" ne="O" wsd="Hi37" wsdexp="照顾_服侍_护理_保护" parent="9" relate="ATT" />
+                <word id="9" cont="人员" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="5" relate="VOB" />
+                <word id="10" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="11" cont="注意" pos="v" ne="O" wsd="Gb20" wsdexp="注意_权衡_计较" parent="-1" relate="HED" />
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="14" relate="QUN" />
+                <word id="14" cont="名" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="15" relate="ATT" />
+                <word id="15" cont="保安员" pos="n" ne="O" wsd="Hi37" wsdexp="照顾_服侍_护理_保护" parent="19" relate="SBV" />
+                <word id="16" cont="马上" pos="d" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="19" relate="ADV" />
+                <word id="17" cont="向" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="19" relate="ADV" />
+                <word id="18" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="17" relate="POB" />
+                <word id="19" cont="反" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="31" relate="SBV">
+                    <arg id="0" type="施事" beg="13" end="15" />
+                    <arg id="1" type="地点" beg="17" end="18" />
+                    <arg id="2" type="受事" beg="20" end="21" />
+                </word>
+                <word id="20" cont="间谍" pos="n" ne="O" wsd="Ae11" wsdexp="情报员" parent="21" relate="ATT" />
+                <word id="21" cont="机构" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="19" relate="VOB" />
+                <word id="22" cont="———" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="国安" pos="nz" ne="B-Ni" wsd="-1" wsdexp="" parent="24" relate="ATT" />
+                <word id="24" cont="局" pos="n" ne="E-Ni" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="31" relate="SBV" />
+                <word id="25" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="30" relate="LAD" />
+                <word id="26" cont="法务" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="27" relate="ATT" />
+                <word id="27" cont="部" pos="n" ne="O" wsd="Dn08" wsdexp="数量单位" parent="28" relate="ATT" />
+                <word id="28" cont="调查局" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="29" relate="ATT" />
+                <word id="29" cont="花莲" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="30" relate="ATT" />
+                <word id="30" cont="调查站" pos="n" ne="O" wsd="-1" wsdexp="" parent="24" relate="COO" />
+                <word id="31" cont="做" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="11" relate="VV">
+                    <arg id="0" type="施事" beg="13" end="21" />
+                    <arg id="1" type="施事" beg="23" end="30" />
+                    <arg id="2" type="受事" beg="33" end="33" />
+                </word>
+                <word id="32" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="31" relate="MT" />
+                <word id="33" cont="汇报" pos="v" ne="O" wsd="Hc15" wsdexp="登记_申请_报告" parent="31" relate="VOB" />
+                <word id="34" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="有关单位立即组织人员，跟踪这个外国人。" tag="">
+                <word id="0" cont="有关" pos="v" ne="O" wsd="Je01" wsdexp="牵连_涉及_相关" parent="1" relate="ATT" />
+                <word id="1" cont="单位" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="3" relate="SBV" />
+                <word id="2" cont="立即" pos="d" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="3" relate="ADV" />
+                <word id="3" cont="组织" pos="v" ne="O" wsd="Hc03" wsdexp="安置_部署_调动_整顿_整编" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="4" end="4" />
+                </word>
+                <word id="4" cont="人员" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="3" relate="VOB" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="跟踪" pos="v" ne="O" wsd="Hj39" wsdexp="跟踪_追踪" parent="3" relate="VV">
+                    <arg id="0" type="受事" beg="7" end="8" />
+                </word>
+                <word id="7" cont="这个" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="8" relate="ATT" />
+                <word id="8" cont="外国人" pos="n" ne="O" wsd="Ad02" wsdexp="本国人_外国人_外族人" parent="6" relate="VOB" />
+                <word id="9" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="6">
+            <sent id="0" cont="据调查，此人名叫泰勒，英国籍，此次来台他除了曾拍摄花莲、佳山等基地外，还到台湾海军反潜直升机训练重镇神鹰基地观察，台湾海、空军情报人员均对其进行了监控。" tag="">
+                <word id="0" cont="据" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="5" relate="ADV" />
+                <word id="1" cont="调查" pos="v" ne="O" wsd="Hc18" wsdexp="调查_审查_检查" parent="0" relate="POB" />
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="此" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="5" relate="SBV" />
+                <word id="4" cont="人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="5" relate="SBV" />
+                <word id="5" cont="名叫" pos="v" ne="O" wsd="Ja02" wsdexp="叫做_所谓" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="3" end="3" />
+                    <arg id="1" type="施事" beg="4" end="4" />
+                    <arg id="2" type="受事" beg="6" end="6" />
+                    <arg id="3" type="受事" beg="8" end="8" />
+                </word>
+                <word id="6" cont="泰勒" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="5" relate="VOB" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="英国籍" pos="n" ne="O" wsd="-1" wsdexp="" parent="5" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="此次" pos="r" ne="O" wsd="Dd07" wsdexp="次序_行列" parent="12" relate="ATT" />
+                <word id="11" cont="来" pos="m" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="12" relate="QUN" />
+                <word id="12" cont="台" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="13" relate="ATT" />
+                <word id="13" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="14" relate="SBV" />
+                <word id="14" cont="除了" pos="p" ne="O" wsd="Kc07" wsdexp="除了_除非_若非_否则" parent="16" relate="ADV" />
+                <word id="15" cont="曾" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="16" relate="ADV" />
+                <word id="16" cont="拍摄" pos="v" ne="O" wsd="Hh03" wsdexp="摄影_录音_放映_广播" parent="23" relate="ATT">
+                    <arg id="0" type="受事" beg="17" end="17" />
+                    <arg id="1" type="受事" beg="18" end="18" />
+                </word>
+                <word id="17" cont="花" pos="v" ne="O" wsd="Bh02" wsdexp="花_花卉" parent="16" relate="VOB" />
+                <word id="18" cont="莲" pos="n" ne="O" wsd="Bh02" wsdexp="花_花卉" parent="16" relate="VOB" />
+                <word id="19" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="佳山" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="23" relate="ATT" />
+                <word id="21" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="20" relate="RAD" />
+                <word id="22" cont="基地" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="23" relate="ATT" />
+                <word id="23" cont="外" pos="nd" ne="O" wsd="Cb05" wsdexp="内_外" parent="29" relate="ADV" />
+                <word id="24" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="还" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="26" relate="ADV" />
+                <word id="26" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="29" relate="ADV">
+                    <arg id="0" type="受事" beg="27" end="28" />
+                </word>
+                <word id="27" cont="台湾" pos="ns" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="28" relate="ATT" />
+                <word id="28" cont="海军" pos="n" ne="E-Ni" wsd="Di11" wsdexp="军队_战争" parent="26" relate="VOB" />
+                <word id="29" cont="反潜" pos="v" ne="O" wsd="Hb03" wsdexp="进攻_抵抗_回击" parent="5" relate="VV">
+                    <arg id="0" type="方位" beg="10" end="23" />
+                    <arg id="1" type="受事" beg="30" end="35" />
+                </word>
+                <word id="30" cont="直升机" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="31" relate="ATT" />
+                <word id="31" cont="训练" pos="v" ne="O" wsd="Hg06" wsdexp="训练_锻炼" parent="32" relate="ATT" />
+                <word id="32" cont="重镇" pos="n" ne="O" wsd="Cb19" wsdexp="要地_险地" parent="33" relate="ATT" />
+                <word id="33" cont="神" pos="n" ne="O" wsd="Dh01" wsdexp="神_鬼_妖_魂_妖魔鬼怪" parent="34" relate="ATT" />
+                <word id="34" cont="鹰" pos="n" ne="O" wsd="Bi12" wsdexp="鹰_雀_鸽_鹤_鸥" parent="35" relate="ATT" />
+                <word id="35" cont="基地" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="29" relate="VOB" />
+                <word id="36" cont="观察" pos="v" ne="O" wsd="Hj26" wsdexp="观察_比较_区分" parent="29" relate="VV" />
+                <word id="37" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="38" cont="台湾海" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="46" relate="SBV" />
+                <word id="39" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="40" cont="空军" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="41" relate="ATT" />
+                <word id="41" cont="情报" pos="n" ne="O" wsd="Da19" wsdexp="消息_音信" parent="42" relate="ATT" />
+                <word id="42" cont="人员" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="46" relate="SBV" />
+                <word id="43" cont="均" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="46" relate="ADV" />
+                <word id="44" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="46" relate="ADV" />
+                <word id="45" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="44" relate="POB" />
+                <word id="46" cont="进行" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="29" relate="VV">
+                    <arg id="0" type="施事" beg="38" end="38" />
+                    <arg id="1" type="施事" beg="40" end="42" />
+                    <arg id="2" type="受事" beg="48" end="48" />
+                </word>
+                <word id="47" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="46" relate="MT" />
+                <word id="48" cont="监控" pos="v" ne="O" wsd="Hc19" wsdexp="监督_查点" parent="46" relate="VOB" />
+                <word id="49" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="为避免打草惊蛇，台湾反谍人员均未对其盘查，泰勒也就一直待在台湾，直到2001年7月才离境。" tag="">
+                <word id="0" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="1" relate="ADV" />
+                <word id="1" cont="避免" pos="v" ne="O" wsd="Je11" wsdexp="防止_避免_免得" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="2" end="2" />
+                </word>
+                <word id="2" cont="打草惊蛇" pos="i" ne="O" wsd="Hi52" wsdexp="打搅_麻烦_惑乱" parent="1" relate="VOB" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="5" relate="SBV" />
+                <word id="5" cont="反" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="6" relate="ADV">
+                    <arg id="0" type="施事" beg="4" end="4" />
+                </word>
+                <word id="6" cont="谍" pos="v" ne="O" wsd="-1" wsdexp="" parent="1" relate="VV">
+                    <arg id="0" type="受事" beg="7" end="7" />
+                    <arg id="1" type="受事" beg="8" end="12" />
+                </word>
+                <word id="7" cont="人员" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="6" relate="VOB" />
+                <word id="8" cont="均" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="12" relate="ADV" />
+                <word id="9" cont="未" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="12" relate="ADV" />
+                <word id="10" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="12" relate="ADV" />
+                <word id="11" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="10" relate="POB" />
+                <word id="12" cont="盘查" pos="v" ne="O" wsd="Hc18" wsdexp="调查_审查_检查" parent="6" relate="VOB" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="泰勒" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="18" relate="SBV" />
+                <word id="15" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="18" relate="ADV" />
+                <word id="16" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="18" relate="ADV" />
+                <word id="17" cont="一直" pos="d" ne="O" wsd="Ka11" wsdexp="不断_一直_动辄" parent="18" relate="ADV" />
+                <word id="18" cont="待" pos="v" ne="O" wsd="Hi07" wsdexp="等候_驱逐_收留_挽留" parent="1" relate="VV">
+                    <arg id="0" type="施事" beg="14" end="14" />
+                </word>
+                <word id="19" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="22" relate="ADV" />
+                <word id="20" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="19" relate="POB" />
+                <word id="21" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="直到" pos="v" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="1" relate="VV">
+                    <arg id="0" type="地点" beg="19" end="20" />
+                    <arg id="1" type="受事" beg="23" end="26" />
+                </word>
+                <word id="23" cont="2001年" pos="nt" ne="B-Nr" wsd="-1" wsdexp="" parent="24" relate="ATT" />
+                <word id="24" cont="7月" pos="nt" ne="E-Nr" wsd="-1" wsdexp="" parent="26" relate="ADV" />
+                <word id="25" cont="才" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="26" relate="ADV" />
+                <word id="26" cont="离境" pos="v" ne="O" wsd="Hf04" wsdexp="旅行_出境_赶路_带路" parent="22" relate="VOB">
+                    <arg id="0" type="时间" beg="23" end="24" />
+                </word>
+                <word id="27" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="去年12月12日，泰勒再度来台。" tag="">
+                <word id="0" cont="去年" pos="nt" ne="O" wsd="Ca18" wsdexp="年" parent="1" relate="ATT" />
+                <word id="1" cont="12月" pos="nt" ne="B-Nr" wsd="-1" wsdexp="" parent="2" relate="ATT" />
+                <word id="2" cont="12日" pos="nt" ne="E-Nr" wsd="-1" wsdexp="" parent="6" relate="ADV" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="泰勒" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="6" relate="SBV" />
+                <word id="5" cont="再度" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="6" relate="ADV" />
+                <word id="6" cont="来" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="2" />
+                    <arg id="1" type="施事" beg="4" end="4" />
+                    <arg id="2" type="受事" beg="7" end="7" />
+                </word>
+                <word id="7" cont="台" pos="n" ne="O" wsd="Dn08" wsdexp="数量单位" parent="6" relate="VOB" />
+                <word id="8" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="当他和另两人出现在花莲等基地周围活动时，台湾反谍人员立即全程跟踪，不料却被他发现，台湾外事警员只好出面交涉。" tag="">
+                <word id="0" cont="当" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="6" relate="ADV" />
+                <word id="1" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="0" relate="POB" />
+                <word id="2" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="5" relate="LAD" />
+                <word id="3" cont="另" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="5" relate="ATT" />
+                <word id="4" cont="两" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="5" relate="QUN" />
+                <word id="5" cont="人" pos="n" ne="E-Nm" wsd="Aa01" wsdexp="人_人民_众人" parent="0" relate="POB" />
+                <word id="6" cont="出现" pos="v" ne="O" wsd="Jd07" wsdexp="出现_发生" parent="-1" relate="HED" />
+                <word id="7" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="6" relate="CMP" />
+                <word id="8" cont="花莲" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="7" relate="POB" />
+                <word id="9" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="RAD" />
+                <word id="10" cont="基地" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="11" relate="ATT" />
+                <word id="11" cont="周围" pos="nd" ne="O" wsd="Cb06" wsdexp="旁边_附近_周围_对面" parent="12" relate="ATT" />
+                <word id="12" cont="活动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="13" relate="ATT" />
+                <word id="13" cont="时" pos="n" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="7" relate="POB" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="16" relate="SBV" />
+                <word id="16" cont="反" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="17" relate="ADV">
+                    <arg id="0" type="施事" beg="15" end="15" />
+                </word>
+                <word id="17" cont="谍" pos="v" ne="O" wsd="-1" wsdexp="" parent="6" relate="VV">
+                    <arg id="0" type="受事" beg="18" end="18" />
+                    <arg id="1" type="受事" beg="19" end="21" />
+                </word>
+                <word id="18" cont="人员" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="17" relate="VOB" />
+                <word id="19" cont="立即" pos="d" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="21" relate="ADV" />
+                <word id="20" cont="全程" pos="n" ne="O" wsd="Dn02" wsdexp="距离" parent="21" relate="ATT" />
+                <word id="21" cont="跟踪" pos="v" ne="O" wsd="Hj39" wsdexp="跟踪_追踪" parent="17" relate="VOB" />
+                <word id="22" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="不料" pos="d" ne="O" wsd="Ka16" wsdexp="突然_偶然" parent="27" relate="ADV" />
+                <word id="24" cont="却" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="27" relate="ADV" />
+                <word id="25" cont="被" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="27" relate="ADV" />
+                <word id="26" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="25" relate="POB" />
+                <word id="27" cont="发现" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="17" relate="VV" />
+                <word id="28" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="29" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="30" relate="ATT" />
+                <word id="30" cont="外事" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="31" relate="ATT" />
+                <word id="31" cont="警员" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="33" relate="SBV" />
+                <word id="32" cont="只好" pos="d" ne="O" wsd="Ka22" wsdexp="执意_只得" parent="33" relate="ADV" />
+                <word id="33" cont="出面" pos="v" ne="O" wsd="Hi17" wsdexp="露面_出面_代替" parent="17" relate="VV">
+                    <arg id="0" type="施事" beg="29" end="31" />
+                    <arg id="1" type="受事" beg="34" end="34" />
+                </word>
+                <word id="34" cont="交涉" pos="v" ne="O" wsd="Hi31" wsdexp="协商_订约" parent="33" relate="VOB" />
+                <word id="35" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="在交谈过程中，泰勒显示出对F—16等战机的性能相当了解，当时反谍人员认为他可能是世界著名军事杂志《简氏防务周刊》的记者，便告诫其不准拍摄机密设施，并未多加盘问，而是继续全程监控。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="1" relate="ADV" />
+                <word id="1" cont="交谈" pos="v" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="3" relate="ATT" />
+                <word id="2" cont="过程" pos="n" ne="O" wsd="Da05" wsdexp="过程_内中" parent="3" relate="ATT" />
+                <word id="3" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="6" relate="ADV" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="泰勒" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="6" relate="SBV" />
+                <word id="6" cont="显示" pos="v" ne="O" wsd="Ja04" wsdexp="显示_预示_证明" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="3" />
+                    <arg id="1" type="施事" beg="5" end="5" />
+                </word>
+                <word id="7" cont="出" pos="v" ne="O" wsd="Hj64" wsdexp="出_进_出入" parent="6" relate="CMP" />
+                <word id="8" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="17" relate="ADV" />
+                <word id="9" cont="F" pos="ws" ne="O" wsd="-1" wsdexp="" parent="8" relate="POB" />
+                <word id="10" cont="—" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="16" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="13" relate="QUN" />
+                <word id="12" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="13" cont="战机" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="14" relate="DE" />
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="15" cont="性能" pos="n" ne="O" wsd="Dd01" wsdexp="性质" parent="17" relate="SBV" />
+                <word id="16" cont="相当" pos="d" ne="O" wsd="Ka05" wsdexp="相当_比较_稍微_大多" parent="17" relate="ADV" />
+                <word id="17" cont="了解" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="6" relate="VV">
+                    <arg id="0" type="施事" beg="11" end="15" />
+                </word>
+                <word id="18" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="当时" pos="nt" ne="O" wsd="Ca31" wsdexp="这时_那时_几时" parent="20" relate="ADV" />
+                <word id="20" cont="反" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="17" relate="VV">
+                    <arg id="0" type="时间" beg="19" end="19" />
+                    <arg id="1" type="受事" beg="21" end="38" />
+                </word>
+                <word id="21" cont="谍" pos="v" ne="O" wsd="-1" wsdexp="" parent="20" relate="VOB">
+                    <arg id="0" type="受事" beg="22" end="38" />
+                </word>
+                <word id="22" cont="人员" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="23" relate="SBV" />
+                <word id="23" cont="认为" pos="v" ne="O" wsd="Gb02" wsdexp="感到_认为_主张" parent="37" relate="DE">
+                    <arg id="0" type="施事" beg="22" end="22" />
+                    <arg id="1" type="受事" beg="24" end="26" />
+                    <arg id="2" type="受事" beg="27" end="30" />
+                    <arg id="3" type="受事" beg="32" end="35" />
+                </word>
+                <word id="24" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="26" relate="SBV" />
+                <word id="25" cont="可能" pos="v" ne="O" wsd="Ka17" wsdexp="也许_大概_难道" parent="26" relate="ADV" />
+                <word id="26" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="23" relate="VOB">
+                    <arg id="0" type="施事" beg="24" end="24" />
+                </word>
+                <word id="27" cont="世界" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="30" relate="ATT" />
+                <word id="28" cont="著名" pos="a" ne="O" wsd="Ed25" wsdexp="著名_无名_热门_冷门" parent="30" relate="ATT" />
+                <word id="29" cont="军事" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="30" relate="ATT" />
+                <word id="30" cont="杂志" pos="n" ne="O" wsd="Dk21" wsdexp="报章_杂志_报刊" parent="23" relate="VOB" />
+                <word id="31" cont="《" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="32" cont="简" pos="nh" ne="S-Nh" wsd="Ed37" wsdexp="简单_详细_透彻_均匀" parent="33" relate="ATT" />
+                <word id="33" cont="氏" pos="n" ne="O" wsd="Ah01" wsdexp="亲戚_眷属" parent="34" relate="ATT" />
+                <word id="34" cont="防务" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="35" relate="ATT" />
+                <word id="35" cont="周刊" pos="n" ne="O" wsd="Dk21" wsdexp="报章_杂志_报刊" parent="23" relate="VOB" />
+                <word id="36" cont="》" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="37" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="38" relate="ATT" />
+                <word id="38" cont="记者" pos="n" ne="O" wsd="Ae16" wsdexp="作者_译者_记者_编辑" parent="21" relate="VOB" />
+                <word id="39" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="40" cont="便" pos="d" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="41" relate="ADV" />
+                <word id="41" cont="告诫" pos="v" ne="O" wsd="Hi34" wsdexp="鼓励_劝告" parent="17" relate="VV">
+                    <arg id="0" type="受事" beg="42" end="42" />
+                    <arg id="1" type="受事" beg="43" end="46" />
+                </word>
+                <word id="42" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="41" relate="VOB" />
+                <word id="43" cont="不准" pos="v" ne="O" wsd="Hc17" wsdexp="批准_禁止_宵禁_解禁" parent="41" relate="VOB">
+                    <arg id="0" type="受事" beg="44" end="46" />
+                </word>
+                <word id="44" cont="拍摄" pos="v" ne="O" wsd="Hh03" wsdexp="摄影_录音_放映_广播" parent="43" relate="VOB">
+                    <arg id="0" type="受事" beg="45" end="46" />
+                </word>
+                <word id="45" cont="机密" pos="n" ne="O" wsd="Ed44" wsdexp="公开_秘密" parent="46" relate="ATT" />
+                <word id="46" cont="设施" pos="n" ne="O" wsd="Ba05" wsdexp="器具_设备" parent="44" relate="VOB" />
+                <word id="47" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="48" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="50" relate="CNJ" />
+                <word id="49" cont="未" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="50" relate="ADV" />
+                <word id="50" cont="多" pos="a" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="51" relate="ADV" />
+                <word id="51" cont="加" pos="v" ne="O" wsd="Ih05" wsdexp="增多_添补_减少" parent="41" relate="VV">
+                    <arg id="0" type="受事" beg="52" end="52" />
+                </word>
+                <word id="52" cont="盘问" pos="v" ne="O" wsd="Hc18" wsdexp="调查_审查_检查" parent="51" relate="VOB" />
+                <word id="53" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="54" cont="而是" pos="c" ne="O" wsd="Kc06" wsdexp="连_凡是" parent="55" relate="CNJ" />
+                <word id="55" cont="继续" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="41" relate="VV">
+                    <arg id="0" type="受事" beg="56" end="57" />
+                </word>
+                <word id="56" cont="全程" pos="n" ne="O" wsd="Dn02" wsdexp="距离" parent="57" relate="ATT" />
+                <word id="57" cont="监控" pos="v" ne="O" wsd="Hc19" wsdexp="监督_查点" parent="55" relate="VOB" />
+                <word id="58" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="7">
+            <sent id="0" cont="由于F—16是台湾空军最先进的战机，所以台湾反间谍机构对泰勒的动向十分关注，经过两年多的监控，发现以他为首的一个十多人的组织在台各主要军事基地活动十分频繁，搜集情报的企图很明显，因此台湾反间谍机构最终决定在近期逮捕该集团十余名成员。" tag="20%">
+                <word id="0" cont="由于" pos="p" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="14" relate="ADV" />
+                <word id="1" cont="F" pos="ws" ne="O" wsd="-1" wsdexp="" parent="0" relate="POB" />
+                <word id="2" cont="—" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="16" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="4" relate="SBV" />
+                <word id="4" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="1" relate="RAD">
+                    <arg id="0" type="施事" beg="3" end="3" />
+                    <arg id="1" type="受事" beg="5" end="10" />
+                </word>
+                <word id="5" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="6" relate="ATT" />
+                <word id="6" cont="空军" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="9" relate="DE" />
+                <word id="7" cont="最" pos="d" ne="O" wsd="Ka02" wsdexp="最_至多_至少" parent="8" relate="ADV" />
+                <word id="8" cont="先进" pos="a" ne="O" wsd="Ee37" wsdexp="革命_反动_进步_落后" parent="9" relate="DE" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="10" cont="战机" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="4" relate="VOB" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="所以" pos="c" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="13" relate="LAD" />
+                <word id="13" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="14" relate="SBV" />
+                <word id="14" cont="反" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="12" end="13" />
+                    <arg id="1" type="受事" beg="15" end="16" />
+                    <arg id="2" type="受事" beg="17" end="22" />
+                </word>
+                <word id="15" cont="间谍" pos="n" ne="O" wsd="Ae11" wsdexp="情报员" parent="16" relate="ATT" />
+                <word id="16" cont="机构" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="14" relate="VOB" />
+                <word id="17" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="22" relate="ADV" />
+                <word id="18" cont="泰勒" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="19" relate="DE" />
+                <word id="19" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="20" relate="ATT" />
+                <word id="20" cont="动向" pos="n" ne="O" wsd="Da20" wsdexp="形势_趋势_潮流" parent="17" relate="POB" />
+                <word id="21" cont="十分" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="22" relate="ADV" />
+                <word id="22" cont="关注" pos="v" ne="O" wsd="Gb19" wsdexp="关怀_担心_放心" parent="14" relate="VOB" />
+                <word id="23" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="经过" pos="p" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="29" relate="ADV" />
+                <word id="25" cont="两" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="26" relate="QUN" />
+                <word id="26" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="29" relate="ATT" />
+                <word id="27" cont="多" pos="a" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="28" relate="DE" />
+                <word id="28" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="29" relate="ATT" />
+                <word id="29" cont="监控" pos="v" ne="O" wsd="Hc19" wsdexp="监督_查点" parent="14" relate="IC" />
+                <word id="30" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="31" cont="发现" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="29" relate="VV">
+                    <arg id="0" type="受事" beg="32" end="41" />
+                    <arg id="1" type="受事" beg="42" end="49" />
+                </word>
+                <word id="32" cont="以" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="40" relate="DE" />
+                <word id="33" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="32" relate="POB" />
+                <word id="34" cont="为首" pos="v" ne="O" wsd="Ie11" wsdexp="占先_殿后_命中" parent="35" relate="DE" />
+                <word id="35" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="39" relate="ATT" />
+                <word id="36" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="38" relate="ATT" />
+                <word id="37" cont="十" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="36" relate="RAD" />
+                <word id="38" cont="多" pos="m" ne="I-Nm" wsd="Dn05" wsdexp="半_概数_若干" parent="39" relate="QUN" />
+                <word id="39" cont="人" pos="n" ne="E-Nm" wsd="Aa01" wsdexp="人_人民_众人" parent="32" relate="POB" />
+                <word id="40" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="41" relate="ATT" />
+                <word id="41" cont="组织" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="31" relate="VOB" />
+                <word id="42" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="47" relate="ADV" />
+                <word id="43" cont="台" pos="j" ne="S-Ns" wsd="Dn08" wsdexp="数量单位" parent="44" relate="ATT" />
+                <word id="44" cont="各" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="42" relate="POB" />
+                <word id="45" cont="主要" pos="d" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="46" relate="ADV" />
+                <word id="46" cont="军事基地" pos="i" ne="O" wsd="Cb12" wsdexp="前方_后方_驻地_战场" parent="42" relate="POB" />
+                <word id="47" cont="活动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="31" relate="VOB" />
+                <word id="48" cont="十分" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="49" relate="ADV" />
+                <word id="49" cont="频繁" pos="a" ne="O" wsd="Ka10" wsdexp="经常_向来_本来" parent="47" relate="CMP" />
+                <word id="50" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="51" cont="搜集" pos="v" ne="O" wsd="Hj25" wsdexp="采集_搜罗_挑选_取长补短" parent="52" relate="ATT" />
+                <word id="52" cont="情报" pos="n" ne="O" wsd="Da19" wsdexp="消息_音信" parent="53" relate="DE" />
+                <word id="53" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="54" relate="ATT" />
+                <word id="54" cont="企图" pos="v" ne="O" wsd="Gb05" wsdexp="计划_打算" parent="29" relate="VV" />
+                <word id="55" cont="很" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="56" relate="ADV" />
+                <word id="56" cont="明显" pos="a" ne="O" wsd="Ed46" wsdexp="明显_含糊" parent="54" relate="CMP" />
+                <word id="57" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="58" cont="因此" pos="c" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="59" relate="LAD" />
+                <word id="59" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="67" relate="SBV" />
+                <word id="60" cont="反" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="67" relate="ADV">
+                    <arg id="0" type="受事" beg="61" end="62" />
+                    <arg id="1" type="受事" beg="63" end="64" />
+                </word>
+                <word id="61" cont="间谍" pos="n" ne="O" wsd="Ae11" wsdexp="情报员" parent="62" relate="ATT" />
+                <word id="62" cont="机构" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="60" relate="VOB" />
+                <word id="63" cont="最终" pos="d" ne="O" wsd="Da06" wsdexp="开端_末尾_结局" parent="64" relate="ADV" />
+                <word id="64" cont="决定" pos="v" ne="O" wsd="Hc14" wsdexp="建议_讨论_决定_制订" parent="60" relate="VOB" />
+                <word id="65" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="67" relate="ADV" />
+                <word id="66" cont="近期" pos="nt" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="65" relate="POB" />
+                <word id="67" cont="逮捕" pos="v" ne="O" wsd="Hm05" wsdexp="逮捕_押送_释放" parent="54" relate="VV">
+                    <arg id="0" type="施事" beg="58" end="59" />
+                    <arg id="1" type="时间" beg="65" end="66" />
+                    <arg id="2" type="受事" beg="68" end="69" />
+                    <arg id="3" type="受事" beg="70" end="73" />
+                </word>
+                <word id="68" cont="该" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="69" relate="ATT" />
+                <word id="69" cont="集团" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="67" relate="VOB" />
+                <word id="70" cont="十" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="72" relate="QUN" />
+                <word id="71" cont="余" pos="m" ne="I-Nm" wsd="Dn05" wsdexp="半_概数_若干" parent="70" relate="RAD" />
+                <word id="72" cont="名" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="73" relate="ATT" />
+                <word id="73" cont="成员" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="67" relate="VOB" />
+                <word id="74" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="另外，替该组织工作的一位台湾本地人也被移送有关部门处理。" tag="">
+                <word id="0" cont="另外" pos="r" ne="O" wsd="Kc11" wsdexp="于是_此外" parent="14" relate="CNJ" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="替" pos="p" ne="O" wsd="Hi17" wsdexp="露面_出面_代替" parent="4" relate="ADV" />
+                <word id="3" cont="该" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="2" relate="POB" />
+                <word id="4" cont="组织" pos="v" ne="O" wsd="Di10" wsdexp="团体_派别" parent="6" relate="DE">
+                    <arg id="0" type="受事" beg="5" end="5" />
+                </word>
+                <word id="5" cont="工作" pos="v" ne="O" wsd="Hj11" wsdexp="工作_劳动" parent="4" relate="VOB" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="7" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="8" relate="QUN" />
+                <word id="8" cont="位" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="11" relate="ATT" />
+                <word id="9" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="11" relate="ATT" />
+                <word id="10" cont="本地" pos="r" ne="O" wsd="Cb15" wsdexp="本地_外地_家乡" parent="11" relate="ATT" />
+                <word id="11" cont="人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="14" relate="SBV" />
+                <word id="12" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="14" relate="ADV" />
+                <word id="13" cont="被" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="14" relate="ADV" />
+                <word id="14" cont="移送" pos="v" ne="O" wsd="Fa32" wsdexp="搬动_摇动_抖动_挥动鎹" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="2" end="11" />
+                    <arg id="1" type="受事" beg="15" end="17" />
+                </word>
+                <word id="15" cont="有关" pos="v" ne="O" wsd="Je01" wsdexp="牵连_涉及_相关" parent="16" relate="ATT" />
+                <word id="16" cont="部门" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="17" relate="ATT" />
+                <word id="17" cont="处理" pos="v" ne="O" wsd="Hc01" wsdexp="治理_办理_处理" parent="14" relate="VOB" />
+                <word id="18" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="8">
+            <sent id="0" cont="据台湾反间谍机构介绍，该情报集团以英国人泰勒为首，其他人员则以外籍工程师、传教士及外文老师等身分来台配合其进行军事情报搜集活动，搜集范围主要以花莲、台东的空军基地为主，特别是花莲空军基地部署的F—16战机的有关情况。" tag="">
+                <word id="0" cont="据" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="2" relate="ADV" />
+                <word id="1" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="0" relate="POB" />
+                <word id="2" cont="反" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="64" relate="ATT">
+                    <arg id="0" type="地点" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="3" end="4" />
+                    <arg id="2" type="受事" beg="5" end="5" />
+                </word>
+                <word id="3" cont="间谍" pos="n" ne="O" wsd="Ae11" wsdexp="情报员" parent="4" relate="ATT" />
+                <word id="4" cont="机构" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="2" relate="VOB" />
+                <word id="5" cont="介绍" pos="v" ne="O" wsd="Hi16" wsdexp="介绍_推荐" parent="2" relate="VOB" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="该" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="9" relate="ATT" />
+                <word id="8" cont="情报" pos="n" ne="O" wsd="Da19" wsdexp="消息_音信" parent="9" relate="ATT" />
+                <word id="9" cont="集团" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="13" relate="SBV" />
+                <word id="10" cont="以" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="13" relate="ADV" />
+                <word id="11" cont="英国人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="12" relate="ATT" />
+                <word id="12" cont="泰勒" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="10" relate="POB" />
+                <word id="13" cont="为首" pos="v" ne="O" wsd="Ie11" wsdexp="占先_殿后_命中" parent="2" relate="VV">
+                    <arg id="0" type="施事" beg="7" end="9" />
+                </word>
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="其他" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="16" relate="ATT" />
+                <word id="16" cont="人员" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="30" relate="SBV" />
+                <word id="17" cont="则" pos="d" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="30" relate="ADV" />
+                <word id="18" cont="以" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="30" relate="ADV" />
+                <word id="19" cont="外籍" pos="n" ne="O" wsd="Dd16" wsdexp="籍贯_资格_出身_辈分" parent="20" relate="ATT" />
+                <word id="20" cont="工程师" pos="n" ne="O" wsd="Al02" wsdexp="内行_专家_骨干_外行" parent="18" relate="POB" />
+                <word id="21" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="传教士" pos="n" ne="O" wsd="Am03" wsdexp="伊斯兰教徒_天主教徒_耶稣教徒" parent="20" relate="COO" />
+                <word id="23" cont="及" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="25" relate="LAD" />
+                <word id="24" cont="外文" pos="n" ne="O" wsd="Dk06" wsdexp="词_句_语言_谜语" parent="25" relate="ATT" />
+                <word id="25" cont="老师" pos="n" ne="O" wsd="Ae13" wsdexp="教师_学生" parent="20" relate="COO" />
+                <word id="26" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="ATT" />
+                <word id="27" cont="身分" pos="n" ne="O" wsd="Dd12" wsdexp="质量_基础" parent="18" relate="POB" />
+                <word id="28" cont="来" pos="m" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="29" relate="QUN" />
+                <word id="29" cont="台" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="18" relate="POB" />
+                <word id="30" cont="配合" pos="v" ne="O" wsd="Jc01" wsdexp="适应_相配_符合" parent="13" relate="VV">
+                    <arg id="0" type="施事" beg="15" end="16" />
+                    <arg id="1" type="受事" beg="31" end="36" />
+                </word>
+                <word id="31" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="32" relate="SBV" />
+                <word id="32" cont="进行" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="30" relate="VOB">
+                    <arg id="0" type="施事" beg="31" end="31" />
+                    <arg id="1" type="受事" beg="33" end="36" />
+                </word>
+                <word id="33" cont="军事" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="34" relate="ATT" />
+                <word id="34" cont="情报" pos="n" ne="O" wsd="Da19" wsdexp="消息_音信" parent="35" relate="ATT" />
+                <word id="35" cont="搜集" pos="v" ne="O" wsd="Hj25" wsdexp="采集_搜罗_挑选_取长补短" parent="36" relate="ATT" />
+                <word id="36" cont="活动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="32" relate="VOB" />
+                <word id="37" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="38" cont="搜集" pos="v" ne="O" wsd="Hj25" wsdexp="采集_搜罗_挑选_取长补短" parent="39" relate="ATT" />
+                <word id="39" cont="范围" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="48" relate="SBV" />
+                <word id="40" cont="主要" pos="d" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="48" relate="ADV" />
+                <word id="41" cont="以" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="48" relate="ADV" />
+                <word id="42" cont="花莲" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="45" relate="DE" />
+                <word id="43" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="44" cont="台东" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="42" relate="COO" />
+                <word id="45" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="47" relate="ATT" />
+                <word id="46" cont="空军" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="47" relate="ATT" />
+                <word id="47" cont="基地" pos="n" ne="O" wsd="Cb12" wsdexp="前方_后方_驻地_战场" parent="41" relate="POB" />
+                <word id="48" cont="为主" pos="v" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="57" relate="DE">
+                    <arg id="0" type="施事" beg="38" end="39" />
+                </word>
+                <word id="49" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="50" cont="特别" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="51" relate="ADV" />
+                <word id="51" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="48" relate="VV">
+                    <arg id="0" type="受事" beg="52" end="56" />
+                </word>
+                <word id="52" cont="花" pos="v" ne="O" wsd="Bh02" wsdexp="花_花卉" parent="51" relate="VOB">
+                    <arg id="0" type="受事" beg="53" end="53" />
+                    <arg id="1" type="受事" beg="54" end="56" />
+                </word>
+                <word id="53" cont="莲" pos="n" ne="O" wsd="Bh02" wsdexp="花_花卉" parent="52" relate="VOB" />
+                <word id="54" cont="空军" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="55" relate="ATT" />
+                <word id="55" cont="基地" pos="n" ne="O" wsd="Cb12" wsdexp="前方_后方_驻地_战场" parent="56" relate="ATT" />
+                <word id="56" cont="部署" pos="v" ne="O" wsd="Hc03" wsdexp="安置_部署_调动_整顿_整编" parent="52" relate="VOB" />
+                <word id="57" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="58" relate="ATT" />
+                <word id="58" cont="F" pos="ws" ne="O" wsd="-1" wsdexp="" parent="2" relate="NOT" />
+                <word id="59" cont="—" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="60" cont="16" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="61" relate="QUN" />
+                <word id="61" cont="战机" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="62" relate="DE" />
+                <word id="62" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="64" relate="ATT" />
+                <word id="63" cont="有关" pos="v" ne="O" wsd="Je01" wsdexp="牵连_涉及_相关" parent="64" relate="ATT" />
+                <word id="64" cont="情况" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="-1" relate="HED" />
+                <word id="65" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="该组织对其起降训练时段实施每日详细记录，如机号、训练起降时间等资料，此外每架战机的编号与飞行员也被悉数掌握。" tag="">
+                <word id="0" cont="该" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="1" relate="ATT" />
+                <word id="1" cont="组织" pos="v" ne="O" wsd="Hc03" wsdexp="安置_部署_调动_整顿_整编" parent="8" relate="ATT">
+                    <arg id="0" type="受事" beg="2" end="7" />
+                </word>
+                <word id="2" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="4" relate="ADV" />
+                <word id="3" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="2" relate="POB" />
+                <word id="4" cont="起降" pos="v" ne="O" wsd="Ih06" wsdexp="削弱" parent="1" relate="VOB">
+                    <arg id="0" type="受事" beg="5" end="6" />
+                    <arg id="1" type="受事" beg="7" end="7" />
+                </word>
+                <word id="5" cont="训练" pos="v" ne="O" wsd="Hg06" wsdexp="训练_锻炼" parent="6" relate="ATT" />
+                <word id="6" cont="时段" pos="n" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="4" relate="VOB" />
+                <word id="7" cont="实施" pos="v" ne="O" wsd="Ie13" wsdexp="实行_举行" parent="4" relate="VOB" />
+                <word id="8" cont="每日" pos="r" ne="O" wsd="Ca23" wsdexp="日" parent="10" relate="ATT" />
+                <word id="9" cont="详细" pos="a" ne="O" wsd="Ed37" wsdexp="简单_详细_透彻_均匀" parent="10" relate="ATT" />
+                <word id="10" cont="记录" pos="v" ne="O" wsd="Hg11" wsdexp="挥笔_记录_留言_附笔" parent="-1" relate="HED" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="如" pos="v" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="10" relate="VV">
+                    <arg id="0" type="受事" beg="13" end="15" />
+                    <arg id="1" type="受事" beg="16" end="19" />
+                </word>
+                <word id="13" cont="机号" pos="n" ne="O" wsd="-1" wsdexp="" parent="12" relate="VOB" />
+                <word id="14" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="训练" pos="v" ne="O" wsd="Hg06" wsdexp="训练_锻炼" parent="13" relate="COO" />
+                <word id="16" cont="起降" pos="v" ne="O" wsd="Ih06" wsdexp="削弱" parent="12" relate="VOB">
+                    <arg id="0" type="受事" beg="17" end="17" />
+                    <arg id="1" type="受事" beg="18" end="19" />
+                </word>
+                <word id="17" cont="时间" pos="n" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="16" relate="VOB" />
+                <word id="18" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="19" cont="资料" pos="n" ne="O" wsd="Dk17" wsdexp="资料_文件" parent="16" relate="VOB" />
+                <word id="20" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="此外" pos="c" ne="O" wsd="Kc11" wsdexp="于是_此外" parent="32" relate="CNJ" />
+                <word id="22" cont="每" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="23" relate="ATT" />
+                <word id="23" cont="架" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="24" relate="ATT" />
+                <word id="24" cont="战机" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="25" relate="DE" />
+                <word id="25" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="26" relate="ATT" />
+                <word id="26" cont="编号" pos="n" ne="O" wsd="Dk04" wsdexp="号码_记号_曲谱_标点符号" parent="32" relate="SBV" />
+                <word id="27" cont="与" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="28" relate="LAD" />
+                <word id="28" cont="飞行员" pos="n" ne="O" wsd="Ae03" wsdexp="海员_船夫_驾驶员_搬运工" parent="26" relate="COO" />
+                <word id="29" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="32" relate="ADV" />
+                <word id="30" cont="被" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="32" relate="ADV" />
+                <word id="31" cont="悉数" pos="d" ne="O" wsd="Ka06" wsdexp="完全_彻底_半半拉拉" parent="32" relate="ADV" />
+                <word id="32" cont="掌握" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="12" relate="VV">
+                    <arg id="0" type="施事" beg="22" end="28" />
+                </word>
+                <word id="33" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="9">
+            <sent id="0" cont="两个机场都是高度机密的军事地区" tag="">
+                <word id="0" cont="两" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="1" relate="QUN" />
+                <word id="1" cont="个" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="2" relate="ATT" />
+                <word id="2" cont="机场" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="4" relate="SBV" />
+                <word id="3" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="4" relate="ADV" />
+                <word id="4" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="2" />
+                    <arg id="1" type="受事" beg="5" end="9" />
+                </word>
+                <word id="5" cont="高度" pos="d" ne="O" wsd="Ed16" wsdexp="深刻_深远_深厚_深沉" parent="6" relate="ADV" />
+                <word id="6" cont="机密" pos="a" ne="O" wsd="Ed44" wsdexp="公开_秘密" parent="7" relate="DE" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="8" cont="军事" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="9" relate="ATT" />
+                <word id="9" cont="地区" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="4" relate="VOB" />
+            </sent>
+        </para>
+        <para id="10">
+            <sent id="0" cont="台东和花莲空军基地都是台军高度保密的军事单位，具有重大的情报价值。" tag="10%">
+                <word id="0" cont="台东" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="4" relate="ATT" />
+                <word id="1" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="4" relate="LAD" />
+                <word id="2" cont="花莲" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="3" relate="ATT" />
+                <word id="3" cont="空军" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="4" relate="ATT" />
+                <word id="4" cont="基地" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="6" relate="SBV" />
+                <word id="5" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="6" relate="ADV" />
+                <word id="6" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="4" />
+                    <arg id="1" type="受事" beg="7" end="8" />
+                    <arg id="2" type="受事" beg="9" end="10" />
+                    <arg id="3" type="受事" beg="11" end="13" />
+                </word>
+                <word id="7" cont="台" pos="j" ne="S-Ns" wsd="Dn08" wsdexp="数量单位" parent="8" relate="ATT" />
+                <word id="8" cont="军" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="6" relate="VOB" />
+                <word id="9" cont="高度" pos="d" ne="O" wsd="Ed16" wsdexp="深刻_深远_深厚_深沉" parent="10" relate="ADV" />
+                <word id="10" cont="保密" pos="v" ne="O" wsd="Hi20" wsdexp="隐瞒_保密_揭露" parent="6" relate="VOB" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="12" cont="军事" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="13" relate="ATT" />
+                <word id="13" cont="单位" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="6" relate="VOB" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="具有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="6" relate="VV">
+                    <arg id="0" type="受事" beg="16" end="19" />
+                </word>
+                <word id="16" cont="重大" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="17" relate="DE" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="18" cont="情报" pos="n" ne="O" wsd="Da19" wsdexp="消息_音信" parent="19" relate="ATT" />
+                <word id="19" cont="价值" pos="n" ne="O" wsd="Dj02" wsdexp="价值_价格" parent="15" relate="VOB" />
+                <word id="20" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="台东机场属特级机场，是台空军“假想敌”作战训练中心，位于台东县东北约四五公里，可容纳喷气式战斗机90架。" tag="">
+                <word id="0" cont="台" pos="j" ne="S-Ns" wsd="Dn08" wsdexp="数量单位" parent="1" relate="ATT" />
+                <word id="1" cont="东" pos="j" ne="O" wsd="Cb02" wsdexp="东南西北" parent="2" relate="ATT" />
+                <word id="2" cont="机场" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="3" relate="SBV" />
+                <word id="3" cont="属" pos="v" ne="O" wsd="Ja06" wsdexp="归于_属于" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="2" />
+                    <arg id="1" type="受事" beg="4" end="5" />
+                </word>
+                <word id="4" cont="特级" pos="b" ne="O" wsd="Ed06" wsdexp="上等_中等_下等" parent="5" relate="ATT" />
+                <word id="5" cont="机场" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="3" relate="VOB" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="3" relate="VV">
+                    <arg id="0" type="受事" beg="8" end="9" />
+                    <arg id="1" type="受事" beg="11" end="11" />
+                </word>
+                <word id="8" cont="台" pos="j" ne="S-Ns" wsd="Dn08" wsdexp="数量单位" parent="9" relate="ATT" />
+                <word id="9" cont="空军" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="7" relate="VOB" />
+                <word id="10" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="假想敌" pos="n" ne="O" wsd="Aj01" wsdexp="朋友_恩人_仇人_对手" parent="7" relate="VOB" />
+                <word id="12" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="作战" pos="v" ne="O" wsd="Hb02" wsdexp="誓师_检阅_作战" parent="3" relate="IC">
+                    <arg id="0" type="受事" beg="14" end="15" />
+                </word>
+                <word id="14" cont="训练" pos="v" ne="O" wsd="Hg06" wsdexp="训练_锻炼" parent="15" relate="ATT" />
+                <word id="15" cont="中心" pos="n" ne="O" wsd="Dm04" wsdexp="商店" parent="13" relate="VOB" />
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="位于" pos="v" ne="O" wsd="Jd02" wsdexp="处于_在于_陷于_适逢" parent="13" relate="VV" />
+                <word id="18" cont="台东县" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="19" relate="ATT" />
+                <word id="19" cont="东北" pos="nl" ne="O" wsd="Cb02" wsdexp="东南西北" parent="3" relate="NOT" />
+                <word id="20" cont="约" pos="d" ne="O" wsd="Ka17" wsdexp="也许_大概_难道" parent="22" relate="ATT" />
+                <word id="21" cont="四五" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="22" relate="QUN" />
+                <word id="22" cont="公里" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="19" relate="RAD" />
+                <word id="23" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="可" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="25" relate="ADV" />
+                <word id="25" cont="容纳" pos="v" ne="O" wsd="Jd05" wsdexp="容纳_包括" parent="19" relate="NOT">
+                    <arg id="0" type="受事" beg="26" end="27" />
+                    <arg id="1" type="受事-数量性质" beg="28" end="29" />
+                </word>
+                <word id="26" cont="喷气式" pos="b" ne="O" wsd="Dc01" wsdexp="形状_状态_式样_装饰" parent="27" relate="ATT" />
+                <word id="27" cont="战斗机" pos="n" ne="O" wsd="Bo30" wsdexp="军舰_战斗机_坦克" parent="25" relate="VOB" />
+                <word id="28" cont="90" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="29" relate="QUN" />
+                <word id="29" cont="架" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="25" relate="VOB" />
+                <word id="30" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="驻有台空军第七飞行联队的近50架美国制造的F—5E／F战斗机。" tag="">
+                <word id="0" cont="驻有" pos="v" ne="O" wsd="-1" wsdexp="" parent="6" relate="DE">
+                    <arg id="0" type="受事" beg="1" end="2" />
+                    <arg id="1" type="受事" beg="3" end="5" />
+                </word>
+                <word id="1" cont="台" pos="j" ne="S-Ns" wsd="Dn08" wsdexp="数量单位" parent="2" relate="ATT" />
+                <word id="2" cont="空军" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="0" relate="VOB" />
+                <word id="3" cont="第七" pos="m" ne="S-Nm" wsd="Dn04" wsdexp="基数_序数" parent="5" relate="QUN" />
+                <word id="4" cont="飞行" pos="v" ne="O" wsd="Hf03" wsdexp="行驶_划船" parent="5" relate="ATT" />
+                <word id="5" cont="联队" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="0" relate="VOB" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="7" cont="近" pos="a" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="9" relate="ATT" />
+                <word id="8" cont="50" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="9" relate="QUN" />
+                <word id="9" cont="架" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="18" relate="ATT" />
+                <word id="10" cont="美国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="12" relate="DE" />
+                <word id="11" cont="制造" pos="v" ne="O" wsd="Hd04" wsdexp="切割" parent="12" relate="DE" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="13" cont="F" pos="ws" ne="O" wsd="-1" wsdexp="" parent="9" relate="NOT" />
+                <word id="14" cont="—" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="5E" pos="ws" ne="O" wsd="-1" wsdexp="" parent="9" relate="NOT" />
+                <word id="16" cont="／" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="F" pos="ws" ne="O" wsd="-1" wsdexp="" parent="18" relate="ATT" />
+                <word id="18" cont="战斗机" pos="n" ne="O" wsd="Bo30" wsdexp="军舰_战斗机_坦克" parent="-1" relate="HED" />
+                <word id="19" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="另外机场内的台空军46中队在1988年3月1日改为“假想敌中队”，隶属空军战术训练中心，主要模拟大陆歼击机部队战术动作，配合空战训练。" tag="">
+                <word id="0" cont="另外" pos="r" ne="O" wsd="Kc11" wsdexp="于是_此外" parent="7" relate="ATT" />
+                <word id="1" cont="机场" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="2" relate="ATT" />
+                <word id="2" cont="内" pos="nd" ne="O" wsd="Cb05" wsdexp="内_外" parent="3" relate="DE" />
+                <word id="3" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="4" cont="台" pos="j" ne="S-Ns" wsd="Dn08" wsdexp="数量单位" parent="5" relate="ATT" />
+                <word id="5" cont="空军" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="7" relate="ATT" />
+                <word id="6" cont="46" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="7" relate="QUN" />
+                <word id="7" cont="中队" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="12" relate="SBV" />
+                <word id="8" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="12" relate="ADV" />
+                <word id="9" cont="1988年" pos="nt" ne="B-Nr" wsd="-1" wsdexp="" parent="10" relate="ATT" />
+                <word id="10" cont="3月" pos="nt" ne="I-Nr" wsd="-1" wsdexp="" parent="11" relate="ATT" />
+                <word id="11" cont="1日" pos="nt" ne="E-Nr" wsd="-1" wsdexp="" parent="8" relate="POB" />
+                <word id="12" cont="改" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="7" />
+                    <arg id="1" type="时间" beg="8" end="11" />
+                    <arg id="2" type="受事" beg="15" end="16" />
+                </word>
+                <word id="13" cont="为" pos="v" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="12" relate="CMP" />
+                <word id="14" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="假想敌" pos="n" ne="O" wsd="Aj01" wsdexp="朋友_恩人_仇人_对手" parent="16" relate="ATT" />
+                <word id="16" cont="中队" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="12" relate="VOB" />
+                <word id="17" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="隶属" pos="v" ne="O" wsd="Ja06" wsdexp="归于_属于" parent="12" relate="VV">
+                    <arg id="0" type="受事" beg="20" end="23" />
+                </word>
+                <word id="20" cont="空军" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="21" relate="ATT" />
+                <word id="21" cont="战术" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="22" relate="ATT" />
+                <word id="22" cont="训练" pos="v" ne="O" wsd="Hg06" wsdexp="训练_锻炼" parent="23" relate="ATT" />
+                <word id="23" cont="中心" pos="n" ne="O" wsd="Dm04" wsdexp="商店" parent="19" relate="VOB" />
+                <word id="24" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="主要" pos="d" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="26" relate="ADV" />
+                <word id="26" cont="模拟" pos="v" ne="O" wsd="Hg08" wsdexp="学习_从师_模仿" parent="19" relate="VV">
+                    <arg id="0" type="受事" beg="27" end="31" />
+                </word>
+                <word id="27" cont="大陆" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="28" relate="ATT" />
+                <word id="28" cont="歼击机" pos="n" ne="O" wsd="Bo30" wsdexp="军舰_战斗机_坦克" parent="29" relate="ATT" />
+                <word id="29" cont="部队" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="30" relate="ATT" />
+                <word id="30" cont="战术" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="31" relate="ATT" />
+                <word id="31" cont="动作" pos="n" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="26" relate="VOB" />
+                <word id="32" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="33" cont="配合" pos="v" ne="O" wsd="Jc01" wsdexp="适应_相配_符合" parent="26" relate="VV">
+                    <arg id="0" type="受事" beg="35" end="36" />
+                </word>
+                <word id="34" cont="空" pos="a" ne="O" wsd="Eb06" wsdexp="空_实_光秃秃" parent="33" relate="CMP" />
+                <word id="35" cont="战" pos="n" ne="O" wsd="Hb02" wsdexp="誓师_检阅_作战" parent="36" relate="ATT" />
+                <word id="36" cont="训练" pos="v" ne="O" wsd="Hg06" wsdexp="训练_锻炼" parent="33" relate="VOB" />
+                <word id="37" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="花莲机场则属一级机场，位于花莲北约五公里，可容纳喷气式战斗机150架，现为军民两用机场，驻有台空军第五联队的约60架F—16战机。" tag="">
+                <word id="0" cont="花莲" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="1" relate="ATT" />
+                <word id="1" cont="机场" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="3" relate="SBV" />
+                <word id="2" cont="则" pos="d" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="3" relate="ADV" />
+                <word id="3" cont="属" pos="v" ne="O" wsd="Ja06" wsdexp="归于_属于" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="4" end="5" />
+                    <arg id="2" type="受事" beg="37" end="38" />
+                </word>
+                <word id="4" cont="一级" pos="b" ne="O" wsd="Bn10" wsdexp="走廊_台阶_楼梯_栏杆" parent="5" relate="ATT" />
+                <word id="5" cont="机场" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="3" relate="VOB" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="位" pos="n" ne="O" wsd="Dn08" wsdexp="数量单位" parent="8" relate="ATT" />
+                <word id="8" cont="于花莲" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="9" relate="ATT" />
+                <word id="9" cont="北约" pos="j" ne="O" wsd="Di10" wsdexp="团体_派别" parent="11" relate="ATT" />
+                <word id="10" cont="五" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="11" relate="QUN" />
+                <word id="11" cont="公里" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="3" relate="IC" />
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="可" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="14" relate="ADV" />
+                <word id="14" cont="容纳" pos="v" ne="O" wsd="Jd05" wsdexp="容纳_包括" parent="3" relate="VV">
+                    <arg id="0" type="受事" beg="15" end="16" />
+                    <arg id="1" type="受事-数量性质" beg="17" end="18" />
+                </word>
+                <word id="15" cont="喷气式" pos="b" ne="O" wsd="Dc01" wsdexp="形状_状态_式样_装饰" parent="16" relate="ATT" />
+                <word id="16" cont="战斗机" pos="n" ne="O" wsd="Bo30" wsdexp="军舰_战斗机_坦克" parent="14" relate="VOB" />
+                <word id="17" cont="150" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="18" relate="QUN" />
+                <word id="18" cont="架" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="14" relate="VOB" />
+                <word id="19" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="现" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="21" relate="ADV" />
+                <word id="21" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="31" relate="DE" />
+                <word id="22" cont="军民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="23" relate="ATT" />
+                <word id="23" cont="两用" pos="n" ne="O" wsd="Ed47" wsdexp="顶用_有功_无用_无偿" parent="24" relate="ATT" />
+                <word id="24" cont="机场" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="21" relate="POB" />
+                <word id="25" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="26" cont="驻有" pos="v" ne="O" wsd="-1" wsdexp="" parent="31" relate="DE">
+                    <arg id="0" type="受事" beg="27" end="28" />
+                    <arg id="1" type="受事" beg="29" end="30" />
+                </word>
+                <word id="27" cont="台" pos="j" ne="S-Ns" wsd="Dn08" wsdexp="数量单位" parent="28" relate="ATT" />
+                <word id="28" cont="空军" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="26" relate="VOB" />
+                <word id="29" cont="第五" pos="m" ne="S-Nm" wsd="Dn04" wsdexp="基数_序数" parent="30" relate="QUN" />
+                <word id="30" cont="联队" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="26" relate="VOB" />
+                <word id="31" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="34" relate="ATT" />
+                <word id="32" cont="约" pos="d" ne="O" wsd="Ka17" wsdexp="也许_大概_难道" parent="34" relate="ATT" />
+                <word id="33" cont="60" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="34" relate="QUN" />
+                <word id="34" cont="架" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="3" relate="IC" />
+                <word id="35" cont="F" pos="ws" ne="O" wsd="-1" wsdexp="" parent="3" relate="NOT" />
+                <word id="36" cont="—" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="37" cont="16" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="38" relate="QUN" />
+                <word id="38" cont="战机" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="3" relate="VOB" />
+                <word id="39" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="11">
+            <sent id="0" cont="在台间谍活动美国最为积极" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="3" relate="ADV" />
+                <word id="1" cont="台" pos="j" ne="S-Ns" wsd="Dn08" wsdexp="数量单位" parent="2" relate="ATT" />
+                <word id="2" cont="间谍" pos="n" ne="O" wsd="Ae11" wsdexp="情报员" parent="0" relate="POB" />
+                <word id="3" cont="活动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="-1" relate="HED" />
+                <word id="4" cont="美国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="6" relate="SBV" />
+                <word id="5" cont="最" pos="d" ne="O" wsd="Ka02" wsdexp="最_至多_至少" parent="6" relate="ADV" />
+                <word id="6" cont="为" pos="v" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="3" relate="CMP">
+                    <arg id="0" type="施事" beg="4" end="4" />
+                </word>
+                <word id="7" cont="积极" pos="a" ne="O" wsd="Ee23" wsdexp="积极_消极" parent="3" relate="CMP" />
+            </sent>
+        </para>
+        <para id="12">
+            <sent id="0" cont="近年来，台湾当局疯狂从欧美购买各类先进武器,包括美国F—16和法国“幻影2000”战机，把小小的台湾岛变成了一个世界武器大集散地，国际情报集团因此将台军的先进装备也锁定为重点对象，使台湾成为国际间谍活动的一个新的热点地区。" tag="">
+                <word id="0" cont="近年来" pos="i" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="8" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="3" relate="ATT" />
+                <word id="3" cont="当局" pos="n" ne="O" wsd="Dm01" wsdexp="政府" parent="4" relate="SBV" />
+                <word id="4" cont="疯狂" pos="a" ne="O" wsd="Ib17" wsdexp="发疯_心悸_贫血_梗塞" parent="0" relate="IC" />
+                <word id="5" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="8" relate="ADV" />
+                <word id="6" cont="欧" pos="j" ne="S-Ns" wsd="Cb08" wsdexp="地方_地点" parent="7" relate="ATT" />
+                <word id="7" cont="美" pos="j" ne="S-Ns" wsd="Eb30" wsdexp="美丽_丑陋" parent="8" relate="SBV" />
+                <word id="8" cont="购买" pos="v" ne="O" wsd="He03" wsdexp="买_卖" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="6" end="7" />
+                    <arg id="1" type="受事" beg="9" end="11" />
+                </word>
+                <word id="9" cont="各类" pos="r" ne="O" wsd="Dn08" wsdexp="数量单位" parent="11" relate="ATT" />
+                <word id="10" cont="先进" pos="a" ne="O" wsd="Ee37" wsdexp="革命_反动_进步_落后" parent="11" relate="ATT" />
+                <word id="11" cont="武器" pos="n" ne="O" wsd="Bo27" wsdexp="武器_枪_炮_刺刀" parent="8" relate="VOB" />
+                <word id="12" cont="," pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="包括" pos="v" ne="O" wsd="Jd05" wsdexp="容纳_包括" parent="8" relate="IC">
+                    <arg id="0" type="受事" beg="14" end="14" />
+                    <arg id="1" type="受事" beg="15" end="15" />
+                    <arg id="2" type="受事" beg="17" end="21" />
+                    <arg id="3" type="受事" beg="22" end="22" />
+                    <arg id="4" type="受事" beg="24" end="24" />
+                </word>
+                <word id="14" cont="美国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="13" relate="VOB" />
+                <word id="15" cont="F" pos="ws" ne="O" wsd="-1" wsdexp="" parent="13" relate="VOB" />
+                <word id="16" cont="—" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="16" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="21" relate="QUN" />
+                <word id="18" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="19" relate="LAD" />
+                <word id="19" cont="法国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="17" relate="COO" />
+                <word id="20" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="幻影" pos="n" ne="O" wsd="Dc02" wsdexp="风景_景象" parent="13" relate="VOB" />
+                <word id="22" cont="2000" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="13" relate="VOB" />
+                <word id="23" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="战机" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="13" relate="VOB" />
+                <word id="25" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="26" cont="把" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="29" relate="ADV" />
+                <word id="27" cont="小小的" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="29" relate="ADV" />
+                <word id="28" cont="台湾岛" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="29" relate="SBV" />
+                <word id="29" cont="变成" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="8" relate="IC">
+                    <arg id="0" type="施事" beg="28" end="28" />
+                    <arg id="1" type="受事" beg="31" end="33" />
+                    <arg id="2" type="受事" beg="34" end="35" />
+                </word>
+                <word id="30" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="29" relate="MT" />
+                <word id="31" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="33" relate="QUN" />
+                <word id="32" cont="世界" pos="n" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="33" relate="ATT" />
+                <word id="33" cont="武器" pos="n" ne="O" wsd="Bo27" wsdexp="武器_枪_炮_刺刀" parent="29" relate="VOB" />
+                <word id="34" cont="大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="35" relate="ATT" />
+                <word id="35" cont="集散地" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="29" relate="VOB" />
+                <word id="36" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="37" cont="国际" pos="n" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="38" relate="ATT" />
+                <word id="38" cont="情报" pos="n" ne="I-Ni" wsd="Da19" wsdexp="消息_音信" parent="39" relate="ATT" />
+                <word id="39" cont="集团" pos="n" ne="E-Ni" wsd="Di10" wsdexp="团体_派别" parent="46" relate="ATT" />
+                <word id="40" cont="因此" pos="c" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="46" relate="LAD" />
+                <word id="41" cont="将" pos="p" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="44" relate="DE" />
+                <word id="42" cont="台" pos="j" ne="S-Ns" wsd="Dn08" wsdexp="数量单位" parent="43" relate="ATT" />
+                <word id="43" cont="军" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="41" relate="POB" />
+                <word id="44" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="46" relate="ATT" />
+                <word id="45" cont="先进" pos="a" ne="O" wsd="Ee37" wsdexp="革命_反动_进步_落后" parent="46" relate="ATT" />
+                <word id="46" cont="装备" pos="n" ne="O" wsd="Ba05" wsdexp="器具_设备" parent="48" relate="SBV" />
+                <word id="47" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="48" relate="ADV" />
+                <word id="48" cont="锁定" pos="v" ne="O" wsd="Hc14" wsdexp="建议_讨论_决定_制订" parent="29" relate="VV">
+                    <arg id="0" type="施事" beg="37" end="46" />
+                </word>
+                <word id="49" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="29" relate="IC" />
+                <word id="50" cont="重点" pos="n" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="51" relate="ATT" />
+                <word id="51" cont="对象" pos="n" ne="O" wsd="Da28" wsdexp="事物_对象" parent="49" relate="POB" />
+                <word id="52" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="53" cont="使" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="59" relate="DE">
+                    <arg id="0" type="受事" beg="54" end="55" />
+                    <arg id="1" type="受事" beg="56" end="58" />
+                </word>
+                <word id="54" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="55" relate="SBV" />
+                <word id="55" cont="成为" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="53" relate="VOB">
+                    <arg id="0" type="施事" beg="54" end="54" />
+                </word>
+                <word id="56" cont="国际" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="57" relate="ATT" />
+                <word id="57" cont="间谍" pos="n" ne="O" wsd="Ae11" wsdexp="情报员" parent="58" relate="ATT" />
+                <word id="58" cont="活动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="53" relate="VOB" />
+                <word id="59" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="64" relate="ATT" />
+                <word id="60" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="64" relate="QUN" />
+                <word id="61" cont="新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="62" relate="DE" />
+                <word id="62" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="64" relate="ATT" />
+                <word id="63" cont="热点" pos="n" ne="O" wsd="Ed25" wsdexp="著名_无名_热门_冷门" parent="64" relate="ATT" />
+                <word id="64" cont="地区" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="49" relate="POB" />
+                <word id="65" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="13">
+            <sent id="0" cont="据台湾反间谍机构介绍，除像泰勒这样的一些情报贩子外，一些国家的专业情报机构也对台湾的军事、科技动向十分关注，这其中就包括台湾一直为之信赖的靠山———美国，它们主要是想以此更细致地评估台湾军力和进行台海两岸的军力对比。" tag="20%">
+                <word id="0" cont="据" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="2" relate="ADV" />
+                <word id="1" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="0" relate="POB" />
+                <word id="2" cont="反" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="41" relate="DE">
+                    <arg id="0" type="地点" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="3" end="4" />
+                    <arg id="2" type="受事" beg="5" end="5" />
+                </word>
+                <word id="3" cont="间谍" pos="n" ne="O" wsd="Ae11" wsdexp="情报员" parent="4" relate="ATT" />
+                <word id="4" cont="机构" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="2" relate="VOB" />
+                <word id="5" cont="介绍" pos="v" ne="O" wsd="Hi16" wsdexp="介绍_推荐" parent="2" relate="VOB" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="除" pos="p" ne="O" wsd="Kc07" wsdexp="除了_除非_若非_否则" parent="32" relate="ADV" />
+                <word id="8" cont="像" pos="p" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="11" relate="DE" />
+                <word id="9" cont="泰勒" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="10" relate="SIM" />
+                <word id="10" cont="这样" pos="r" ne="O" wsd="Ka34" wsdexp="这样_那样" parent="8" relate="POB" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="14" relate="ATT" />
+                <word id="12" cont="一些" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="14" relate="QUN" />
+                <word id="13" cont="情报" pos="n" ne="O" wsd="Da19" wsdexp="消息_音信" parent="14" relate="ATT" />
+                <word id="14" cont="贩子" pos="n" ne="O" wsd="Ae09" wsdexp="商人" parent="15" relate="ATT" />
+                <word id="15" cont="外" pos="nd" ne="O" wsd="Cb05" wsdexp="内_外" parent="7" relate="POB" />
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="一些" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="18" relate="QUN" />
+                <word id="18" cont="国家" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="19" relate="DE" />
+                <word id="19" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="22" relate="ATT" />
+                <word id="20" cont="专业" pos="n" ne="O" wsd="Ed53" wsdexp="正规_业余" parent="21" relate="ATT" />
+                <word id="21" cont="情报" pos="n" ne="O" wsd="Da19" wsdexp="消息_音信" parent="22" relate="ATT" />
+                <word id="22" cont="机构" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="32" relate="SBV" />
+                <word id="23" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="32" relate="ADV" />
+                <word id="24" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="26" relate="DE" />
+                <word id="25" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="24" relate="POB" />
+                <word id="26" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="ATT" />
+                <word id="27" cont="军事" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="32" relate="SBV" />
+                <word id="28" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="29" cont="科技" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="30" relate="ATT" />
+                <word id="30" cont="动向" pos="n" ne="O" wsd="Da20" wsdexp="形势_趋势_潮流" parent="27" relate="COO" />
+                <word id="31" cont="十分" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="32" relate="ADV" />
+                <word id="32" cont="关注" pos="v" ne="O" wsd="Gb19" wsdexp="关怀_担心_放心" parent="40" relate="SBV">
+                    <arg id="0" type="方位" beg="7" end="15" />
+                    <arg id="1" type="施事" beg="17" end="22" />
+                    <arg id="2" type="施事" beg="24" end="30" />
+                </word>
+                <word id="33" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="34" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="35" relate="ATT" />
+                <word id="35" cont="其中" pos="r" ne="O" wsd="Da05" wsdexp="过程_内中" parent="37" relate="SBV" />
+                <word id="36" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="37" relate="ADV" />
+                <word id="37" cont="包括" pos="v" ne="O" wsd="Jd05" wsdexp="容纳_包括" parent="32" relate="VV">
+                    <arg id="0" type="施事" beg="34" end="35" />
+                    <arg id="1" type="受事" beg="38" end="38" />
+                </word>
+                <word id="38" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="37" relate="VOB" />
+                <word id="39" cont="一直" pos="d" ne="O" wsd="Ka11" wsdexp="不断_一直_动辄" parent="40" relate="ADV" />
+                <word id="40" cont="为" pos="v" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="2" relate="IC">
+                    <arg id="0" type="施事" beg="7" end="38" />
+                </word>
+                <word id="41" cont="之" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="42" relate="ATT" />
+                <word id="42" cont="信赖" pos="v" ne="O" wsd="Gb14" wsdexp="相信_信仰_怀疑_信任" parent="43" relate="DE" />
+                <word id="43" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="44" relate="ATT" />
+                <word id="44" cont="靠山" pos="n" ne="O" wsd="Aj09" wsdexp="助手_参谋_靠山" parent="50" relate="SBV" />
+                <word id="45" cont="———" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="46" cont="美国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="44" relate="APP" />
+                <word id="47" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="48" cont="它们" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="50" relate="SBV" />
+                <word id="49" cont="主要" pos="d" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="50" relate="ADV" />
+                <word id="50" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="46" />
+                    <arg id="1" type="施事" beg="48" end="48" />
+                    <arg id="2" type="受事" beg="51" end="51" />
+                    <arg id="3" type="受事" beg="52" end="58" />
+                    <arg id="4" type="受事" beg="59" end="62" />
+                    <arg id="5" type="受事" beg="63" end="65" />
+                </word>
+                <word id="51" cont="想" pos="v" ne="O" wsd="Gb04" wsdexp="希望_要求_追求" parent="50" relate="VOB" />
+                <word id="52" cont="以此" pos="d" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="56" relate="ADV" />
+                <word id="53" cont="更" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="56" relate="ADV" />
+                <word id="54" cont="细致" pos="a" ne="O" wsd="Ee28" wsdexp="仔细_粗心_谨慎_轻率" parent="55" relate="DI" />
+                <word id="55" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="56" relate="ADV" />
+                <word id="56" cont="评估" pos="v" ne="O" wsd="Hc20" wsdexp="评议_考核" parent="50" relate="VOB">
+                    <arg id="0" type="受事" beg="57" end="58" />
+                </word>
+                <word id="57" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="58" relate="ATT" />
+                <word id="58" cont="军力" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="56" relate="VOB" />
+                <word id="59" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="60" relate="CNJ" />
+                <word id="60" cont="进行" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="50" relate="VOB">
+                    <arg id="0" type="受事" beg="61" end="62" />
+                </word>
+                <word id="61" cont="台海" pos="j" ne="O" wsd="-1" wsdexp="" parent="62" relate="ATT" />
+                <word id="62" cont="两岸" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="60" relate="VOB" />
+                <word id="63" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="65" relate="ATT" />
+                <word id="64" cont="军力" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="65" relate="ATT" />
+                <word id="65" cont="对比" pos="v" ne="O" wsd="Hj26" wsdexp="观察_比较_区分" parent="50" relate="VOB" />
+                <word id="66" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="其实美国对台的间谍活动一直没有间断，1988年1月9日，就发生过台湾核能研究所副所长张宪义上校在美国中情局的协助下叛逃到美国的事件。" tag="">
+                <word id="0" cont="其实" pos="d" ne="O" wsd="Ka30" wsdexp="实在_其实_不免_莫如" parent="9" relate="ADV" />
+                <word id="1" cont="美国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="9" relate="SBV" />
+                <word id="2" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="4" relate="DE" />
+                <word id="3" cont="台" pos="j" ne="S-Ns" wsd="Dn08" wsdexp="数量单位" parent="2" relate="POB" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="5" cont="间谍" pos="n" ne="O" wsd="Ae11" wsdexp="情报员" parent="6" relate="ATT" />
+                <word id="6" cont="活动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="9" relate="SBV" />
+                <word id="7" cont="一直" pos="d" ne="O" wsd="Ka11" wsdexp="不断_一直_动辄" parent="9" relate="ADV" />
+                <word id="8" cont="没有" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="9" relate="ADV" />
+                <word id="9" cont="间断" pos="v" ne="O" wsd="Ig02" wsdexp="停止_中断" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="1" end="1" />
+                    <arg id="1" type="施事" beg="2" end="6" />
+                    <arg id="2" type="受事" beg="34" end="37" />
+                </word>
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="1988年" pos="nt" ne="B-Nr" wsd="-1" wsdexp="" parent="12" relate="ATT" />
+                <word id="12" cont="1月" pos="nt" ne="I-Nr" wsd="-1" wsdexp="" parent="13" relate="ATT" />
+                <word id="13" cont="9日" pos="nt" ne="E-Nr" wsd="-1" wsdexp="" parent="16" relate="ADV" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="16" relate="ADV" />
+                <word id="16" cont="发生" pos="v" ne="O" wsd="Jd07" wsdexp="出现_发生" parent="9" relate="IC">
+                    <arg id="0" type="时间" beg="11" end="13" />
+                    <arg id="1" type="受事" beg="18" end="24" />
+                </word>
+                <word id="17" cont="过" pos="u" ne="O" wsd="Kd02" wsdexp="来着_过" parent="16" relate="MT" />
+                <word id="18" cont="台湾" pos="ns" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="19" relate="ATT" />
+                <word id="19" cont="核能" pos="n" ne="I-Ni" wsd="Dd14" wsdexp="力气_力量_能量" parent="20" relate="ATT" />
+                <word id="20" cont="研究所" pos="n" ne="E-Ni" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="21" relate="ATT" />
+                <word id="21" cont="副" pos="b" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="22" relate="ATT" />
+                <word id="22" cont="所长" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="23" relate="ATT" />
+                <word id="23" cont="张宪义" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="24" relate="ATT" />
+                <word id="24" cont="上校" pos="n" ne="O" wsd="Ae10" wsdexp="军官_将士_军人_士兵" parent="16" relate="VOB" />
+                <word id="25" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="30" relate="DE" />
+                <word id="26" cont="美国" pos="ns" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="27" relate="ATT" />
+                <word id="27" cont="中" pos="j" ne="I-Ni" wsd="Da05" wsdexp="过程_内中" parent="28" relate="ATT" />
+                <word id="28" cont="情" pos="n" ne="I-Ni" wsd="Df05" wsdexp="心意_心情_爱情" parent="29" relate="ATT" />
+                <word id="29" cont="局" pos="n" ne="E-Ni" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="25" relate="POB" />
+                <word id="30" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="31" relate="ATT" />
+                <word id="31" cont="协助" pos="v" ne="O" wsd="Hi36" wsdexp="帮助_拯救_献计" parent="32" relate="ATT" />
+                <word id="32" cont="下" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="33" relate="ADV" />
+                <word id="33" cont="叛逃" pos="v" ne="O" wsd="Hj38" wsdexp="逃跑_躲藏" parent="9" relate="IC">
+                    <arg id="0" type="方位" beg="25" end="32" />
+                </word>
+                <word id="34" cont="到" pos="p" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="36" relate="DE" />
+                <word id="35" cont="美国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="34" relate="POB" />
+                <word id="36" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="37" relate="ATT" />
+                <word id="37" cont="事件" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="9" relate="VOB" />
+                <word id="38" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="而去年1月媒体更是爆出美国中情局策反台湾前新闻局局长钟琴的机要秘书陈正强未遂的新闻，这使一向以美国为靠山的台湾当局十分难堪，陷入尴尬境地。" tag="">
+                <word id="0" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="5" relate="CNJ" />
+                <word id="1" cont="去年" pos="nt" ne="O" wsd="Ca18" wsdexp="年" parent="2" relate="ATT" />
+                <word id="2" cont="1月" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="3" relate="ATT" />
+                <word id="3" cont="媒体" pos="n" ne="O" wsd="Aj15" wsdexp="介绍人_媒人_傧相" parent="5" relate="SBV" />
+                <word id="4" cont="更" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="5" relate="ADV" />
+                <word id="5" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="1" end="3" />
+                    <arg id="1" type="受事" beg="6" end="11" />
+                    <arg id="2" type="受事" beg="12" end="12" />
+                    <arg id="3" type="受事" beg="19" end="41" />
+                </word>
+                <word id="6" cont="爆出" pos="v" ne="O" wsd="If23" wsdexp="败露_暴露_泄漏" parent="5" relate="VOB">
+                    <arg id="0" type="受事" beg="7" end="11" />
+                </word>
+                <word id="7" cont="美国" pos="ns" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="8" relate="ATT" />
+                <word id="8" cont="中" pos="j" ne="I-Ni" wsd="Da05" wsdexp="过程_内中" parent="9" relate="ATT" />
+                <word id="9" cont="情" pos="n" ne="I-Ni" wsd="Df05" wsdexp="心意_心情_爱情" parent="10" relate="ATT" />
+                <word id="10" cont="局" pos="n" ne="I-Ni" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="11" relate="ATT" />
+                <word id="11" cont="策" pos="n" ne="I-Ni" wsd="Df09" wsdexp="计划_计策_手段" parent="6" relate="VOB" />
+                <word id="12" cont="反" pos="v" ne="I-Ni" wsd="Ih02" wsdexp="改变_改换" parent="5" relate="VOB" />
+                <word id="13" cont="台湾" pos="ns" ne="I-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="14" relate="ATT" />
+                <word id="14" cont="前" pos="nd" ne="I-Ni" wsd="Cb04" wsdexp="前_后_中" parent="15" relate="ATT" />
+                <word id="15" cont="新闻局" pos="n" ne="E-Ni" wsd="Dm07" wsdexp="文体机构" parent="16" relate="ATT" />
+                <word id="16" cont="局长" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="17" relate="ATT" />
+                <word id="17" cont="钟琴" pos="nh" ne="S-Nh" wsd="Bp13" wsdexp="乐器" parent="18" relate="DE" />
+                <word id="18" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="MT" />
+                <word id="19" cont="机要" pos="b" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="20" relate="ATT" />
+                <word id="20" cont="秘书" pos="n" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="21" relate="ATT" />
+                <word id="21" cont="陈正强" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="22" relate="SBV" />
+                <word id="22" cont="未遂" pos="v" ne="O" wsd="If22" wsdexp="成功_失败_垮台_落空" parent="5" relate="VOB">
+                    <arg id="0" type="施事" beg="19" end="21" />
+                    <arg id="1" type="受事" beg="23" end="24" />
+                    <arg id="2" type="受事" beg="26" end="41" />
+                </word>
+                <word id="23" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="24" relate="ATT" />
+                <word id="24" cont="新闻" pos="n" ne="O" wsd="Da19" wsdexp="消息_音信" parent="22" relate="VOB" />
+                <word id="25" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="26" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="27" relate="SBV" />
+                <word id="27" cont="使" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="22" relate="VOB">
+                    <arg id="0" type="施事" beg="26" end="26" />
+                    <arg id="1" type="受事" beg="28" end="37" />
+                </word>
+                <word id="28" cont="一向" pos="d" ne="O" wsd="Ka10" wsdexp="经常_向来_本来" parent="37" relate="ADV" />
+                <word id="29" cont="以" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="37" relate="ADV" />
+                <word id="30" cont="美国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="35" relate="ATT" />
+                <word id="31" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="33" relate="DE" />
+                <word id="32" cont="靠山" pos="n" ne="O" wsd="Aj09" wsdexp="助手_参谋_靠山" parent="31" relate="POB" />
+                <word id="33" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="35" relate="ATT" />
+                <word id="34" cont="台湾" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="35" relate="ATT" />
+                <word id="35" cont="当局" pos="n" ne="O" wsd="Dm01" wsdexp="政府" parent="29" relate="POB" />
+                <word id="36" cont="十分" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="37" relate="ADV" />
+                <word id="37" cont="难堪" pos="a" ne="O" wsd="Ga12" wsdexp="无奈_无法_难堪" parent="27" relate="VOB" />
+                <word id="38" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="39" cont="陷入" pos="v" ne="O" wsd="Jd02" wsdexp="处于_在于_陷于_适逢" parent="27" relate="VV">
+                    <arg id="0" type="受事" beg="40" end="40" />
+                    <arg id="1" type="受事" beg="41" end="41" />
+                </word>
+                <word id="40" cont="尴尬" pos="a" ne="O" wsd="If03" wsdexp="尴尬_折磨" parent="39" relate="VOB" />
+                <word id="41" cont="境地" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="39" relate="VOB" />
+                <word id="42" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="14" />
+    </doc>
+    <class>军事</class>
+    <coref>
+        <cr id="0">
+            <mention id="0" beg="55" end="55" />
+            <mention id="1" beg="128" end="128" />
+            <mention id="2" beg="150" end="150" />
+            <mention id="3" beg="190" end="190" />
+            <mention id="4" beg="330" end="330" />
+            <mention id="5" beg="348" end="348" />
+        </cr>
+        <cr id="1">
+            <mention id="0" beg="241" end="241" />
+            <mention id="1" beg="248" end="248" />
+            <mention id="2" beg="317" end="317" />
+            <mention id="3" beg="323" end="323" />
+            <mention id="4" beg="363" end="363" />
+            <mention id="5" beg="382" end="382" />
+            <mention id="6" beg="435" end="435" />
+            <mention id="7" beg="450" end="450" />
+        </cr>
+    </coref>
+</xml4nlp>

@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<?xml-stylesheet type="text/xsl" href="nlp_style.xsl" ?>
+<xml4nlp>
+    <doc>
+        <para id="0">
+            <sent id="0" cont="韩国总理带头撂挑子 总统要公投化解危机" tag="">
+                <word id="0" cont="韩国" pos="ns" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="1" relate="ATT" />
+                <word id="1" cont="总理" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="2" relate="SBV" />
+                <word id="2" cont="带头" pos="v" ne="O" wsd="Ie11" wsdexp="占先_殿后_命中" parent="3" relate="ADV">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                </word>
+                <word id="3" cont="撂挑子" pos="v" ne="O" wsd="Ig02" wsdexp="停止_中断" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="4" end="6" />
+                    <arg id="1" type="受事" beg="7" end="8" />
+                </word>
+                <word id="4" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="5" relate="ATT" />
+                <word id="5" cont="要公" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="6" relate="SBV" />
+                <word id="6" cont="投" pos="v" ne="O" wsd="Fa15" wsdexp="扔_接_拾_松手" parent="3" relate="VOB">
+                    <arg id="0" type="施事" beg="4" end="5" />
+                </word>
+                <word id="7" cont="化解" pos="v" ne="O" wsd="Jd09" wsdexp="解决" parent="3" relate="VOB">
+                    <arg id="0" type="受事" beg="8" end="8" />
+                </word>
+                <word id="8" cont="危机" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="7" relate="VOB" />
+            </sent>
+        </para>
+        <para id="1">
+            <sent id="0" cont="10月11日，韩国总统卢武铉在青瓦台总统府宣布拒绝总理高建和青瓦台总统府秘书室长文喜相等人的辞职。" tag="10%">
+                <word id="0" cont="10月" pos="nt" ne="B-Nr" wsd="-1" wsdexp="" parent="1" relate="ATT" />
+                <word id="1" cont="11日" pos="nt" ne="E-Nr" wsd="-1" wsdexp="" parent="9" relate="ADV" />
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="韩国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="4" relate="ATT" />
+                <word id="4" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="5" relate="ATT" />
+                <word id="5" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="9" relate="SBV" />
+                <word id="6" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="9" relate="ADV" />
+                <word id="7" cont="青瓦台" pos="ns" ne="B-Ni" wsd="-1" wsdexp="" parent="8" relate="ATT" />
+                <word id="8" cont="总统府" pos="n" ne="E-Ni" wsd="Bn02" wsdexp="别墅_公馆" parent="6" relate="POB" />
+                <word id="9" cont="宣布" pos="v" ne="O" wsd="Hc11" wsdexp="召集_宣布_下令" parent="19" relate="DE">
+                    <arg id="0" type="时间" beg="0" end="1" />
+                    <arg id="1" type="施事" beg="3" end="5" />
+                    <arg id="2" type="受事" beg="10" end="10" />
+                    <arg id="3" type="受事" beg="11" end="18" />
+                </word>
+                <word id="10" cont="拒绝" pos="v" ne="O" wsd="Hi32" wsdexp="答应_允许_拒绝" parent="9" relate="VOB" />
+                <word id="11" cont="总理" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="12" relate="ATT" />
+                <word id="12" cont="高建" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="9" relate="VOB" />
+                <word id="13" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="18" relate="LAD" />
+                <word id="14" cont="青瓦台" pos="ns" ne="B-Ni" wsd="-1" wsdexp="" parent="15" relate="ATT" />
+                <word id="15" cont="总统府" pos="n" ne="E-Ni" wsd="Bn02" wsdexp="别墅_公馆" parent="16" relate="ATT" />
+                <word id="16" cont="秘书" pos="n" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="17" relate="ATT" />
+                <word id="17" cont="室长" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="18" relate="ATT" />
+                <word id="18" cont="文喜相" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="12" relate="COO" />
+                <word id="19" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="21" relate="DE" />
+                <word id="20" cont="人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="21" relate="DE" />
+                <word id="21" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="22" relate="ATT" />
+                <word id="22" cont="辞职" pos="v" ne="O" wsd="Hj23" wsdexp="做官_辞职_退休" parent="-1" relate="HED" />
+                <word id="23" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="高建于当天上午向卢武铉总统正式提出他和18名国务委员决定辞职。" tag="10%">
+                <word id="0" cont="高建" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="8" relate="SBV" />
+                <word id="1" cont="于" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="8" relate="ADV" />
+                <word id="2" cont="当天" pos="nt" ne="O" wsd="Ca23" wsdexp="日" parent="3" relate="ATT" />
+                <word id="3" cont="上午" pos="nt" ne="O" wsd="Ca28" wsdexp="上午_中午_下午_白天" parent="1" relate="POB" />
+                <word id="4" cont="向" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="8" relate="ADV" />
+                <word id="5" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="6" relate="ATT" />
+                <word id="6" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="4" relate="POB" />
+                <word id="7" cont="正式" pos="a" ne="O" wsd="Ed53" wsdexp="正规_业余" parent="8" relate="ADV" />
+                <word id="8" cont="提出" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="时间" beg="1" end="3" />
+                    <arg id="2" type="受事" beg="9" end="9" />
+                    <arg id="3" type="受事" beg="10" end="13" />
+                    <arg id="4" type="受事" beg="14" end="15" />
+                </word>
+                <word id="9" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="8" relate="VOB" />
+                <word id="10" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="13" relate="LAD" />
+                <word id="11" cont="18" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="12" relate="QUN" />
+                <word id="12" cont="名" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="13" relate="ATT" />
+                <word id="13" cont="国务委员" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="8" relate="VOB" />
+                <word id="14" cont="决定" pos="v" ne="O" wsd="Hc14" wsdexp="建议_讨论_决定_制订" parent="8" relate="VOB">
+                    <arg id="0" type="受事" beg="15" end="15" />
+                </word>
+                <word id="15" cont="辞职" pos="v" ne="O" wsd="Hj23" wsdexp="做官_辞职_退休" parent="14" relate="VOB" />
+                <word id="16" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="同一天，韩国青瓦台总统府秘书室长文喜相、总统府政策室长李廷雨等全部13名总统首席秘书和助理也表示了辞职的意向。" tag="10%">
+                <word id="0" cont="同一天" pos="nt" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="-1" relate="HED" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="韩国" pos="ns" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="3" relate="ATT" />
+                <word id="3" cont="青瓦台" pos="ns" ne="I-Ni" wsd="-1" wsdexp="" parent="4" relate="ATT" />
+                <word id="4" cont="总统府" pos="n" ne="E-Ni" wsd="Bn02" wsdexp="别墅_公馆" parent="5" relate="ATT" />
+                <word id="5" cont="秘书" pos="n" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="6" relate="ATT" />
+                <word id="6" cont="室长" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="7" relate="ATT" />
+                <word id="7" cont="文喜相" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="27" relate="ATT" />
+                <word id="8" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="总统府" pos="n" ne="O" wsd="Bn02" wsdexp="别墅_公馆" parent="10" relate="ATT" />
+                <word id="10" cont="政策" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="11" relate="ATT" />
+                <word id="11" cont="室长" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="12" relate="ATT" />
+                <word id="12" cont="李廷雨" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="7" relate="COO" />
+                <word id="13" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="RAD" />
+                <word id="14" cont="全部" pos="m" ne="O" wsd="Eb02" wsdexp="单_双_全部_部分" parent="16" relate="QUN" />
+                <word id="15" cont="13" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="14" relate="RAD" />
+                <word id="16" cont="名" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="19" relate="ATT" />
+                <word id="17" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="18" relate="ATT" />
+                <word id="18" cont="首席" pos="n" ne="O" wsd="Cb01" wsdexp="方向_位置" parent="19" relate="ATT" />
+                <word id="19" cont="秘书" pos="n" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="23" relate="SBV" />
+                <word id="20" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="21" relate="LAD" />
+                <word id="21" cont="助理" pos="n" ne="O" wsd="Aj09" wsdexp="助手_参谋_靠山" parent="19" relate="COO" />
+                <word id="22" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="23" relate="ADV" />
+                <word id="23" cont="表示" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="26" relate="DE">
+                    <arg id="0" type="施事" beg="14" end="21" />
+                    <arg id="1" type="受事" beg="25" end="25" />
+                </word>
+                <word id="24" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="23" relate="MT" />
+                <word id="25" cont="辞职" pos="v" ne="O" wsd="Hj23" wsdexp="做官_辞职_退休" parent="23" relate="VOB" />
+                <word id="26" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="ATT" />
+                <word id="27" cont="意向" pos="n" ne="O" wsd="Df08" wsdexp="指望_愿望_意图" parent="0" relate="COO" />
+                <word id="28" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="卢武铉10日在汉城表示，将举行公民信任投票，以消除国民因一系列丑闻对他的疑虑，从而重新获得国民的信任。" tag="10%">
+                <word id="0" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="4" relate="SBV" />
+                <word id="1" cont="10日" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="4" relate="ADV" />
+                <word id="2" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="4" relate="ADV" />
+                <word id="3" cont="汉城" pos="ns" ne="S-Ns" wsd="Di03" wsdexp="首都_省会" parent="2" relate="POB" />
+                <word id="4" cont="表示" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="时间" beg="1" end="1" />
+                    <arg id="2" type="地点" beg="2" end="3" />
+                </word>
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="将" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="7" relate="ADV" />
+                <word id="7" cont="举行" pos="v" ne="O" wsd="Ie13" wsdexp="实行_举行" parent="4" relate="VV">
+                    <arg id="0" type="受事" beg="8" end="8" />
+                    <arg id="1" type="受事" beg="9" end="9" />
+                </word>
+                <word id="8" cont="公民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="7" relate="VOB" />
+                <word id="9" cont="信任投票" pos="i" ne="O" wsd="Hc23" wsdexp="选举_选拔_提拔" parent="7" relate="VOB" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="以" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="12" relate="ADV" />
+                <word id="12" cont="消除" pos="v" ne="O" wsd="Jd10" wsdexp="克服_消灭_消除" parent="4" relate="VV">
+                    <arg id="0" type="受事" beg="13" end="13" />
+                </word>
+                <word id="13" cont="国民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="12" relate="VOB" />
+                <word id="14" cont="因" pos="p" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="28" relate="ADV" />
+                <word id="15" cont="一" pos="m" ne="S-Nm" wsd="Dn04" wsdexp="基数_序数" parent="16" relate="QUN" />
+                <word id="16" cont="系列" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="17" relate="ATT" />
+                <word id="17" cont="丑闻" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="14" relate="POB" />
+                <word id="18" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="20" relate="DE" />
+                <word id="19" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="18" relate="POB" />
+                <word id="20" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="21" relate="ATT" />
+                <word id="21" cont="疑虑" pos="n" ne="O" wsd="Gb14" wsdexp="相信_信仰_怀疑_信任" parent="14" relate="POB" />
+                <word id="22" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="从而" pos="c" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="25" relate="CNJ" />
+                <word id="24" cont="重新" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="25" relate="ADV" />
+                <word id="25" cont="获得" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="27" relate="DE">
+                    <arg id="0" type="受事" beg="26" end="26" />
+                </word>
+                <word id="26" cont="国民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="25" relate="VOB" />
+                <word id="27" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="28" relate="ATT" />
+                <word id="28" cont="信任" pos="v" ne="O" wsd="Gb14" wsdexp="相信_信仰_怀疑_信任" parent="4" relate="IC" />
+                <word id="29" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="卢武铉的表态在韩国政界引起巨大反响和激烈的争论。" tag="">
+                <word id="0" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="1" relate="DE" />
+                <word id="1" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="2" relate="ATT" />
+                <word id="2" cont="表态" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="6" relate="SBV" />
+                <word id="3" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="6" relate="ADV" />
+                <word id="4" cont="韩国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="5" relate="ATT" />
+                <word id="5" cont="政界" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="3" relate="POB" />
+                <word id="6" cont="引起" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="2" />
+                    <arg id="1" type="受事" beg="7" end="8" />
+                    <arg id="2" type="受事" beg="9" end="12" />
+                </word>
+                <word id="7" cont="巨大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="8" relate="ATT" />
+                <word id="8" cont="反响" pos="n" ne="O" wsd="Da25" wsdexp="效用_反应" parent="6" relate="VOB" />
+                <word id="9" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="12" relate="CNJ" />
+                <word id="10" cont="激烈" pos="a" ne="O" wsd="Ed15" wsdexp="猛烈_尖锐_柔和" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ADV" />
+                <word id="12" cont="争论" pos="v" ne="O" wsd="Hi41" wsdexp="争论_辩论_议论" parent="6" relate="VOB" />
+                <word id="13" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="5" cont="韩国政府和青瓦台总统府官员是在这一背景下提出辞职的。" tag="">
+                <word id="0" cont="韩国" pos="ns" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="1" relate="ATT" />
+                <word id="1" cont="政府" pos="n" ne="E-Ni" wsd="Dm01" wsdexp="政府" parent="6" relate="SBV" />
+                <word id="2" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="5" relate="LAD" />
+                <word id="3" cont="青瓦台" pos="ns" ne="B-Ni" wsd="-1" wsdexp="" parent="4" relate="ATT" />
+                <word id="4" cont="总统府" pos="n" ne="E-Ni" wsd="Bn02" wsdexp="别墅_公馆" parent="5" relate="ATT" />
+                <word id="5" cont="官员" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="1" relate="COO" />
+                <word id="6" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="5" />
+                </word>
+                <word id="7" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="14" relate="DE" />
+                <word id="8" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="9" relate="ATT" />
+                <word id="9" cont="一" pos="m" ne="S-Nm" wsd="Dn04" wsdexp="基数_序数" parent="14" relate="DE" />
+                <word id="10" cont="背景" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="11" relate="ATT" />
+                <word id="11" cont="下" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="14" relate="DE" />
+                <word id="12" cont="提出" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="14" relate="DE">
+                    <arg id="0" type="受事" beg="13" end="13" />
+                </word>
+                <word id="13" cont="辞职" pos="v" ne="O" wsd="Hj23" wsdexp="做官_辞职_退休" parent="12" relate="VOB" />
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="MT" />
+                <word id="15" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="2">
+            <sent id="0" cont="由于韩国总统卢武铉的亲信涉嫌贪污丑闻，韩国内阁10日提出总辞，总统秘书也一并请辞。" tag="">
+                <word id="0" cont="由于" pos="p" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="6" relate="ADV" />
+                <word id="1" cont="韩国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="2" relate="ATT" />
+                <word id="2" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="3" relate="ATT" />
+                <word id="3" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="4" relate="DE" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="5" cont="亲信" pos="n" ne="O" wsd="Aj02" wsdexp="侠客" parent="0" relate="POB" />
+                <word id="6" cont="涉嫌" pos="v" ne="O" wsd="Je01" wsdexp="牵连_涉及_相关" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="7" end="8" />
+                </word>
+                <word id="7" cont="贪污" pos="v" ne="O" wsd="Hn10" wsdexp="贪污_舞弊_剽窃_侵吞" parent="8" relate="ATT" />
+                <word id="8" cont="丑闻" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="6" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="韩国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="11" relate="ATT" />
+                <word id="11" cont="内阁" pos="n" ne="O" wsd="Dm01" wsdexp="政府" parent="13" relate="SBV" />
+                <word id="12" cont="10日" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="13" relate="ADV" />
+                <word id="13" cont="提出" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="6" relate="VV">
+                    <arg id="0" type="施事" beg="10" end="11" />
+                    <arg id="1" type="时间" beg="12" end="12" />
+                    <arg id="2" type="受事" beg="14" end="15" />
+                </word>
+                <word id="14" cont="总" pos="b" ne="O" wsd="Ed56" wsdexp="总_分" parent="15" relate="ATT" />
+                <word id="15" cont="辞" pos="n" ne="O" wsd="Hc26" wsdexp="雇用_解雇_下任" parent="13" relate="VOB" />
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="18" relate="ATT" />
+                <word id="18" cont="秘书" pos="n" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="21" relate="SBV" />
+                <word id="19" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="21" relate="ADV" />
+                <word id="20" cont="一并" pos="d" ne="O" wsd="Ka23" wsdexp="共同_分头_独自_互相_从中" parent="21" relate="ADV" />
+                <word id="21" cont="请" pos="v" ne="O" wsd="Hi25" wsdexp="请求_委托_讲情" parent="13" relate="VV">
+                    <arg id="0" type="施事" beg="17" end="18" />
+                    <arg id="1" type="受事" beg="22" end="22" />
+                </word>
+                <word id="22" cont="辞" pos="v" ne="O" wsd="Hc26" wsdexp="雇用_解雇_下任" parent="21" relate="VOB" />
+                <word id="23" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="虽然这些政府要员的辞职皆被卢武铉拒绝。" tag="">
+                <word id="0" cont="虽然" pos="c" ne="O" wsd="Kc04" wsdexp="虽然_即使_既然" parent="3" relate="LAD" />
+                <word id="1" cont="这些" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="3" relate="ATT" />
+                <word id="2" cont="政府" pos="n" ne="O" wsd="Dm01" wsdexp="政府" parent="3" relate="ATT" />
+                <word id="3" cont="要员" pos="n" ne="O" wsd="Af11" wsdexp="名人_隐士_小人物" parent="4" relate="DE" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="5" cont="辞职" pos="v" ne="O" wsd="Hj23" wsdexp="做官_辞职_退休" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="6" end="9" />
+                </word>
+                <word id="6" cont="皆" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="9" relate="ADV" />
+                <word id="7" cont="被" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="9" relate="ADV" />
+                <word id="8" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="7" relate="POB" />
+                <word id="9" cont="拒绝" pos="v" ne="O" wsd="Hi32" wsdexp="答应_允许_拒绝" parent="5" relate="VOB" />
+                <word id="10" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="但有分析人士认为，在政治上陷入困境的情况下，卢武铉与他的行政和秘书两套班子上演了一出政治双簧，通过辞职行动以退为进，以达到整饬政局和重拾民心的目的。" tag="">
+                <word id="0" cont="但" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="1" relate="CNJ" />
+                <word id="1" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="2" end="4" />
+                </word>
+                <word id="2" cont="分析" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="3" relate="ATT" />
+                <word id="3" cont="人士" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="4" relate="SBV" />
+                <word id="4" cont="认为" pos="v" ne="O" wsd="Gb02" wsdexp="感到_认为_主张" parent="1" relate="VOB">
+                    <arg id="0" type="施事" beg="2" end="3" />
+                </word>
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="9" relate="ADV" />
+                <word id="7" cont="政治" pos="n" ne="O" wsd="Di08" wsdexp="政治_政体_专政" parent="8" relate="ATT" />
+                <word id="8" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="6" relate="POB" />
+                <word id="9" cont="陷入" pos="v" ne="O" wsd="Jd02" wsdexp="处于_在于_陷于_适逢" parent="11" relate="DE">
+                    <arg id="0" type="方位" beg="6" end="8" />
+                    <arg id="1" type="受事" beg="10" end="10" />
+                </word>
+                <word id="10" cont="困境" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="9" relate="VOB" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="12" cont="情况" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="13" relate="ATT" />
+                <word id="13" cont="下" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="25" relate="ADV" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="25" relate="SBV" />
+                <word id="16" cont="与" pos="p" ne="O" wsd="Kc01" wsdexp="和_或者" parent="18" relate="DE" />
+                <word id="17" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="16" relate="POB" />
+                <word id="18" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="19" cont="行政" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="24" relate="ATT" />
+                <word id="20" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="21" relate="LAD" />
+                <word id="21" cont="秘书" pos="n" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="19" relate="COO" />
+                <word id="22" cont="两" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="23" relate="QUN" />
+                <word id="23" cont="套" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="24" relate="ATT" />
+                <word id="24" cont="班子" pos="n" ne="O" wsd="Dd06" wsdexp="系统_种类_结构" parent="25" relate="SBV" />
+                <word id="25" cont="上演" pos="v" ne="O" wsd="Hh01" wsdexp="演出_排演_扮演" parent="1" relate="VV">
+                    <arg id="0" type="方位" beg="6" end="13" />
+                    <arg id="1" type="施事" beg="15" end="15" />
+                    <arg id="2" type="施事" beg="16" end="24" />
+                    <arg id="3" type="受事" beg="27" end="29" />
+                    <arg id="4" type="受事" beg="30" end="31" />
+                </word>
+                <word id="26" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="25" relate="MT" />
+                <word id="27" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="28" relate="QUN" />
+                <word id="28" cont="出" pos="q" ne="E-Nm" wsd="Hj64" wsdexp="出_进_出入" parent="29" relate="ATT" />
+                <word id="29" cont="政治" pos="n" ne="O" wsd="Di08" wsdexp="政治_政体_专政" parent="25" relate="VOB" />
+                <word id="30" cont="双" pos="m" ne="O" wsd="Eb02" wsdexp="单_双_全部_部分" parent="31" relate="QUN" />
+                <word id="31" cont="簧" pos="n" ne="O" wsd="Bo03" wsdexp="机件" parent="25" relate="VOB" />
+                <word id="32" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="33" cont="通过" pos="p" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="34" relate="ADV" />
+                <word id="34" cont="辞职" pos="v" ne="O" wsd="Hj23" wsdexp="做官_辞职_退休" parent="1" relate="VV">
+                    <arg id="0" type="受事" beg="35" end="35" />
+                    <arg id="1" type="受事" beg="36" end="50" />
+                </word>
+                <word id="35" cont="行动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="34" relate="VOB" />
+                <word id="36" cont="以" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="37" relate="ADV" />
+                <word id="37" cont="退" pos="v" ne="O" wsd="Hj67" wsdexp="前进_后退_追赶" parent="34" relate="VOB">
+                    <arg id="0" type="受事" beg="38" end="39" />
+                </word>
+                <word id="38" cont="为" pos="v" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="37" relate="VOB">
+                    <arg id="0" type="受事" beg="39" end="39" />
+                </word>
+                <word id="39" cont="进" pos="v" ne="O" wsd="Hj64" wsdexp="出_进_出入" parent="38" relate="VOB" />
+                <word id="40" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="41" cont="以" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="42" relate="ADV" />
+                <word id="42" cont="达到" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="37" relate="VV">
+                    <arg id="0" type="受事" beg="43" end="44" />
+                    <arg id="1" type="受事" beg="49" end="50" />
+                </word>
+                <word id="43" cont="整饬" pos="v" ne="O" wsd="Hc03" wsdexp="安置_部署_调动_整顿_整编" parent="42" relate="VOB">
+                    <arg id="0" type="受事" beg="44" end="44" />
+                </word>
+                <word id="44" cont="政局" pos="n" ne="O" wsd="Da20" wsdexp="形势_趋势_潮流" parent="43" relate="VOB" />
+                <word id="45" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="47" relate="CNJ" />
+                <word id="46" cont="重" pos="d" ne="O" wsd="Eb13" wsdexp="重_轻_笨重_轻巧" parent="47" relate="ADV" />
+                <word id="47" cont="拾" pos="v" ne="O" wsd="Fa15" wsdexp="扔_接_拾_松手" parent="42" relate="COO">
+                    <arg id="0" type="受事" beg="48" end="48" />
+                </word>
+                <word id="48" cont="民心" pos="n" ne="O" wsd="Df05" wsdexp="心意_心情_爱情" parent="47" relate="VOB" />
+                <word id="49" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="50" relate="ATT" />
+                <word id="50" cont="目的" pos="n" ne="O" wsd="Db05" wsdexp="目的_宗旨" parent="42" relate="VOB" />
+                <word id="51" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="一场政治危机已然在卢武铉面前形成———" tag="">
+                <word id="0" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="1" relate="QUN" />
+                <word id="1" cont="场" pos="q" ne="E-Nm" wsd="Dn09" wsdexp="动量单位_复量单位" parent="3" relate="ATT" />
+                <word id="2" cont="政治" pos="n" ne="O" wsd="Di08" wsdexp="政治_政体_专政" parent="3" relate="ATT" />
+                <word id="3" cont="危机" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="8" relate="SBV" />
+                <word id="4" cont="已然" pos="d" ne="O" wsd="Ie06" wsdexp="定局_未定" parent="8" relate="ADV" />
+                <word id="5" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="8" relate="ADV" />
+                <word id="6" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="7" relate="ATT" />
+                <word id="7" cont="面前" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="5" relate="POB" />
+                <word id="8" cont="形成" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="3" />
+                    <arg id="1" type="方位" beg="5" end="7" />
+                </word>
+                <word id="9" cont="———" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="3">
+            <sent id="0" cont="总统亲信麻烦缠身涉嫌受贿11亿韩元" tag="">
+                <word id="0" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="1" relate="ATT" />
+                <word id="1" cont="亲信" pos="n" ne="O" wsd="Aj02" wsdexp="侠客" parent="2" relate="SBV" />
+                <word id="2" cont="麻烦" pos="a" ne="O" wsd="Ed48" wsdexp="便利_不便" parent="3" relate="ADV" />
+                <word id="3" cont="缠身" pos="v" ne="O" wsd="Ef06" wsdexp="繁忙_匆忙_空闲" parent="4" relate="ADV" />
+                <word id="4" cont="涉嫌" pos="v" ne="O" wsd="Je01" wsdexp="牵连_涉及_相关" parent="-1" relate="HED">
+                    <arg id="0" type="受事-数量性质" beg="6" end="7" />
+                </word>
+                <word id="5" cont="受贿" pos="v" ne="O" wsd="Hn09" wsdexp="钻营_贿赂_受贿" parent="4" relate="VV" />
+                <word id="6" cont="11亿" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="7" relate="QUN" />
+                <word id="7" cont="韩元" pos="q" ne="E-Nm" wsd="Dj05" wsdexp="货币_票据" parent="4" relate="VOB" />
+            </sent>
+        </para>
+        <para id="4">
+            <sent id="0" cont="这次韩国内阁总辞风波源于轰动一时的韩国大跨国企业SK集团高达12亿美元的会计诈骗案。" tag="">
+                <word id="0" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="1" relate="ATT" />
+                <word id="1" cont="次" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="3" relate="ATT" />
+                <word id="2" cont="韩国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="3" relate="ATT" />
+                <word id="3" cont="内阁" pos="n" ne="O" wsd="Dm01" wsdexp="政府" parent="5" relate="SBV" />
+                <word id="4" cont="总" pos="d" ne="O" wsd="Ed56" wsdexp="总_分" parent="5" relate="ADV" />
+                <word id="5" cont="辞" pos="v" ne="O" wsd="Hc26" wsdexp="雇用_解雇_下任" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="3" />
+                    <arg id="1" type="受事" beg="6" end="6" />
+                    <arg id="2" type="受事" beg="7" end="22" />
+                </word>
+                <word id="6" cont="风波" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="5" relate="VOB" />
+                <word id="7" cont="源于" pos="v" ne="O" wsd="Ja05" wsdexp="起源_取决" parent="9" relate="DE" />
+                <word id="8" cont="轰动一时" pos="i" ne="O" wsd="Je02" wsdexp="影响_触动_带动" parent="9" relate="DE" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="10" cont="韩国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="15" relate="ATT" />
+                <word id="11" cont="大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="15" relate="ATT" />
+                <word id="12" cont="跨国" pos="b" ne="O" wsd="Fb04" wsdexp="跨_越" parent="13" relate="ATT" />
+                <word id="13" cont="企业" pos="n" ne="O" wsd="Dm03" wsdexp="工厂_工场" parent="14" relate="ATT" />
+                <word id="14" cont="SK" pos="ws" ne="O" wsd="-1" wsdexp="" parent="15" relate="ATT" />
+                <word id="15" cont="集团" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="17" relate="SBV" />
+                <word id="16" cont="高" pos="a" ne="O" wsd="Ea02" wsdexp="高_矮" parent="17" relate="ADV" />
+                <word id="17" cont="达" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="20" relate="DE">
+                    <arg id="0" type="施事" beg="7" end="15" />
+                    <arg id="1" type="受事-数量性质" beg="18" end="19" />
+                </word>
+                <word id="18" cont="12亿" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="19" relate="QUN" />
+                <word id="19" cont="美元" pos="q" ne="E-Nm" wsd="Dj05" wsdexp="货币_票据" parent="17" relate="VOB" />
+                <word id="20" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="22" relate="ATT" />
+                <word id="21" cont="会计" pos="n" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="22" relate="ATT" />
+                <word id="22" cont="诈骗案" pos="n" ne="O" wsd="-1" wsdexp="" parent="5" relate="VOB" />
+                <word id="23" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="今年3月，该案被揭露，集团高层遭到起诉。" tag="20%">
+                <word id="0" cont="今年" pos="nt" ne="O" wsd="Ca18" wsdexp="年" parent="1" relate="ATT" />
+                <word id="1" cont="3月" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="5" relate="ADV" />
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="该案" pos="r" ne="O" wsd="Da03" wsdexp="事例_案件" parent="5" relate="SBV" />
+                <word id="4" cont="被" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="5" relate="ADV" />
+                <word id="5" cont="揭露" pos="v" ne="O" wsd="Hi20" wsdexp="隐瞒_保密_揭露" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="1" />
+                    <arg id="1" type="施事" beg="3" end="3" />
+                </word>
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="集团" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="8" relate="ATT" />
+                <word id="8" cont="高层" pos="n" ne="O" wsd="Dd07" wsdexp="次序_行列" parent="9" relate="SBV" />
+                <word id="9" cont="遭到" pos="v" ne="O" wsd="Je13" wsdexp="遭受_享受" parent="5" relate="VV">
+                    <arg id="0" type="施事" beg="7" end="8" />
+                    <arg id="1" type="受事" beg="10" end="10" />
+                </word>
+                <word id="10" cont="起诉" pos="v" ne="O" wsd="Hm01" wsdexp="检举_控告_诉讼" parent="9" relate="VOB" />
+                <word id="11" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="检方在调查时不仅发现，在总统选举前，SK集团给民主党和大国家党提供了大约100亿韩元，还发现青瓦台前总务秘书官崔道述在总统选举前后从SK集团收取高达11亿韩元（约95.6万美元）的秘密资金。" tag="20%">
+                <word id="0" cont="检方" pos="j" ne="O" wsd="-1" wsdexp="" parent="2" relate="SBV" />
+                <word id="1" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="2" relate="ADV" />
+                <word id="2" cont="调查" pos="v" ne="O" wsd="Hc18" wsdexp="调查_审查_检查" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="3" end="3" />
+                    <arg id="2" type="受事" beg="4" end="19" />
+                    <arg id="3" type="受事" beg="24" end="50" />
+                </word>
+                <word id="3" cont="时" pos="n" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="2" relate="VOB" />
+                <word id="4" cont="不仅" pos="c" ne="O" wsd="Kc05" wsdexp="不但_何止" parent="5" relate="CNJ" />
+                <word id="5" cont="发现" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="2" relate="VOB">
+                    <arg id="0" type="受事" beg="7" end="19" />
+                </word>
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="18" relate="ADV" />
+                <word id="8" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="9" relate="ATT" />
+                <word id="9" cont="选举" pos="v" ne="O" wsd="Hc23" wsdexp="选举_选拔_提拔" parent="10" relate="ATT" />
+                <word id="10" cont="前" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="7" relate="POB" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="SK" pos="ws" ne="O" wsd="-1" wsdexp="" parent="13" relate="ATT" />
+                <word id="13" cont="集团" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="18" relate="SBV" />
+                <word id="14" cont="给" pos="p" ne="O" wsd="Je05" wsdexp="给予_寄予_加以_冠以" parent="18" relate="ADV" />
+                <word id="15" cont="民主党" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="14" relate="POB" />
+                <word id="16" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="17" relate="LAD" />
+                <word id="17" cont="大国家党" pos="n" ne="O" wsd="-1" wsdexp="" parent="15" relate="COO" />
+                <word id="18" cont="提供" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="5" relate="VOB">
+                    <arg id="0" type="方位" beg="7" end="10" />
+                    <arg id="1" type="施事" beg="12" end="13" />
+                </word>
+                <word id="19" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="18" relate="MT" />
+                <word id="20" cont="大约" pos="d" ne="O" wsd="Ka17" wsdexp="也许_大概_难道" parent="22" relate="ADV" />
+                <word id="21" cont="100亿" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="22" relate="QUN" />
+                <word id="22" cont="韩元" pos="q" ne="E-Nm" wsd="Dj05" wsdexp="货币_票据" parent="2" relate="IC" />
+                <word id="23" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="还" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="25" relate="ADV" />
+                <word id="25" cont="发现" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="48" relate="DE">
+                    <arg id="0" type="受事" beg="26" end="38" />
+                    <arg id="1" type="受事" beg="39" end="42" />
+                    <arg id="2" type="受事-数量性质" beg="44" end="46" />
+                </word>
+                <word id="26" cont="青瓦台" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="27" relate="ATT" />
+                <word id="27" cont="前" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="28" relate="ATT" />
+                <word id="28" cont="总务" pos="b" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="29" relate="ATT" />
+                <word id="29" cont="秘书官" pos="n" ne="O" wsd="-1" wsdexp="" parent="30" relate="ATT" />
+                <word id="30" cont="崔道述" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="38" relate="SBV" />
+                <word id="31" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="38" relate="ADV" />
+                <word id="32" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="33" relate="ATT" />
+                <word id="33" cont="选举" pos="v" ne="O" wsd="Hc23" wsdexp="选举_选拔_提拔" parent="34" relate="ATT" />
+                <word id="34" cont="前后" pos="nd" ne="O" wsd="Ca06" wsdexp="期限_期间" parent="31" relate="POB" />
+                <word id="35" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="38" relate="ADV" />
+                <word id="36" cont="SK" pos="ws" ne="O" wsd="-1" wsdexp="" parent="37" relate="ATT" />
+                <word id="37" cont="集团" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="35" relate="POB" />
+                <word id="38" cont="收取" pos="v" ne="O" wsd="Hc07" wsdexp="收_发" parent="25" relate="VOB">
+                    <arg id="0" type="施事" beg="26" end="30" />
+                    <arg id="1" type="方位" beg="31" end="34" />
+                </word>
+                <word id="39" cont="高" pos="a" ne="O" wsd="Ea02" wsdexp="高_矮" parent="40" relate="ADV" />
+                <word id="40" cont="达" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="25" relate="VOB">
+                    <arg id="0" type="受事-数量性质" beg="41" end="42" />
+                </word>
+                <word id="41" cont="11亿" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="42" relate="QUN" />
+                <word id="42" cont="韩元" pos="q" ne="E-Nm" wsd="Dj05" wsdexp="货币_票据" parent="40" relate="VOB" />
+                <word id="43" cont="（" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="44" cont="约" pos="d" ne="O" wsd="Ka17" wsdexp="也许_大概_难道" parent="46" relate="ATT" />
+                <word id="45" cont="95.6万" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="46" relate="QUN" />
+                <word id="46" cont="美元" pos="q" ne="E-Nm" wsd="Dj05" wsdexp="货币_票据" parent="25" relate="VOB" />
+                <word id="47" cont="）" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="48" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="50" relate="ATT" />
+                <word id="49" cont="秘密" pos="a" ne="O" wsd="Ed44" wsdexp="公开_秘密" parent="50" relate="ATT" />
+                <word id="50" cont="资金" pos="n" ne="O" wsd="Dj04" wsdexp="资本_利润_利息_债务" parent="2" relate="VOB" />
+                <word id="51" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="检方于是对崔道述的问题展开深入调查。" tag="">
+                <word id="0" cont="检方" pos="j" ne="O" wsd="-1" wsdexp="" parent="6" relate="SBV" />
+                <word id="1" cont="于是" pos="c" ne="O" wsd="Kc11" wsdexp="于是_此外" parent="6" relate="CNJ" />
+                <word id="2" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="6" relate="ADV" />
+                <word id="3" cont="崔道述" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="4" relate="DE" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="5" cont="问题" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="2" relate="POB" />
+                <word id="6" cont="展开" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="7" end="8" />
+                </word>
+                <word id="7" cont="深入" pos="a" ne="O" wsd="Ed16" wsdexp="深刻_深远_深厚_深沉" parent="8" relate="ATT" />
+                <word id="8" cont="调查" pos="v" ne="O" wsd="Hc18" wsdexp="调查_审查_检查" parent="6" relate="VOB" />
+                <word id="9" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="5">
+            <sent id="0" cont="崔道述以在釜山参加议会选举为由，辞去了青瓦台的职务，韩国舆论认为，这无疑是为了中断该事件与卢武铉总统的关系而辞职的。" tag="">
+                <word id="0" cont="崔道述" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="1" relate="SBV" />
+                <word id="1" cont="以" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="4" relate="ADV" />
+                <word id="2" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="4" relate="ADV" />
+                <word id="3" cont="釜山" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="2" relate="POB" />
+                <word id="4" cont="参加" pos="v" ne="O" wsd="Hj19" wsdexp="从事_参加_脱离" parent="33" relate="DE">
+                    <arg id="0" type="地点" beg="2" end="3" />
+                    <arg id="1" type="受事" beg="5" end="6" />
+                    <arg id="2" type="受事" beg="7" end="7" />
+                </word>
+                <word id="5" cont="议会" pos="n" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="6" relate="ATT" />
+                <word id="6" cont="选举" pos="v" ne="O" wsd="Hc23" wsdexp="选举_选拔_提拔" parent="4" relate="VOB" />
+                <word id="7" cont="为由" pos="v" ne="O" wsd="Db04" wsdexp="借口_把柄_典故" parent="4" relate="VOB" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="辞去" pos="v" ne="O" wsd="Hj23" wsdexp="做官_辞职_退休" parent="4" relate="VV">
+                    <arg id="0" type="受事" beg="11" end="13" />
+                </word>
+                <word id="10" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="9" relate="MT" />
+                <word id="11" cont="青瓦台" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="12" relate="DE" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="13" cont="职务" pos="n" ne="O" wsd="Di15" wsdexp="地位_职位" parent="9" relate="VOB" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="韩国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="16" relate="ATT" />
+                <word id="16" cont="舆论" pos="n" ne="O" wsd="Dk12" wsdexp="说法_言论_评论" parent="17" relate="SBV" />
+                <word id="17" cont="认为" pos="v" ne="O" wsd="Gb02" wsdexp="感到_认为_主张" parent="9" relate="VV">
+                    <arg id="0" type="施事" beg="15" end="16" />
+                    <arg id="1" type="受事" beg="19" end="21" />
+                </word>
+                <word id="18" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="21" relate="SBV" />
+                <word id="20" cont="无疑" pos="d" ne="O" wsd="Ed01" wsdexp="真实_虚假_确实_虚妄" parent="21" relate="ADV" />
+                <word id="21" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="17" relate="VOB">
+                    <arg id="0" type="施事" beg="19" end="19" />
+                </word>
+                <word id="22" cont="为了" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="23" relate="ADV" />
+                <word id="23" cont="中断" pos="v" ne="O" wsd="Ig02" wsdexp="停止_中断" parent="33" relate="DE">
+                    <arg id="0" type="受事" beg="24" end="25" />
+                    <arg id="1" type="受事" beg="26" end="30" />
+                    <arg id="2" type="受事" beg="31" end="32" />
+                </word>
+                <word id="24" cont="该" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="25" relate="ATT" />
+                <word id="25" cont="事件" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="23" relate="VOB" />
+                <word id="26" cont="与" pos="p" ne="O" wsd="Kc01" wsdexp="和_或者" parent="29" relate="DE" />
+                <word id="27" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="28" relate="ATT" />
+                <word id="28" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="26" relate="POB" />
+                <word id="29" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="30" relate="ATT" />
+                <word id="30" cont="关系" pos="n" ne="O" wsd="Db10" wsdexp="关系_友谊_缘分" parent="23" relate="VOB" />
+                <word id="31" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="32" relate="CNJ" />
+                <word id="32" cont="辞职" pos="v" ne="O" wsd="Hj23" wsdexp="做官_辞职_退休" parent="23" relate="VOB" />
+                <word id="33" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="-1" relate="HED" />
+                <word id="34" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="6">
+            <sent id="0" cont="内阁集体撂挑子总理带头交辞呈" tag="">
+                <word id="0" cont="内阁" pos="n" ne="O" wsd="Dm01" wsdexp="政府" parent="1" relate="ATT" />
+                <word id="1" cont="集体" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="2" relate="SBV" />
+                <word id="2" cont="撂挑子" pos="v" ne="O" wsd="Ig02" wsdexp="停止_中断" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="3" end="6" />
+                </word>
+                <word id="3" cont="总理" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="5" relate="SBV" />
+                <word id="4" cont="带头" pos="v" ne="O" wsd="Ie11" wsdexp="占先_殿后_命中" parent="5" relate="ADV" />
+                <word id="5" cont="交" pos="v" ne="O" wsd="Hi01" wsdexp="交际_处世" parent="2" relate="VOB">
+                    <arg id="0" type="施事" beg="3" end="3" />
+                    <arg id="1" type="受事" beg="6" end="6" />
+                </word>
+                <word id="6" cont="辞呈" pos="n" ne="O" wsd="Hc15" wsdexp="登记_申请_报告" parent="5" relate="VOB" />
+            </sent>
+        </para>
+        <para id="7">
+            <sent id="0" cont="10月10日，卢武铉举行特别记者招待会。" tag="">
+                <word id="0" cont="10月" pos="nt" ne="B-Nr" wsd="-1" wsdexp="" parent="1" relate="ATT" />
+                <word id="1" cont="10日" pos="nt" ne="E-Nr" wsd="-1" wsdexp="" parent="4" relate="ADV" />
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="4" relate="SBV" />
+                <word id="4" cont="举行" pos="v" ne="O" wsd="Ie13" wsdexp="实行_举行" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="1" />
+                    <arg id="1" type="施事" beg="3" end="3" />
+                    <arg id="2" type="受事" beg="5" end="7" />
+                </word>
+                <word id="5" cont="特别" pos="a" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="7" relate="ATT" />
+                <word id="6" cont="记者" pos="n" ne="O" wsd="Ae16" wsdexp="作者_译者_记者_编辑" parent="7" relate="ATT" />
+                <word id="7" cont="招待会" pos="n" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="4" relate="VOB" />
+                <word id="8" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="他表示，崔道述跟随他多年，不管崔案最终调查结果如何，他都应该负责。" tag="">
+                <word id="0" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="1" relate="SBV" />
+                <word id="1" cont="表示" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                </word>
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="崔道述" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="4" relate="SBV" />
+                <word id="4" cont="跟随" pos="v" ne="O" wsd="Hj36" wsdexp="携带_跟随" parent="1" relate="VV">
+                    <arg id="0" type="施事" beg="3" end="3" />
+                    <arg id="1" type="受事" beg="5" end="5" />
+                    <arg id="2" type="受事" beg="6" end="6" />
+                </word>
+                <word id="5" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="4" relate="VOB" />
+                <word id="6" cont="多年" pos="m" ne="O" wsd="Eb24" wsdexp="长久_永远" parent="4" relate="VOB" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="不管" pos="c" ne="O" wsd="Kc10" wsdexp="不论_只管" parent="12" relate="CNJ" />
+                <word id="9" cont="崔" pos="nh" ne="S-Nh" wsd="Dd15" wsdexp="名称_姓名_生肖_性别" parent="10" relate="ATT" />
+                <word id="10" cont="案" pos="n" ne="O" wsd="Da03" wsdexp="事例_案件" parent="12" relate="SBV" />
+                <word id="11" cont="最终" pos="d" ne="O" wsd="Da06" wsdexp="开端_末尾_结局" parent="12" relate="ADV" />
+                <word id="12" cont="调查" pos="v" ne="O" wsd="Hc18" wsdexp="调查_审查_检查" parent="13" relate="ATT">
+                    <arg id="0" type="施事" beg="9" end="10" />
+                </word>
+                <word id="13" cont="结果" pos="n" ne="O" wsd="Db01" wsdexp="原因_结果" parent="14" relate="SBV" />
+                <word id="14" cont="如何" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="1" relate="IC" />
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="19" relate="SBV" />
+                <word id="17" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="18" relate="ADV" />
+                <word id="18" cont="应该" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="19" relate="ADV" />
+                <word id="19" cont="负责" pos="v" ne="O" wsd="Hj24" wsdexp="担负_承揽_担任_兼职" parent="1" relate="VV">
+                    <arg id="0" type="施事" beg="16" end="16" />
+                </word>
+                <word id="20" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="在卢武铉举行记者招待会后不久，韩国两大政党均表示希望尽早举行公民投票。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="13" relate="ADV" />
+                <word id="1" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="0" relate="POB" />
+                <word id="2" cont="举行" pos="v" ne="O" wsd="Ie13" wsdexp="实行_举行" parent="5" relate="ATT">
+                    <arg id="0" type="受事" beg="3" end="4" />
+                </word>
+                <word id="3" cont="记者" pos="n" ne="O" wsd="Ae16" wsdexp="作者_译者_记者_编辑" parent="4" relate="ATT" />
+                <word id="4" cont="招待会" pos="n" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="2" relate="VOB" />
+                <word id="5" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="6" relate="ATT" />
+                <word id="6" cont="不久" pos="m" ne="O" wsd="Eb25" wsdexp="短促_暂时" parent="0" relate="POB" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="韩国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="11" relate="ATT" />
+                <word id="9" cont="两" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="11" relate="QUN" />
+                <word id="10" cont="大" pos="a" ne="E-Nm" wsd="Ea03" wsdexp="大_中_小" parent="11" relate="ATT" />
+                <word id="11" cont="政党" pos="n" ne="O" wsd="Di07" wsdexp="政党" parent="13" relate="SBV" />
+                <word id="12" cont="均" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="13" relate="ADV" />
+                <word id="13" cont="表示" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="8" end="11" />
+                    <arg id="1" type="受事" beg="14" end="18" />
+                </word>
+                <word id="14" cont="希望" pos="v" ne="O" wsd="Gb04" wsdexp="希望_要求_追求" parent="16" relate="ADV" />
+                <word id="15" cont="尽早" pos="d" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="16" relate="ADV" />
+                <word id="16" cont="举行" pos="v" ne="O" wsd="Ie13" wsdexp="实行_举行" parent="13" relate="VOB">
+                    <arg id="0" type="受事" beg="17" end="18" />
+                </word>
+                <word id="17" cont="公民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="18" relate="SBV" />
+                <word id="18" cont="投票" pos="v" ne="O" wsd="Hc23" wsdexp="选举_选拔_提拔" parent="16" relate="VOB">
+                    <arg id="0" type="施事" beg="17" end="17" />
+                </word>
+                <word id="19" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="在国会占绝对优势的大国家党表态称，在现行法律条件下，没有比举行全体公民投票更好的方式。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="2" relate="ADV" />
+                <word id="1" cont="国会" pos="n" ne="O" wsd="Dm01" wsdexp="政府" parent="0" relate="POB" />
+                <word id="2" cont="占" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="5" relate="DE">
+                    <arg id="0" type="受事" beg="3" end="4" />
+                </word>
+                <word id="3" cont="绝对" pos="a" ne="O" wsd="Ka32" wsdexp="千万_当然" parent="4" relate="ATT" />
+                <word id="4" cont="优势" pos="n" ne="O" wsd="Da20" wsdexp="形势_趋势_潮流" parent="2" relate="VOB" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="6" cont="大国家党" pos="n" ne="O" wsd="-1" wsdexp="" parent="7" relate="ATT" />
+                <word id="7" cont="表态" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="8" relate="ATT" />
+                <word id="8" cont="称" pos="v" ne="O" wsd="Ja02" wsdexp="叫做_所谓" parent="-1" relate="HED" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="18" relate="ADV" />
+                <word id="11" cont="现行" pos="b" ne="O" wsd="Ca10" wsdexp="现在" parent="12" relate="ATT" />
+                <word id="12" cont="法律" pos="n" ne="O" wsd="Di25" wsdexp="法律_纪律" parent="13" relate="ATT" />
+                <word id="13" cont="条件" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="14" relate="ATT" />
+                <word id="14" cont="下" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="10" relate="POB" />
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="没有" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="18" relate="ADV" />
+                <word id="17" cont="比" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="18" relate="ADV" />
+                <word id="18" cont="举行" pos="v" ne="O" wsd="Ie13" wsdexp="实行_举行" parent="8" relate="IC">
+                    <arg id="0" type="方位" beg="10" end="14" />
+                    <arg id="1" type="受事" beg="19" end="25" />
+                </word>
+                <word id="19" cont="全体" pos="n" ne="O" wsd="Eb02" wsdexp="单_双_全部_部分" parent="20" relate="ATT" />
+                <word id="20" cont="公民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="21" relate="SBV" />
+                <word id="21" cont="投票" pos="v" ne="O" wsd="Hc23" wsdexp="选举_选拔_提拔" parent="18" relate="VOB">
+                    <arg id="0" type="施事" beg="19" end="20" />
+                    <arg id="1" type="受事" beg="22" end="25" />
+                </word>
+                <word id="22" cont="更" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="23" relate="ADV" />
+                <word id="23" cont="好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="24" relate="DE" />
+                <word id="24" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="25" relate="ATT" />
+                <word id="25" cont="方式" pos="n" ne="O" wsd="Db09" wsdexp="方法_诀窍_步骤" parent="21" relate="VOB" />
+                <word id="26" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="8">
+            <sent id="0" cont="11日上午，韩国总理高建紧急召开了国务委员座谈会，并决定他本人和全体国务委员辞职。" tag="">
+                <word id="0" cont="11日" pos="nt" ne="B-Nr" wsd="-1" wsdexp="" parent="1" relate="ATT" />
+                <word id="1" cont="上午" pos="nt" ne="E-Nr" wsd="Ca28" wsdexp="上午_中午_下午_白天" parent="7" relate="ADV" />
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="韩国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="4" relate="ATT" />
+                <word id="4" cont="总理" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="5" relate="ATT" />
+                <word id="5" cont="高建" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="7" relate="SBV" />
+                <word id="6" cont="紧急" pos="a" ne="O" wsd="Ed29" wsdexp="紧急_严重_惊人" parent="7" relate="ADV" />
+                <word id="7" cont="召开" pos="v" ne="O" wsd="Ie13" wsdexp="实行_举行" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="1" />
+                    <arg id="1" type="施事" beg="3" end="5" />
+                    <arg id="2" type="受事" beg="9" end="10" />
+                </word>
+                <word id="8" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="7" relate="MT" />
+                <word id="9" cont="国务委员" pos="n" ne="O" wsd="Di15" wsdexp="地位_职位" parent="10" relate="ATT" />
+                <word id="10" cont="座谈会" pos="n" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="7" relate="VOB" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="13" relate="CNJ" />
+                <word id="13" cont="决定" pos="v" ne="O" wsd="Hc14" wsdexp="建议_讨论_决定_制订" parent="7" relate="IC">
+                    <arg id="0" type="受事" beg="14" end="15" />
+                    <arg id="1" type="受事" beg="16" end="18" />
+                    <arg id="2" type="受事" beg="19" end="19" />
+                </word>
+                <word id="14" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="13" relate="VOB" />
+                <word id="15" cont="本人" pos="r" ne="O" wsd="Aa05" wsdexp="自己_别人_某人" parent="14" relate="APP" />
+                <word id="16" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="18" relate="LAD" />
+                <word id="17" cont="全体" pos="n" ne="O" wsd="Eb02" wsdexp="单_双_全部_部分" parent="18" relate="ATT" />
+                <word id="18" cont="国务委员" pos="n" ne="O" wsd="Di15" wsdexp="地位_职位" parent="13" relate="VOB" />
+                <word id="19" cont="辞职" pos="v" ne="O" wsd="Hj23" wsdexp="做官_辞职_退休" parent="13" relate="VOB" />
+                <word id="20" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="随后，高建前往青瓦台总统府，向卢武铉提交了他本人和全体国务委员的辞呈。" tag="">
+                <word id="0" cont="随后" pos="nd" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="3" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="高建" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="3" relate="SBV" />
+                <word id="3" cont="前往" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="0" />
+                    <arg id="1" type="施事" beg="2" end="2" />
+                    <arg id="2" type="受事" beg="4" end="5" />
+                    <arg id="3" type="受事" beg="7" end="17" />
+                </word>
+                <word id="4" cont="青瓦台" pos="ns" ne="B-Ni" wsd="-1" wsdexp="" parent="5" relate="ATT" />
+                <word id="5" cont="总统府" pos="n" ne="E-Ni" wsd="Bn02" wsdexp="别墅_公馆" parent="3" relate="VOB" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="向" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="9" relate="ADV" />
+                <word id="8" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="7" relate="POB" />
+                <word id="9" cont="提交" pos="v" ne="O" wsd="Hi27" wsdexp="交_取_借_归还_交换" parent="16" relate="DE">
+                    <arg id="0" type="受事" beg="11" end="15" />
+                </word>
+                <word id="10" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="9" relate="MT" />
+                <word id="11" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="15" relate="ATT" />
+                <word id="12" cont="本人" pos="r" ne="O" wsd="Aa05" wsdexp="自己_别人_某人" parent="11" relate="APP" />
+                <word id="13" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="15" relate="LAD" />
+                <word id="14" cont="全体" pos="n" ne="O" wsd="Eb02" wsdexp="单_双_全部_部分" parent="15" relate="ATT" />
+                <word id="15" cont="国务委员" pos="n" ne="O" wsd="Di15" wsdexp="地位_职位" parent="9" relate="VOB" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="17" cont="辞呈" pos="n" ne="O" wsd="Hc15" wsdexp="登记_申请_报告" parent="3" relate="VOB" />
+                <word id="18" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="同时，青瓦台总统府秘书室长文喜相、总统府政策室长李廷雨等总统首席秘书和助理也表示辞职。" tag="">
+                <word id="0" cont="同时" pos="n" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="19" relate="CNJ" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="青瓦台" pos="ns" ne="B-Ni" wsd="-1" wsdexp="" parent="3" relate="ATT" />
+                <word id="3" cont="总统府" pos="n" ne="E-Ni" wsd="Bn02" wsdexp="别墅_公馆" parent="4" relate="ATT" />
+                <word id="4" cont="秘书" pos="n" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="5" relate="ATT" />
+                <word id="5" cont="室长" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="6" relate="ATT" />
+                <word id="6" cont="文喜相" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="15" relate="ATT" />
+                <word id="7" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="总统府" pos="n" ne="O" wsd="Bn02" wsdexp="别墅_公馆" parent="9" relate="ATT" />
+                <word id="9" cont="政策" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="10" relate="ATT" />
+                <word id="10" cont="室长" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="11" relate="ATT" />
+                <word id="11" cont="李廷雨" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="6" relate="COO" />
+                <word id="12" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="RAD" />
+                <word id="13" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="14" relate="ATT" />
+                <word id="14" cont="首席" pos="n" ne="O" wsd="Cb01" wsdexp="方向_位置" parent="15" relate="ATT" />
+                <word id="15" cont="秘书" pos="n" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="19" relate="SBV" />
+                <word id="16" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="17" relate="LAD" />
+                <word id="17" cont="助理" pos="n" ne="O" wsd="Aj09" wsdexp="助手_参谋_靠山" parent="15" relate="COO" />
+                <word id="18" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="19" relate="ADV" />
+                <word id="19" cont="表示" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="2" end="17" />
+                    <arg id="1" type="受事" beg="20" end="20" />
+                </word>
+                <word id="20" cont="辞职" pos="v" ne="O" wsd="Hj23" wsdexp="做官_辞职_退休" parent="19" relate="VOB" />
+                <word id="21" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="9">
+            <sent id="0" cont="总统称内阁没错要全民公投解决麻烦" tag="">
+                <word id="0" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="1" relate="SBV" />
+                <word id="1" cont="称" pos="v" ne="O" wsd="Ja02" wsdexp="叫做_所谓" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="2" />
+                    <arg id="2" type="受事" beg="3" end="3" />
+                    <arg id="3" type="受事" beg="4" end="7" />
+                    <arg id="4" type="受事" beg="8" end="9" />
+                </word>
+                <word id="2" cont="内阁" pos="n" ne="O" wsd="Dm01" wsdexp="政府" parent="1" relate="VOB" />
+                <word id="3" cont="没错" pos="v" ne="O" wsd="Ed12" wsdexp="正确_准确_错误" parent="1" relate="VOB" />
+                <word id="4" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="7" relate="ADV" />
+                <word id="5" cont="全民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="6" relate="ATT" />
+                <word id="6" cont="公" pos="n" ne="O" wsd="Ed55" wsdexp="公_私" parent="7" relate="SBV" />
+                <word id="7" cont="投" pos="v" ne="O" wsd="Fa15" wsdexp="扔_接_拾_松手" parent="1" relate="VOB">
+                    <arg id="0" type="施事" beg="5" end="6" />
+                </word>
+                <word id="8" cont="解决" pos="v" ne="O" wsd="Jd09" wsdexp="解决" parent="1" relate="VOB">
+                    <arg id="0" type="受事" beg="9" end="9" />
+                </word>
+                <word id="9" cont="麻烦" pos="a" ne="O" wsd="Ed48" wsdexp="便利_不便" parent="8" relate="VOB" />
+            </sent>
+        </para>
+        <para id="10">
+            <sent id="0" cont="接到总理高建递交的辞呈后，卢武铉总统在青瓦台新闻中心春秋馆举行紧急记者会，拒绝了阁员们的辞职请求。" tag="">
+                <word id="0" cont="接到" pos="v" ne="O" wsd="Hc07" wsdexp="收_发" parent="6" relate="ATT">
+                    <arg id="0" type="受事" beg="1" end="5" />
+                </word>
+                <word id="1" cont="总理" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="2" relate="ATT" />
+                <word id="2" cont="高建" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="3" relate="SBV" />
+                <word id="3" cont="递交" pos="v" ne="O" wsd="Hi27" wsdexp="交_取_借_归还_交换" parent="4" relate="DE">
+                    <arg id="0" type="施事" beg="1" end="2" />
+                </word>
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="5" cont="辞呈" pos="n" ne="O" wsd="Hc15" wsdexp="登记_申请_报告" parent="0" relate="VOB" />
+                <word id="6" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="16" relate="ADV" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="9" relate="ATT" />
+                <word id="9" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="16" relate="SBV" />
+                <word id="10" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="16" relate="ADV" />
+                <word id="11" cont="青瓦台" pos="ns" ne="B-Ns" wsd="-1" wsdexp="" parent="12" relate="ATT" />
+                <word id="12" cont="新闻" pos="n" ne="I-Ns" wsd="Da19" wsdexp="消息_音信" parent="13" relate="ATT" />
+                <word id="13" cont="中心" pos="n" ne="I-Ns" wsd="Dm04" wsdexp="商店" parent="14" relate="ATT" />
+                <word id="14" cont="春秋" pos="n" ne="I-Ns" wsd="Ca18" wsdexp="年" parent="15" relate="ATT" />
+                <word id="15" cont="馆" pos="n" ne="E-Ns" wsd="Dm05" wsdexp="学校" parent="10" relate="POB" />
+                <word id="16" cont="举行" pos="v" ne="O" wsd="Ie13" wsdexp="实行_举行" parent="24" relate="DE">
+                    <arg id="0" type="方位" beg="0" end="6" />
+                    <arg id="1" type="施事" beg="8" end="9" />
+                    <arg id="2" type="受事" beg="17" end="18" />
+                </word>
+                <word id="17" cont="紧急" pos="a" ne="O" wsd="Ed29" wsdexp="紧急_严重_惊人" parent="18" relate="ATT" />
+                <word id="18" cont="记者会" pos="n" ne="O" wsd="Di23" wsdexp="会议_宴会" parent="16" relate="VOB" />
+                <word id="19" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="拒绝" pos="v" ne="O" wsd="Hi32" wsdexp="答应_允许_拒绝" parent="24" relate="DE">
+                    <arg id="0" type="受事" beg="22" end="23" />
+                </word>
+                <word id="21" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="20" relate="MT" />
+                <word id="22" cont="阁员" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="20" relate="VOB" />
+                <word id="23" cont="们" pos="k" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="22" relate="RAD" />
+                <word id="24" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="25" relate="ATT" />
+                <word id="25" cont="辞职" pos="v" ne="O" wsd="Hj23" wsdexp="做官_辞职_退休" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="26" end="26" />
+                </word>
+                <word id="26" cont="请求" pos="v" ne="O" wsd="Hi25" wsdexp="请求_委托_讲情" parent="25" relate="VOB" />
+                <word id="27" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="他表示：" tag="">
+                <word id="0" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="1" relate="SBV" />
+                <word id="1" cont="表示" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                </word>
+                <word id="2" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="“（有关亲信、青瓦台总务秘书崔道述收取SK集团提供的巨额政治资金一事）这是我个人的事，是整个政局结构的问题，身为总统的本人，理当接受再信任，目前急需稳定国政运作重心的人士。" tag="">
+                <word id="0" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="（" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="有关" pos="v" ne="O" wsd="Je01" wsdexp="牵连_涉及_相关" parent="3" relate="ATT" />
+                <word id="3" cont="亲信" pos="n" ne="O" wsd="Aj02" wsdexp="侠客" parent="9" relate="SBV" />
+                <word id="4" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="青瓦台" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="6" relate="ATT" />
+                <word id="6" cont="总务" pos="b" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="7" relate="ATT" />
+                <word id="7" cont="秘书" pos="n" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="8" relate="ATT" />
+                <word id="8" cont="崔道述" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="9" relate="SBV" />
+                <word id="9" cont="收取" pos="v" ne="O" wsd="Hc07" wsdexp="收_发" parent="21" relate="SBV">
+                    <arg id="0" type="施事" beg="2" end="3" />
+                    <arg id="1" type="施事" beg="5" end="8" />
+                    <arg id="2" type="受事" beg="10" end="16" />
+                    <arg id="3" type="受事" beg="17" end="18" />
+                </word>
+                <word id="10" cont="SK" pos="ws" ne="O" wsd="-1" wsdexp="" parent="11" relate="ATT" />
+                <word id="11" cont="集团" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="12" relate="SBV" />
+                <word id="12" cont="提供" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="13" relate="DE">
+                    <arg id="0" type="施事" beg="10" end="11" />
+                </word>
+                <word id="13" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="14" cont="巨额" pos="b" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="15" relate="ATT" />
+                <word id="15" cont="政治" pos="n" ne="O" wsd="Di08" wsdexp="政治_政体_专政" parent="16" relate="ATT" />
+                <word id="16" cont="资金" pos="n" ne="O" wsd="Dj04" wsdexp="资本_利润_利息_债务" parent="9" relate="VOB" />
+                <word id="17" cont="一" pos="m" ne="S-Nm" wsd="Dn04" wsdexp="基数_序数" parent="18" relate="QUN" />
+                <word id="18" cont="事" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="9" relate="VOB" />
+                <word id="19" cont="）" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="21" relate="SBV" />
+                <word id="21" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="2" end="18" />
+                    <arg id="1" type="施事" beg="20" end="20" />
+                    <arg id="2" type="受事" beg="22" end="25" />
+                    <arg id="3" type="受事" beg="28" end="32" />
+                    <arg id="4" type="受事" beg="45" end="53" />
+                </word>
+                <word id="22" cont="我" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="23" relate="ATT" />
+                <word id="23" cont="个人" pos="n" ne="O" wsd="Ed55" wsdexp="公_私" parent="24" relate="DE" />
+                <word id="24" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="25" relate="ATT" />
+                <word id="25" cont="事" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="21" relate="VOB" />
+                <word id="26" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="27" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="21" relate="VV" />
+                <word id="28" cont="整个" pos="b" ne="O" wsd="Eb02" wsdexp="单_双_全部_部分" parent="29" relate="ATT" />
+                <word id="29" cont="政局" pos="n" ne="O" wsd="Da20" wsdexp="形势_趋势_潮流" parent="30" relate="ATT" />
+                <word id="30" cont="结构" pos="n" ne="O" wsd="Dd06" wsdexp="系统_种类_结构" parent="31" relate="DE" />
+                <word id="31" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="32" relate="ATT" />
+                <word id="32" cont="问题" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="21" relate="VOB" />
+                <word id="33" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="34" cont="身" pos="n" ne="O" wsd="Bk01" wsdexp="身体_尸体" parent="35" relate="SBV" />
+                <word id="35" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="37" relate="DE" />
+                <word id="36" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="35" relate="POB" />
+                <word id="37" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="38" relate="ATT" />
+                <word id="38" cont="本人" pos="r" ne="O" wsd="Aa05" wsdexp="自己_别人_某人" parent="40" relate="SBV" />
+                <word id="39" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="40" cont="理当" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="21" relate="IC">
+                    <arg id="0" type="施事" beg="34" end="38" />
+                    <arg id="1" type="受事" beg="41" end="43" />
+                </word>
+                <word id="41" cont="接受" pos="v" ne="O" wsd="Je14" wsdexp="接受_忍受" parent="40" relate="VOB">
+                    <arg id="0" type="受事" beg="42" end="43" />
+                </word>
+                <word id="42" cont="再" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="43" relate="ADV" />
+                <word id="43" cont="信任" pos="v" ne="O" wsd="Gb14" wsdexp="相信_信仰_怀疑_信任" parent="41" relate="VOB" />
+                <word id="44" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="45" cont="目前" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="46" relate="ADV" />
+                <word id="46" cont="急需" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="52" relate="DE">
+                    <arg id="0" type="时间" beg="45" end="45" />
+                    <arg id="1" type="受事" beg="47" end="51" />
+                </word>
+                <word id="47" cont="稳定" pos="a" ne="O" wsd="Ef01" wsdexp="太平_安定_动荡_混乱" parent="51" relate="ATT" />
+                <word id="48" cont="国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="49" relate="ATT" />
+                <word id="49" cont="政" pos="n" ne="O" wsd="Di08" wsdexp="政治_政体_专政" parent="50" relate="ATT" />
+                <word id="50" cont="运作" pos="v" ne="O" wsd="Id15" wsdexp="旋转_缭绕_滚动" parent="51" relate="ATT" />
+                <word id="51" cont="重心" pos="n" ne="O" wsd="Dd09" wsdexp="关键_核心" parent="46" relate="VOB" />
+                <word id="52" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="53" relate="ATT" />
+                <word id="53" cont="人士" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="21" relate="VOB" />
+                <word id="54" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="内阁和秘书们感到必须为此事负责是很自然的，但是他们并没有做错事，这些（崔道述贪污案）是我的问题。" tag="">
+                <word id="0" cont="内阁" pos="n" ne="O" wsd="Dm01" wsdexp="政府" parent="4" relate="SBV" />
+                <word id="1" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="2" relate="LAD" />
+                <word id="2" cont="秘书" pos="n" ne="O" wsd="Ae01" wsdexp="职工_职员" parent="0" relate="COO" />
+                <word id="3" cont="们" pos="k" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="0" relate="RAD" />
+                <word id="4" cont="感到" pos="v" ne="O" wsd="Gb02" wsdexp="感到_认为_主张" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="3" />
+                    <arg id="1" type="受事" beg="5" end="8" />
+                    <arg id="2" type="受事" beg="9" end="9" />
+                </word>
+                <word id="5" cont="必须" pos="d" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="8" relate="ADV" />
+                <word id="6" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="8" relate="ADV" />
+                <word id="7" cont="此事" pos="r" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="6" relate="POB" />
+                <word id="8" cont="负责" pos="v" ne="O" wsd="Hj24" wsdexp="担负_承揽_担任_兼职" parent="4" relate="VOB" />
+                <word id="9" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="4" relate="VOB" />
+                <word id="10" cont="很" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="11" relate="ADV" />
+                <word id="11" cont="自然" pos="a" ne="O" wsd="Ed51" wsdexp="天然_本来_现成" parent="12" relate="DE" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="MT" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="但是" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="18" relate="CNJ" />
+                <word id="15" cont="他们" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="18" relate="SBV" />
+                <word id="16" cont="并" pos="d" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="18" relate="ADV" />
+                <word id="17" cont="没有" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="18" relate="ADV" />
+                <word id="18" cont="做" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="4" relate="VV">
+                    <arg id="0" type="施事" beg="15" end="15" />
+                    <arg id="1" type="受事" beg="19" end="19" />
+                </word>
+                <word id="19" cont="错事" pos="n" ne="O" wsd="Da15" wsdexp="是非_差错_漏洞" parent="18" relate="VOB" />
+                <word id="20" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="这些" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="28" relate="SBV" />
+                <word id="22" cont="（" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="崔" pos="nh" ne="S-Nh" wsd="Dd15" wsdexp="名称_姓名_生肖_性别" parent="24" relate="SBV" />
+                <word id="24" cont="道" pos="v" ne="O" wsd="Dn08" wsdexp="数量单位" parent="28" relate="SBV">
+                    <arg id="0" type="施事" beg="23" end="23" />
+                    <arg id="1" type="受事" beg="25" end="26" />
+                </word>
+                <word id="25" cont="述" pos="v" ne="O" wsd="Hi13" wsdexp="演讲_论述_列举_叙述_描写" parent="24" relate="VOB">
+                    <arg id="0" type="受事" beg="26" end="26" />
+                </word>
+                <word id="26" cont="贪污案" pos="n" ne="O" wsd="-1" wsdexp="" parent="25" relate="VOB" />
+                <word id="27" cont="）" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="28" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="18" relate="IC">
+                    <arg id="0" type="施事" beg="21" end="21" />
+                    <arg id="1" type="施事" beg="23" end="26" />
+                    <arg id="2" type="受事" beg="29" end="31" />
+                </word>
+                <word id="29" cont="我" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="30" relate="DE" />
+                <word id="30" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="31" relate="ATT" />
+                <word id="31" cont="问题" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="28" relate="VOB" />
+                <word id="32" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="”" tag="">
+                <word id="0" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="11">
+            <sent id="0" cont="崔道述案使得卢武铉面临政党和媒体批评，民心渐失，卢武铉为此向全国人民提出道歉。" tag="20%">
+                <word id="0" cont="崔道述" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="1" relate="ATT" />
+                <word id="1" cont="案" pos="n" ne="O" wsd="Da03" wsdexp="事例_案件" parent="2" relate="SBV" />
+                <word id="2" cont="使得" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="3" end="7" />
+                    <arg id="2" type="受事" beg="8" end="20" />
+                </word>
+                <word id="3" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="4" relate="SBV" />
+                <word id="4" cont="面临" pos="v" ne="O" wsd="Je13" wsdexp="遭受_享受" parent="2" relate="VOB">
+                    <arg id="0" type="施事" beg="3" end="3" />
+                    <arg id="1" type="受事" beg="5" end="7" />
+                </word>
+                <word id="5" cont="政党" pos="n" ne="O" wsd="Di07" wsdexp="政党" parent="4" relate="VOB" />
+                <word id="6" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="7" relate="LAD" />
+                <word id="7" cont="媒体" pos="n" ne="O" wsd="Aj15" wsdexp="介绍人_媒人_傧相" parent="5" relate="COO" />
+                <word id="8" cont="批评" pos="v" ne="O" wsd="Hi21" wsdexp="责备_批评_攻击" parent="2" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="11" relate="ATT" />
+                <word id="11" cont="心" pos="n" ne="O" wsd="Df02" wsdexp="内心_良心_丹心" parent="13" relate="SBV" />
+                <word id="12" cont="渐" pos="d" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="13" relate="ADV" />
+                <word id="13" cont="失" pos="v" ne="O" wsd="Jd08" wsdexp="消失_恢复" parent="8" relate="VV">
+                    <arg id="0" type="施事" beg="10" end="11" />
+                </word>
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="20" relate="SBV" />
+                <word id="16" cont="为此" pos="d" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="20" relate="ADV" />
+                <word id="17" cont="向" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="20" relate="ADV" />
+                <word id="18" cont="全国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="19" relate="ATT" />
+                <word id="19" cont="人民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="17" relate="POB" />
+                <word id="20" cont="提出" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="13" relate="VV">
+                    <arg id="0" type="施事" beg="15" end="15" />
+                </word>
+                <word id="21" cont="道歉" pos="v" ne="O" wsd="Hi30" wsdexp="道歉_谦让_迁就" parent="2" relate="VV" />
+                <word id="22" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="对于信任公投一事，他在记者会上表示：" tag="">
+                <word id="0" cont="对于" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="3" relate="ADV" />
+                <word id="1" cont="信任" pos="v" ne="O" wsd="Gb14" wsdexp="相信_信仰_怀疑_信任" parent="2" relate="ATT" />
+                <word id="2" cont="公" pos="n" ne="O" wsd="Ed55" wsdexp="公_私" parent="0" relate="POB" />
+                <word id="3" cont="投" pos="v" ne="O" wsd="Fa15" wsdexp="扔_接_拾_松手" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="4" end="5" />
+                </word>
+                <word id="4" cont="一" pos="m" ne="S-Nm" wsd="Dn04" wsdexp="基数_序数" parent="5" relate="QUN" />
+                <word id="5" cont="事" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="3" relate="VOB" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="11" relate="SBV" />
+                <word id="8" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="11" relate="ADV" />
+                <word id="9" cont="记者" pos="n" ne="O" wsd="Ae16" wsdexp="作者_译者_记者_编辑" parent="8" relate="POB" />
+                <word id="10" cont="会上" pos="nt" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="11" relate="ADV" />
+                <word id="11" cont="表示" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="3" relate="VV">
+                    <arg id="0" type="施事" beg="7" end="7" />
+                    <arg id="1" type="时间" beg="10" end="10" />
+                </word>
+                <word id="12" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="“我相信有很多人比我更能做好总统的工作，但是现阶段稳定政局远比（办信任公投）让国家陷入数月的混乱要好。" tag="">
+                <word id="0" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="我" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="2" relate="SBV" />
+                <word id="2" cont="相信" pos="v" ne="O" wsd="Gb14" wsdexp="相信_信仰_怀疑_信任" parent="32" relate="DE">
+                    <arg id="0" type="施事" beg="1" end="1" />
+                    <arg id="1" type="受事" beg="3" end="5" />
+                    <arg id="2" type="受事" beg="6" end="14" />
+                </word>
+                <word id="3" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="2" relate="VOB">
+                    <arg id="0" type="受事" beg="4" end="5" />
+                </word>
+                <word id="4" cont="很多" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="5" relate="QUN" />
+                <word id="5" cont="人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="3" relate="VOB" />
+                <word id="6" cont="比" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="10" relate="ADV" />
+                <word id="7" cont="我" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="6" relate="POB" />
+                <word id="8" cont="更" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="9" relate="ADV" />
+                <word id="9" cont="能" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="10" relate="ADV" />
+                <word id="10" cont="做" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="13" relate="DE">
+                    <arg id="0" type="受事" beg="11" end="12" />
+                </word>
+                <word id="11" cont="好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="12" relate="ATT" />
+                <word id="12" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="10" relate="VOB" />
+                <word id="13" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="14" relate="ATT" />
+                <word id="14" cont="工作" pos="v" ne="O" wsd="Hj11" wsdexp="工作_劳动" parent="2" relate="VOB" />
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="但是" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="21" relate="CNJ" />
+                <word id="17" cont="现阶段" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="21" relate="ADV" />
+                <word id="18" cont="稳定" pos="a" ne="O" wsd="Ef01" wsdexp="太平_安定_动荡_混乱" parent="19" relate="ATT" />
+                <word id="19" cont="政局" pos="n" ne="O" wsd="Da20" wsdexp="形势_趋势_潮流" parent="20" relate="SBV" />
+                <word id="20" cont="远" pos="a" ne="O" wsd="Eb21" wsdexp="远_近" parent="21" relate="ADV" />
+                <word id="21" cont="比" pos="v" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="32" relate="DE">
+                    <arg id="0" type="时间" beg="17" end="17" />
+                    <arg id="1" type="受事" beg="23" end="26" />
+                    <arg id="2" type="受事" beg="28" end="30" />
+                </word>
+                <word id="22" cont="（" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="办" pos="v" ne="O" wsd="Hc01" wsdexp="治理_办理_处理" parent="21" relate="VOB">
+                    <arg id="0" type="受事" beg="24" end="25" />
+                    <arg id="1" type="受事" beg="26" end="26" />
+                </word>
+                <word id="24" cont="信任" pos="v" ne="O" wsd="Gb14" wsdexp="相信_信仰_怀疑_信任" parent="25" relate="ATT" />
+                <word id="25" cont="公" pos="n" ne="O" wsd="Ed55" wsdexp="公_私" parent="23" relate="VOB" />
+                <word id="26" cont="投" pos="v" ne="O" wsd="Fa15" wsdexp="扔_接_拾_松手" parent="23" relate="VOB" />
+                <word id="27" cont="）" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="28" cont="让" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="21" relate="VOB">
+                    <arg id="0" type="受事" beg="29" end="29" />
+                    <arg id="1" type="受事" beg="30" end="30" />
+                </word>
+                <word id="29" cont="国家" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="28" relate="VOB" />
+                <word id="30" cont="陷入" pos="v" ne="O" wsd="Jd02" wsdexp="处于_在于_陷于_适逢" parent="28" relate="VOB" />
+                <word id="31" cont="数月" pos="nt" ne="S-Nr" wsd="-1" wsdexp="" parent="32" relate="DE" />
+                <word id="32" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="33" relate="ATT" />
+                <word id="33" cont="混乱" pos="a" ne="O" wsd="Ef01" wsdexp="太平_安定_动荡_混乱" parent="34" relate="ADV" />
+                <word id="34" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="-1" relate="HED" />
+                <word id="35" cont="好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="34" relate="CMP" />
+                <word id="36" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="”他说，现在是需要稳定国内政事运作人士的时候，他敦促总理高建为首积极推动政务。" tag="">
+                <word id="0" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="2" relate="SBV" />
+                <word id="2" cont="说" pos="v" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="1" end="1" />
+                    <arg id="1" type="受事" beg="4" end="13" />
+                    <arg id="2" type="受事" beg="15" end="22" />
+                </word>
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="现在" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="5" relate="ADV" />
+                <word id="5" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="2" relate="VOB">
+                    <arg id="0" type="时间" beg="4" end="4" />
+                    <arg id="1" type="受事" beg="6" end="6" />
+                    <arg id="2" type="受事" beg="7" end="13" />
+                </word>
+                <word id="6" cont="需要" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="5" relate="VOB" />
+                <word id="7" cont="稳定" pos="v" ne="O" wsd="Ef01" wsdexp="太平_安定_动荡_混乱" parent="12" relate="DE">
+                    <arg id="0" type="受事" beg="8" end="11" />
+                </word>
+                <word id="8" cont="国内" pos="nl" ne="O" wsd="Cb05" wsdexp="内_外" parent="9" relate="ATT" />
+                <word id="9" cont="政事" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="10" relate="ATT" />
+                <word id="10" cont="运作" pos="v" ne="O" wsd="Id15" wsdexp="旋转_缭绕_滚动" parent="11" relate="ATT" />
+                <word id="11" cont="人士" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="7" relate="VOB" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="13" cont="时候" pos="n" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="5" relate="VOB" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="16" relate="SBV" />
+                <word id="16" cont="敦促" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="2" relate="VOB">
+                    <arg id="0" type="施事" beg="15" end="15" />
+                </word>
+                <word id="17" cont="总理" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="18" relate="ATT" />
+                <word id="18" cont="高建" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="19" relate="SBV" />
+                <word id="19" cont="为首" pos="v" ne="O" wsd="Ie11" wsdexp="占先_殿后_命中" parent="16" relate="VV">
+                    <arg id="0" type="施事" beg="17" end="18" />
+                    <arg id="1" type="受事" beg="20" end="22" />
+                </word>
+                <word id="20" cont="积极" pos="a" ne="O" wsd="Ee23" wsdexp="积极_消极" parent="22" relate="ATT" />
+                <word id="21" cont="推动" pos="v" ne="O" wsd="Je06" wsdexp="推动_激发" parent="22" relate="ATT" />
+                <word id="22" cont="政务" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="19" relate="VOB" />
+                <word id="23" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="在卢武铉驳回请辞后，内阁也同意继续留任。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="9" relate="ADV" />
+                <word id="1" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="0" relate="POB" />
+                <word id="2" cont="驳回" pos="v" ne="O" wsd="Hi32" wsdexp="答应_允许_拒绝" parent="5" relate="ATT" />
+                <word id="3" cont="请" pos="v" ne="O" wsd="Hi25" wsdexp="请求_委托_讲情" parent="5" relate="ATT" />
+                <word id="4" cont="辞" pos="v" ne="O" wsd="Hc26" wsdexp="雇用_解雇_下任" parent="5" relate="ATT" />
+                <word id="5" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="0" relate="POB" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="内阁" pos="n" ne="O" wsd="Dm01" wsdexp="政府" parent="9" relate="SBV" />
+                <word id="8" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="9" relate="ADV" />
+                <word id="9" cont="同意" pos="v" ne="O" wsd="Gb15" wsdexp="赞成_同意_拥护_反对" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="5" />
+                    <arg id="1" type="施事" beg="7" end="7" />
+                    <arg id="2" type="受事" beg="10" end="10" />
+                    <arg id="3" type="受事" beg="11" end="11" />
+                </word>
+                <word id="10" cont="继续" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="9" relate="VOB" />
+                <word id="11" cont="留任" pos="v" ne="O" wsd="Hj02" wsdexp="停留_迁移" parent="9" relate="VOB" />
+                <word id="12" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="12">
+            <sent id="0" cont="卢武铉表示，他会在明年4月国会大选前想出最好的方式了解人民对他的信任，公投是检视对总统信任的最好方式，但是目前仍欠缺执行的法律程序，因此可考虑在法律上做相关修改。" tag="">
+                <word id="0" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="1" relate="SBV" />
+                <word id="1" cont="表示" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="24" end="27" />
+                </word>
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="9" relate="SBV" />
+                <word id="4" cont="会" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="9" relate="ADV" />
+                <word id="5" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="9" relate="ADV" />
+                <word id="6" cont="明年" pos="nt" ne="B-Nr" wsd="Ca18" wsdexp="年" parent="7" relate="ATT" />
+                <word id="7" cont="4月" pos="nt" ne="E-Nr" wsd="-1" wsdexp="" parent="8" relate="ATT" />
+                <word id="8" cont="国会" pos="n" ne="O" wsd="Dm01" wsdexp="政府" parent="5" relate="POB" />
+                <word id="9" cont="大选" pos="v" ne="O" wsd="Hc23" wsdexp="选举_选拔_提拔" parent="10" relate="ATT">
+                    <arg id="0" type="施事" beg="3" end="3" />
+                </word>
+                <word id="10" cont="前" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="11" relate="ADV" />
+                <word id="11" cont="想" pos="v" ne="O" wsd="Gb04" wsdexp="希望_要求_追求" parent="1" relate="VV">
+                    <arg id="0" type="方位" beg="3" end="10" />
+                    <arg id="1" type="受事" beg="13" end="16" />
+                    <arg id="2" type="受事" beg="17" end="17" />
+                    <arg id="3" type="受事" beg="18" end="18" />
+                    <arg id="4" type="受事" beg="19" end="22" />
+                </word>
+                <word id="12" cont="出" pos="v" ne="O" wsd="Hj64" wsdexp="出_进_出入" parent="11" relate="CMP" />
+                <word id="13" cont="最" pos="d" ne="O" wsd="Ka02" wsdexp="最_至多_至少" parent="14" relate="ADV" />
+                <word id="14" cont="好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="15" relate="DE" />
+                <word id="15" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="16" cont="方式" pos="n" ne="O" wsd="Db09" wsdexp="方法_诀窍_步骤" parent="11" relate="VOB" />
+                <word id="17" cont="了解" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="11" relate="VOB" />
+                <word id="18" cont="人民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="11" relate="VOB" />
+                <word id="19" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="21" relate="DE" />
+                <word id="20" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="19" relate="POB" />
+                <word id="21" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="22" relate="ATT" />
+                <word id="22" cont="信任" pos="v" ne="O" wsd="Gb14" wsdexp="相信_信仰_怀疑_信任" parent="11" relate="VOB" />
+                <word id="23" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="公" pos="n" ne="O" wsd="Ed55" wsdexp="公_私" parent="25" relate="SBV" />
+                <word id="25" cont="投" pos="v" ne="O" wsd="Fa15" wsdexp="扔_接_拾_松手" parent="1" relate="VOB">
+                    <arg id="0" type="施事" beg="24" end="24" />
+                    <arg id="1" type="受事" beg="26" end="27" />
+                </word>
+                <word id="26" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="25" relate="VOB">
+                    <arg id="0" type="受事" beg="27" end="27" />
+                </word>
+                <word id="27" cont="检视" pos="v" ne="O" wsd="Hc18" wsdexp="调查_审查_检查" parent="26" relate="VOB" />
+                <word id="28" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="30" relate="ADV" />
+                <word id="29" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="30" relate="ATT" />
+                <word id="30" cont="信任" pos="v" ne="O" wsd="Gb14" wsdexp="相信_信仰_怀疑_信任" parent="34" relate="ATT" />
+                <word id="31" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="34" relate="ATT" />
+                <word id="32" cont="最" pos="d" ne="O" wsd="Ka02" wsdexp="最_至多_至少" parent="33" relate="ADV" />
+                <word id="33" cont="好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="34" relate="ATT" />
+                <word id="34" cont="方式" pos="n" ne="O" wsd="Db09" wsdexp="方法_诀窍_步骤" parent="39" relate="SBV" />
+                <word id="35" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="36" cont="但是" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="39" relate="CNJ" />
+                <word id="37" cont="目前" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="39" relate="ADV" />
+                <word id="38" cont="仍" pos="d" ne="O" wsd="Ka28" wsdexp="仍然_尚且" parent="39" relate="ADV" />
+                <word id="39" cont="欠缺" pos="v" ne="O" wsd="Dd02" wsdexp="优点_缺点" parent="1" relate="VV">
+                    <arg id="0" type="施事" beg="28" end="34" />
+                    <arg id="1" type="时间" beg="37" end="37" />
+                    <arg id="2" type="受事" beg="40" end="43" />
+                </word>
+                <word id="40" cont="执行" pos="v" ne="O" wsd="Ie13" wsdexp="实行_举行" parent="41" relate="DE" />
+                <word id="41" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="43" relate="ATT" />
+                <word id="42" cont="法律" pos="n" ne="O" wsd="Di25" wsdexp="法律_纪律" parent="43" relate="ATT" />
+                <word id="43" cont="程序" pos="n" ne="O" wsd="Dd07" wsdexp="次序_行列" parent="39" relate="VOB" />
+                <word id="44" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="45" cont="因此" pos="c" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="47" relate="CNJ" />
+                <word id="46" cont="可" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="47" relate="ADV" />
+                <word id="47" cont="考虑" pos="v" ne="O" wsd="Gb01" wsdexp="想象_思考_斟酌_着想_存心" parent="39" relate="VV">
+                    <arg id="0" type="受事" beg="48" end="53" />
+                </word>
+                <word id="48" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="51" relate="ADV" />
+                <word id="49" cont="法律" pos="n" ne="O" wsd="Di25" wsdexp="法律_纪律" parent="50" relate="ATT" />
+                <word id="50" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="48" relate="POB" />
+                <word id="51" cont="做" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="47" relate="VOB">
+                    <arg id="0" type="方位" beg="48" end="50" />
+                    <arg id="1" type="受事" beg="52" end="53" />
+                </word>
+                <word id="52" cont="相关" pos="v" ne="O" wsd="Je01" wsdexp="牵连_涉及_相关" parent="53" relate="ATT" />
+                <word id="53" cont="修改" pos="v" ne="O" wsd="Hg18" wsdexp="润色_修改_修订" parent="51" relate="VOB" />
+                <word id="54" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="至于公投的方法与时机，将进一步搜集民意后，再作定夺。" tag="">
+                <word id="0" cont="至于" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="15" relate="ADV" />
+                <word id="1" cont="公" pos="n" ne="O" wsd="Ed55" wsdexp="公_私" parent="0" relate="POB" />
+                <word id="2" cont="投" pos="v" ne="O" wsd="Fa15" wsdexp="扔_接_拾_松手" parent="3" relate="DE" />
+                <word id="3" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="ATT" />
+                <word id="4" cont="方法" pos="n" ne="O" wsd="Db09" wsdexp="方法_诀窍_步骤" parent="0" relate="POB" />
+                <word id="5" cont="与" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="6" relate="LAD" />
+                <word id="6" cont="时机" pos="n" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="4" relate="COO" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="将" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="9" relate="ADV" />
+                <word id="9" cont="进一步" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="15" relate="ADV" />
+                <word id="10" cont="搜集" pos="v" ne="O" wsd="Hj25" wsdexp="采集_搜罗_挑选_取长补短" parent="11" relate="ATT" />
+                <word id="11" cont="民意" pos="n" ne="O" wsd="Df05" wsdexp="心意_心情_爱情" parent="12" relate="ATT" />
+                <word id="12" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="15" relate="ADV" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="再" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="15" relate="ADV" />
+                <word id="15" cont="作" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="10" end="12" />
+                    <arg id="1" type="受事" beg="16" end="16" />
+                </word>
+                <word id="16" cont="定夺" pos="v" ne="O" wsd="Hc14" wsdexp="建议_讨论_决定_制订" parent="15" relate="VOB" />
+                <word id="17" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="13">
+            <sent id="0" cont="总统难题内外夹攻退出党派成无党人士" tag="">
+                <word id="0" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="1" relate="ATT" />
+                <word id="1" cont="难题" pos="n" ne="O" wsd="Da10" wsdexp="苦痛_磨难_难题_挫折_冤屈" parent="2" relate="SBV" />
+                <word id="2" cont="内外夹攻" pos="i" ne="O" wsd="Hb03" wsdexp="进攻_抵抗_回击" parent="3" relate="ADV" />
+                <word id="3" cont="退出" pos="v" ne="O" wsd="Hj19" wsdexp="从事_参加_脱离" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="4" end="4" />
+                    <arg id="1" type="受事" beg="5" end="5" />
+                    <arg id="2" type="受事" beg="6" end="8" />
+                </word>
+                <word id="4" cont="党派" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="3" relate="VOB" />
+                <word id="5" cont="成" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="3" relate="VOB" />
+                <word id="6" cont="无" pos="v" ne="O" wsd="Ka18" wsdexp="不_没" parent="3" relate="VOB">
+                    <arg id="0" type="受事" beg="7" end="7" />
+                    <arg id="1" type="受事" beg="8" end="8" />
+                </word>
+                <word id="7" cont="党" pos="n" ne="O" wsd="Di07" wsdexp="政党" parent="6" relate="VOB" />
+                <word id="8" cont="人士" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="6" relate="VOB" />
+            </sent>
+        </para>
+        <para id="14">
+            <sent id="0" cont="卢武铉出任韩国总统的时间虽然不长，面对的难题却有一大堆。" tag="">
+                <word id="0" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="1" relate="SBV" />
+                <word id="1" cont="出任" pos="v" ne="O" wsd="Hj24" wsdexp="担负_承揽_担任_兼职" parent="4" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="3" />
+                </word>
+                <word id="2" cont="韩国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="3" relate="ATT" />
+                <word id="3" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="1" relate="VOB" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="5" cont="时间" pos="n" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="8" relate="SBV" />
+                <word id="6" cont="虽然" pos="c" ne="O" wsd="Kc04" wsdexp="虽然_即使_既然" parent="8" relate="CNJ" />
+                <word id="7" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="8" relate="ADV" />
+                <word id="8" cont="长" pos="a" ne="O" wsd="Ea01" wsdexp="长_短" parent="-1" relate="HED" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="面对" pos="v" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="12" cont="难题" pos="n" ne="O" wsd="Da10" wsdexp="苦痛_磨难_难题_挫折_冤屈" parent="14" relate="SBV" />
+                <word id="13" cont="却" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="14" relate="ADV" />
+                <word id="14" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="8" relate="IC">
+                    <arg id="0" type="施事" beg="10" end="12" />
+                    <arg id="1" type="受事" beg="15" end="17" />
+                </word>
+                <word id="15" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="17" relate="QUN" />
+                <word id="16" cont="大" pos="a" ne="E-Nm" wsd="Ea03" wsdexp="大_中_小" parent="17" relate="ATT" />
+                <word id="17" cont="堆" pos="v" ne="O" wsd="Dn08" wsdexp="数量单位" parent="14" relate="VOB" />
+                <word id="18" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="卢武铉曾经在不同场合承认，自己在执政中困难重重，无法履行总统的职权和义务。" tag="">
+                <word id="0" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="5" relate="SBV" />
+                <word id="1" cont="曾经" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="5" relate="ADV" />
+                <word id="2" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="5" relate="ADV" />
+                <word id="3" cont="不同" pos="a" ne="O" wsd="Jb02" wsdexp="不同_相反" parent="4" relate="ATT" />
+                <word id="4" cont="场合" pos="n" ne="O" wsd="Cb28" wsdexp="场所" parent="2" relate="POB" />
+                <word id="5" cont="承认" pos="v" ne="O" wsd="Hi22" wsdexp="承认_否认_抵赖" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="13" end="19" />
+                </word>
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="自己" pos="r" ne="O" wsd="Aa05" wsdexp="自己_别人_某人" parent="11" relate="SBV" />
+                <word id="8" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="11" relate="ADV" />
+                <word id="9" cont="执政" pos="v" ne="O" wsd="Ha03" wsdexp="上台_统治_下台" parent="10" relate="ATT" />
+                <word id="10" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="8" relate="POB" />
+                <word id="11" cont="困难重重" pos="i" ne="O" wsd="Ef07" wsdexp="舒服_艰苦" parent="5" relate="VV" />
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="无法" pos="v" ne="O" wsd="Ga12" wsdexp="无奈_无法_难堪" parent="14" relate="ADV" />
+                <word id="14" cont="履行" pos="v" ne="O" wsd="Ie13" wsdexp="实行_举行" parent="16" relate="DE">
+                    <arg id="0" type="受事" beg="15" end="15" />
+                </word>
+                <word id="15" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="14" relate="VOB" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="17" cont="职权" pos="n" ne="O" wsd="Di21" wsdexp="权力_权利" parent="5" relate="VOB" />
+                <word id="18" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="19" relate="LAD" />
+                <word id="19" cont="义务" pos="n" ne="O" wsd="Di22" wsdexp="责任_负担" parent="17" relate="COO" />
+                <word id="20" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="15">
+            <sent id="0" cont="他既要在国内面对振兴经济的挑战，对外又有朝鲜核危机，此外，对于美国要求派兵进驻伊拉克协助战后重建，遭到韩国反美势力的强烈反对，卢武铉如何作出响应也是一大艰难决定。" tag="">
+                <word id="0" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="5" relate="SBV" />
+                <word id="1" cont="既" pos="c" ne="O" wsd="Kc04" wsdexp="虽然_即使_既然" parent="5" relate="CNJ" />
+                <word id="2" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="5" relate="ADV" />
+                <word id="3" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="5" relate="ADV" />
+                <word id="4" cont="国内" pos="nl" ne="O" wsd="Cb05" wsdexp="内_外" parent="3" relate="POB" />
+                <word id="5" cont="面对" pos="v" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="8" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="地点" beg="3" end="4" />
+                    <arg id="2" type="受事" beg="6" end="7" />
+                </word>
+                <word id="6" cont="振兴" pos="v" ne="O" wsd="Je06" wsdexp="推动_激发" parent="7" relate="ATT" />
+                <word id="7" cont="经济" pos="n" ne="O" wsd="Dj01" wsdexp="经济" parent="5" relate="VOB" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="9" cont="挑战" pos="v" ne="O" wsd="Hb02" wsdexp="誓师_检阅_作战" parent="-1" relate="HED" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="对外" pos="v" ne="O" wsd="Cb05" wsdexp="内_外" parent="13" relate="SBV" />
+                <word id="12" cont="又" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="13" relate="ADV" />
+                <word id="13" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="9" relate="VV">
+                    <arg id="0" type="施事" beg="11" end="11" />
+                    <arg id="1" type="受事" beg="14" end="16" />
+                </word>
+                <word id="14" cont="朝鲜" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="15" relate="ATT" />
+                <word id="15" cont="核" pos="n" ne="O" wsd="Bh13" wsdexp="果实_种子" parent="16" relate="ATT" />
+                <word id="16" cont="危机" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="13" relate="VOB" />
+                <word id="17" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="此外" pos="c" ne="O" wsd="Kc11" wsdexp="于是_此外" parent="23" relate="CNJ" />
+                <word id="19" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="对于" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="23" relate="ADV" />
+                <word id="21" cont="美国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="22" relate="ATT" />
+                <word id="22" cont="要求" pos="n" ne="O" wsd="Gb04" wsdexp="希望_要求_追求" parent="20" relate="POB" />
+                <word id="23" cont="派兵" pos="v" ne="O" wsd="Hc04" wsdexp="派遣_支使" parent="13" relate="VV">
+                    <arg id="0" type="受事" beg="24" end="30" />
+                </word>
+                <word id="24" cont="进驻" pos="v" ne="O" wsd="Hb04" wsdexp="保卫_防守_警卫_驻扎" parent="23" relate="VOB">
+                    <arg id="0" type="受事" beg="25" end="25" />
+                    <arg id="1" type="受事" beg="26" end="28" />
+                </word>
+                <word id="25" cont="伊拉克" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="24" relate="VOB" />
+                <word id="26" cont="协助" pos="v" ne="O" wsd="Hi36" wsdexp="帮助_拯救_献计" parent="24" relate="VOB">
+                    <arg id="0" type="受事" beg="27" end="28" />
+                </word>
+                <word id="27" cont="战后" pos="nt" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="28" relate="ADV" />
+                <word id="28" cont="重建" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="26" relate="VOB">
+                    <arg id="0" type="时间" beg="27" end="27" />
+                </word>
+                <word id="29" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="30" cont="遭到" pos="v" ne="O" wsd="Je13" wsdexp="遭受_享受" parent="24" relate="DC" />
+                <word id="31" cont="韩国" pos="ns" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="37" relate="SBV" />
+                <word id="32" cont="反" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="35" relate="DE">
+                    <arg id="0" type="受事" beg="33" end="33" />
+                    <arg id="1" type="受事" beg="34" end="34" />
+                </word>
+                <word id="33" cont="美" pos="j" ne="S-Ns" wsd="Eb30" wsdexp="美丽_丑陋" parent="32" relate="VOB" />
+                <word id="34" cont="势力" pos="n" ne="O" wsd="Da27" wsdexp="势力_威风_气势" parent="32" relate="VOB" />
+                <word id="35" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="37" relate="ATT" />
+                <word id="36" cont="强烈" pos="a" ne="O" wsd="Ed15" wsdexp="猛烈_尖锐_柔和" parent="37" relate="ATT" />
+                <word id="37" cont="反对" pos="v" ne="O" wsd="Gb15" wsdexp="赞成_同意_拥护_反对" parent="13" relate="VV">
+                    <arg id="0" type="施事" beg="31" end="31" />
+                </word>
+                <word id="38" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="39" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="41" relate="SBV" />
+                <word id="40" cont="如何" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="41" relate="ADV" />
+                <word id="41" cont="作出" pos="v" ne="O" wsd="Hj12" wsdexp="做_施展_合作_尝试" parent="37" relate="VV">
+                    <arg id="0" type="施事" beg="39" end="39" />
+                    <arg id="1" type="受事" beg="42" end="42" />
+                    <arg id="2" type="受事" beg="43" end="44" />
+                </word>
+                <word id="42" cont="响应" pos="v" ne="O" wsd="Hc13" wsdexp="号召_响应" parent="41" relate="VOB" />
+                <word id="43" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="44" relate="ADV" />
+                <word id="44" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="41" relate="VOB" />
+                <word id="45" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="46" relate="QUN" />
+                <word id="46" cont="大" pos="a" ne="E-Nm" wsd="Ea03" wsdexp="大_中_小" parent="48" relate="ADV" />
+                <word id="47" cont="艰难" pos="a" ne="O" wsd="Ed07" wsdexp="困难_艰巨_容易" parent="46" relate="COO" />
+                <word id="48" cont="决定" pos="v" ne="O" wsd="Hc14" wsdexp="建议_讨论_决定_制订" parent="13" relate="IC" />
+                <word id="49" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="在这种情况下，崔道述案件又让他雪上加霜。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="8" relate="ADV" />
+                <word id="1" cont="这种" pos="r" ne="O" wsd="-1" wsdexp="" parent="2" relate="ATT" />
+                <word id="2" cont="情况" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="3" relate="ATT" />
+                <word id="3" cont="下" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="0" relate="POB" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="崔道述" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="6" relate="ATT" />
+                <word id="6" cont="案件" pos="n" ne="O" wsd="Da03" wsdexp="事例_案件" parent="8" relate="SBV" />
+                <word id="7" cont="又" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="8" relate="ADV" />
+                <word id="8" cont="让" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="3" />
+                    <arg id="1" type="施事" beg="5" end="6" />
+                    <arg id="2" type="受事" beg="9" end="9" />
+                    <arg id="3" type="受事" beg="10" end="10" />
+                </word>
+                <word id="9" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="8" relate="VOB" />
+                <word id="10" cont="雪上加霜" pos="i" ne="O" wsd="If03" wsdexp="尴尬_折磨" parent="8" relate="VOB" />
+                <word id="11" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="16" />
+        <para id="17">
+            <sent id="0" cont="卢武铉此言一出，立刻在韩国政坛引起轩然大波。" tag="">
+                <word id="0" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="3" relate="SBV" />
+                <word id="1" cont="此言" pos="r" ne="O" wsd="Dk11" wsdexp="话" parent="3" relate="ATT" />
+                <word id="2" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="3" relate="QUN" />
+                <word id="3" cont="出" pos="q" ne="E-Nm" wsd="Hj64" wsdexp="出_进_出入" parent="-1" relate="HED" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="立刻" pos="d" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="9" relate="ADV" />
+                <word id="6" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="9" relate="ADV" />
+                <word id="7" cont="韩国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="8" relate="ATT" />
+                <word id="8" cont="政坛" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="6" relate="POB" />
+                <word id="9" cont="引起" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="3" relate="VV">
+                    <arg id="0" type="受事" beg="10" end="10" />
+                </word>
+                <word id="10" cont="轩然大波" pos="i" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="9" relate="VOB" />
+                <word id="11" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="韩国内阁和总统助手随即决定提出集体辞职，以示对目前的状况承担责任，并希望能减轻卢武铉面临的巨大压力。" tag="">
+                <word id="0" cont="韩国" pos="ns" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="1" relate="ATT" />
+                <word id="1" cont="内阁" pos="n" ne="O" wsd="Dm01" wsdexp="政府" parent="6" relate="SBV" />
+                <word id="2" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="4" relate="LAD" />
+                <word id="3" cont="总统" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="4" relate="ATT" />
+                <word id="4" cont="助手" pos="n" ne="O" wsd="Aj09" wsdexp="助手_参谋_靠山" parent="1" relate="COO" />
+                <word id="5" cont="随即" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="6" relate="ADV" />
+                <word id="6" cont="决定" pos="v" ne="O" wsd="Hc14" wsdexp="建议_讨论_决定_制订" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="4" />
+                    <arg id="1" type="受事" beg="7" end="9" />
+                </word>
+                <word id="7" cont="提出" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="6" relate="VOB">
+                    <arg id="0" type="受事" beg="8" end="8" />
+                    <arg id="1" type="受事" beg="9" end="9" />
+                </word>
+                <word id="8" cont="集体" pos="n" ne="O" wsd="Di10" wsdexp="团体_派别" parent="7" relate="VOB" />
+                <word id="9" cont="辞职" pos="v" ne="O" wsd="Hj23" wsdexp="做官_辞职_退休" parent="7" relate="VOB" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="以" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="12" relate="ADV" />
+                <word id="12" cont="示" pos="v" ne="O" wsd="Ja04" wsdexp="显示_预示_证明" parent="6" relate="VV">
+                    <arg id="0" type="受事" beg="13" end="16" />
+                    <arg id="1" type="受事" beg="17" end="18" />
+                </word>
+                <word id="13" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="15" relate="DE" />
+                <word id="14" cont="目前" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="13" relate="POB" />
+                <word id="15" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="16" cont="状况" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="12" relate="VOB" />
+                <word id="17" cont="承担" pos="v" ne="O" wsd="Hj24" wsdexp="担负_承揽_担任_兼职" parent="12" relate="VOB">
+                    <arg id="0" type="受事" beg="18" end="18" />
+                </word>
+                <word id="18" cont="责任" pos="n" ne="O" wsd="Di22" wsdexp="责任_负担" parent="17" relate="VOB" />
+                <word id="19" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="21" relate="CNJ" />
+                <word id="21" cont="希望" pos="v" ne="O" wsd="Gb04" wsdexp="希望_要求_追求" parent="23" relate="ADV" />
+                <word id="22" cont="能" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="23" relate="ADV" />
+                <word id="23" cont="减轻" pos="v" ne="O" wsd="Ih05" wsdexp="增多_添补_减少" parent="12" relate="VV">
+                    <arg id="0" type="受事" beg="24" end="24" />
+                    <arg id="1" type="受事" beg="25" end="28" />
+                </word>
+                <word id="24" cont="卢武铉" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="23" relate="VOB" />
+                <word id="25" cont="面临" pos="v" ne="O" wsd="Je13" wsdexp="遭受_享受" parent="26" relate="DE" />
+                <word id="26" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="28" relate="ATT" />
+                <word id="27" cont="巨大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="28" relate="ATT" />
+                <word id="28" cont="压力" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="23" relate="VOB" />
+                <word id="29" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="18" />
+        <para id="19" />
+        <para id="20" />
+    </doc>
+    <class>军事</class>
+    <coref>
+        <cr id="0">
+            <mention id="0" beg="38" end="38" />
+            <mention id="1" beg="42" end="42" />
+            <mention id="2" beg="79" end="79" />
+            <mention id="3" beg="98" end="98" />
+            <mention id="4" beg="189" end="189" />
+            <mention id="5" beg="191" end="191" />
+            <mention id="6" beg="387" end="387" />
+            <mention id="7" beg="393" end="393" />
+            <mention id="8" beg="490" end="490" />
+            <mention id="9" beg="493" end="493" />
+            <mention id="10" beg="541" end="541" />
+            <mention id="11" beg="561" end="561" />
+            <mention id="12" beg="668" end="668" />
+            <mention id="13" beg="683" end="683" />
+            <mention id="14" beg="727" end="727" />
+            <mention id="15" beg="741" end="741" />
+            <mention id="16" beg="763" end="763" />
+            <mention id="17" beg="766" end="766" />
+            <mention id="18" beg="783" end="783" />
+            <mention id="19" beg="864" end="864" />
+            <mention id="20" beg="885" end="885" />
+        </cr>
+        <cr id="1">
+            <mention id="0" beg="396" end="396" />
+            <mention id="1" beg="398" end="398" />
+            <mention id="2" beg="940" end="940" />
+            <mention id="3" beg="944" end="944" />
+        </cr>
+        <cr id="2">
+            <mention id="0" beg="402" end="402" />
+            <mention id="1" beg="409" end="409" />
+        </cr>
+        <cr id="3">
+            <mention id="0" beg="466" end="466" />
+            <mention id="1" beg="475" end="475" />
+        </cr>
+    </coref>
+</xml4nlp>

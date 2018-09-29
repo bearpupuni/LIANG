@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<?xml-stylesheet type="text/xsl" href="nlp_style.xsl" ?>
+<xml4nlp>
+    <doc>
+        <para id="0">
+            <sent id="0" cont="讣 告" tag="">
+                <word id="0" cont="讣" pos="v" ne="O" wsd="-1" wsdexp="" parent="1" relate="ADV" />
+                <word id="1" cont="告" pos="v" ne="O" wsd="Hi15" wsdexp="告诉_通知_嘱咐" parent="-1" relate="HED" />
+            </sent>
+        </para>
+        <para id="1" />
+        <para id="2">
+            <sent id="0" cont="著名语言学家李荣教授，因病医治无效，2002年12月31日22时08分于北京协和医院不幸逝世，享年83岁。" tag="10%">
+                <word id="0" cont="著名" pos="a" ne="O" wsd="Ed25" wsdexp="著名_无名_热门_冷门" parent="3" relate="ATT" />
+                <word id="1" cont="语言学家" pos="n" ne="O" wsd="Al02" wsdexp="内行_专家_骨干_外行" parent="2" relate="ATT" />
+                <word id="2" cont="李荣" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="3" relate="ATT" />
+                <word id="3" cont="教授" pos="n" ne="O" wsd="Ae13" wsdexp="教师_学生" parent="8" relate="SBV" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="因" pos="p" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="7" relate="ADV" />
+                <word id="6" cont="病" pos="n" ne="O" wsd="Ib10" wsdexp="生病_受伤_病愈_复活" parent="5" relate="POB" />
+                <word id="7" cont="医治" pos="v" ne="O" wsd="Hg20" wsdexp="医治_打针_开刀" parent="8" relate="ADV" />
+                <word id="8" cont="无效" pos="v" ne="O" wsd="Ed47" wsdexp="顶用_有功_无用_无偿" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="3" />
+                </word>
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="2002年" pos="nt" ne="B-Nt" wsd="-1" wsdexp="" parent="11" relate="ATT" />
+                <word id="11" cont="12月" pos="nt" ne="I-Nt" wsd="-1" wsdexp="" parent="12" relate="ATT" />
+                <word id="12" cont="31日" pos="nt" ne="I-Nt" wsd="-1" wsdexp="" parent="13" relate="ATT" />
+                <word id="13" cont="22时" pos="nt" ne="I-Nt" wsd="-1" wsdexp="" parent="14" relate="ATT" />
+                <word id="14" cont="08分" pos="nt" ne="E-Nt" wsd="-1" wsdexp="" parent="20" relate="ADV" />
+                <word id="15" cont="于" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="20" relate="ADV" />
+                <word id="16" cont="北京" pos="ns" ne="B-Ni" wsd="Di03" wsdexp="首都_省会" parent="17" relate="ATT" />
+                <word id="17" cont="协和" pos="nz" ne="I-Ni" wsd="Hc03" wsdexp="安置_部署_调动_整顿_整编" parent="18" relate="ATT" />
+                <word id="18" cont="医院" pos="n" ne="E-Ni" wsd="Dm06" wsdexp="医院_疗养院_敬老院" parent="15" relate="POB" />
+                <word id="19" cont="不幸" pos="a" ne="O" wsd="Da09" wsdexp="福气_灾祸_祸福" parent="20" relate="ATT" />
+                <word id="20" cont="逝世" pos="v" ne="O" wsd="Ib03" wsdexp="活_死" parent="8" relate="VV">
+                    <arg id="0" type="时间" beg="10" end="14" />
+                </word>
+                <word id="21" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="享年" pos="n" ne="O" wsd="Ca17" wsdexp="晚年" parent="24" relate="SBV" />
+                <word id="23" cont="83" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="24" relate="QUN" />
+                <word id="24" cont="岁" pos="q" ne="E-Nm" wsd="Ca14" wsdexp="年龄" parent="20" relate="IC" />
+                <word id="25" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="3">
+            <sent id="0" cont="李荣教授是中国社会科学院语言研究所研究员、中国社会科学院研究生院博士生导师。" tag="">
+                <word id="0" cont="李荣" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="1" relate="ATT" />
+                <word id="1" cont="教授" pos="n" ne="O" wsd="Ae13" wsdexp="教师_学生" parent="2" relate="SBV" />
+                <word id="2" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="3" end="15" />
+                </word>
+                <word id="3" cont="中国" pos="ns" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="4" relate="ATT" />
+                <word id="4" cont="社会" pos="n" ne="I-Ni" wsd="Di01" wsdexp="世界_社会_人间" parent="5" relate="ATT" />
+                <word id="5" cont="科学院" pos="n" ne="I-Ni" wsd="Dm07" wsdexp="文体机构" parent="6" relate="ATT" />
+                <word id="6" cont="语言" pos="n" ne="I-Ni" wsd="Dk06" wsdexp="词_句_语言_谜语" parent="7" relate="ATT" />
+                <word id="7" cont="研究所" pos="n" ne="E-Ni" wsd="Di10" wsdexp="团体_派别" parent="8" relate="ATT" />
+                <word id="8" cont="研究员" pos="n" ne="O" wsd="Al02" wsdexp="内行_专家_骨干_外行" parent="2" relate="VOB" />
+                <word id="9" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="中国" pos="ns" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="11" relate="ATT" />
+                <word id="11" cont="社会" pos="n" ne="I-Ni" wsd="Di01" wsdexp="世界_社会_人间" parent="12" relate="ATT" />
+                <word id="12" cont="科学院" pos="n" ne="I-Ni" wsd="Dm07" wsdexp="文体机构" parent="13" relate="ATT" />
+                <word id="13" cont="研究生院" pos="n" ne="E-Ni" wsd="Dm05" wsdexp="学校" parent="14" relate="ATT" />
+                <word id="14" cont="博士生" pos="n" ne="O" wsd="Ae13" wsdexp="教师_学生" parent="15" relate="ATT" />
+                <word id="15" cont="导师" pos="n" ne="O" wsd="Ae13" wsdexp="教师_学生" parent="8" relate="COO" />
+                <word id="16" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="曾担任过第七届全国政协委员、语言研究所所长、《方言》季刊主编、全国汉语方言学会会长等重要职务。" tag="">
+                <word id="0" cont="曾" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="1" relate="ADV" />
+                <word id="1" cont="担任" pos="v" ne="O" wsd="Hj24" wsdexp="担负_承揽_担任_兼职" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="3" end="11" />
+                    <arg id="1" type="受事" beg="14" end="14" />
+                </word>
+                <word id="2" cont="过" pos="u" ne="O" wsd="Kd02" wsdexp="来着_过" parent="1" relate="MT" />
+                <word id="3" cont="第七" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="4" relate="QUN" />
+                <word id="4" cont="届" pos="q" ne="E-Nm" wsd="Dn09" wsdexp="动量单位_复量单位" parent="7" relate="ATT" />
+                <word id="5" cont="全国" pos="n" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="6" relate="ATT" />
+                <word id="6" cont="政协" pos="j" ne="E-Ni" wsd="Dm01" wsdexp="政府" parent="7" relate="ATT" />
+                <word id="7" cont="委员" pos="n" ne="O" wsd="Aj07" wsdexp="成员" parent="1" relate="VOB" />
+                <word id="8" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="语言" pos="n" ne="O" wsd="Dk06" wsdexp="词_句_语言_谜语" parent="10" relate="ATT" />
+                <word id="10" cont="研究所" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="11" relate="ATT" />
+                <word id="11" cont="所长" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="7" relate="COO" />
+                <word id="12" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="《" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="方言" pos="n" ne="O" wsd="Dk06" wsdexp="词_句_语言_谜语" parent="1" relate="VOB" />
+                <word id="15" cont="》" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="季刊" pos="n" ne="O" wsd="Dk21" wsdexp="报章_杂志_报刊" parent="17" relate="SBV" />
+                <word id="17" cont="主编" pos="v" ne="O" wsd="Aj12" wsdexp="主持人_司仪_与会者" parent="1" relate="COO">
+                    <arg id="0" type="施事" beg="16" end="16" />
+                    <arg id="1" type="受事" beg="19" end="26" />
+                </word>
+                <word id="18" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="全国" pos="n" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="20" relate="ATT" />
+                <word id="20" cont="汉语" pos="nz" ne="I-Ni" wsd="Dk06" wsdexp="词_句_语言_谜语" parent="21" relate="ATT" />
+                <word id="21" cont="方言" pos="n" ne="I-Ni" wsd="Dk06" wsdexp="词_句_语言_谜语" parent="22" relate="ATT" />
+                <word id="22" cont="学会" pos="n" ne="E-Ni" wsd="Di10" wsdexp="团体_派别" parent="23" relate="ATT" />
+                <word id="23" cont="会长" pos="n" ne="O" wsd="Af10" wsdexp="领袖_领导" parent="26" relate="ATT" />
+                <word id="24" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="26" relate="ATT" />
+                <word id="25" cont="重要" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="26" relate="ATT" />
+                <word id="26" cont="职务" pos="n" ne="O" wsd="Di15" wsdexp="地位_职位" parent="17" relate="VOB" />
+                <word id="27" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="他一生从事语言学研究，在方言学、音韵学、语法学、词典学等诸多方面均取得突出成就，是享誉国内外的著名语言学家。" tag="">
+                <word id="0" cont="他" pos="r" ne="O" wsd="Aa04" wsdexp="他_他们" parent="1" relate="ATT" />
+                <word id="1" cont="一生" pos="n" ne="O" wsd="Ca13" wsdexp="一生_半生" parent="2" relate="SBV" />
+                <word id="2" cont="从事" pos="v" ne="O" wsd="Hj19" wsdexp="从事_参加_脱离" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="3" end="4" />
+                </word>
+                <word id="3" cont="语言学" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="4" relate="ATT" />
+                <word id="4" cont="研究" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="2" relate="VOB" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="10" relate="ADV" />
+                <word id="7" cont="方言学" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="6" relate="POB" />
+                <word id="8" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="音韵" pos="n" ne="O" wsd="Dk08" wsdexp="情调_格调_风格_音律" parent="10" relate="SBV" />
+                <word id="10" cont="学" pos="v" ne="O" wsd="Hg08" wsdexp="学习_从师_模仿" parent="2" relate="VV">
+                    <arg id="0" type="施事" beg="9" end="9" />
+                    <arg id="1" type="受事" beg="17" end="23" />
+                </word>
+                <word id="11" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="语法" pos="n" ne="O" wsd="Db06" wsdexp="规律_意义" parent="13" relate="SBV" />
+                <word id="13" cont="学" pos="v" ne="O" wsd="Hg08" wsdexp="学习_从师_模仿" parent="10" relate="COO">
+                    <arg id="0" type="施事" beg="12" end="12" />
+                </word>
+                <word id="14" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="词典" pos="n" ne="O" wsd="Dk20" wsdexp="读物_书籍_版本_页张" parent="16" relate="SBV" />
+                <word id="16" cont="学" pos="v" ne="O" wsd="Hg08" wsdexp="学习_从师_模仿" parent="10" relate="COO">
+                    <arg id="0" type="施事" beg="15" end="15" />
+                </word>
+                <word id="17" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="18" cont="诸多" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="19" relate="QUN" />
+                <word id="19" cont="方面" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="21" relate="SBV" />
+                <word id="20" cont="均" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="21" relate="ADV" />
+                <word id="21" cont="取得" pos="v" ne="O" wsd="Je12" wsdexp="取得_达到_挽回" parent="10" relate="VOB">
+                    <arg id="0" type="施事" beg="17" end="19" />
+                    <arg id="1" type="受事" beg="22" end="23" />
+                </word>
+                <word id="22" cont="突出" pos="a" ne="O" wsd="Ed04" wsdexp="杰出_异常_普通" parent="23" relate="ATT" />
+                <word id="23" cont="成就" pos="n" ne="O" wsd="Da14" wsdexp="成就_功劳_过失_功过" parent="21" relate="VOB" />
+                <word id="24" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="2" relate="IC">
+                    <arg id="0" type="受事" beg="26" end="30" />
+                </word>
+                <word id="26" cont="享誉" pos="v" ne="O" wsd="Ed25" wsdexp="著名_无名_热门_冷门" parent="25" relate="VOB">
+                    <arg id="0" type="受事" beg="27" end="30" />
+                </word>
+                <word id="27" cont="国内外" pos="nl" ne="O" wsd="Cb05" wsdexp="内_外" parent="28" relate="DE" />
+                <word id="28" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="30" relate="ATT" />
+                <word id="29" cont="著名" pos="a" ne="O" wsd="Ed25" wsdexp="著名_无名_热门_冷门" parent="30" relate="ATT" />
+                <word id="30" cont="语言学家" pos="n" ne="O" wsd="Al02" wsdexp="内行_专家_骨干_外行" parent="26" relate="VOB" />
+                <word id="31" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="李荣教授的逝世，是中国语言学界，尤其是汉语方言学界的一个重大损失。" tag="20%">
+                <word id="0" cont="李荣" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="1" relate="ATT" />
+                <word id="1" cont="教授" pos="n" ne="O" wsd="Ae13" wsdexp="教师_学生" parent="2" relate="DE" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="3" relate="ATT" />
+                <word id="3" cont="逝世" pos="v" ne="O" wsd="Ib03" wsdexp="活_死" parent="5" relate="SBV" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="3" />
+                    <arg id="1" type="受事" beg="6" end="7" />
+                    <arg id="2" type="受事" beg="11" end="17" />
+                </word>
+                <word id="6" cont="中国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="7" relate="ATT" />
+                <word id="7" cont="语言学界" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="5" relate="VOB" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="尤其" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="10" relate="ADV" />
+                <word id="10" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="5" relate="VV" />
+                <word id="11" cont="汉语" pos="nz" ne="S-Nz" wsd="Dk06" wsdexp="词_句_语言_谜语" parent="12" relate="ATT" />
+                <word id="12" cont="方言" pos="n" ne="O" wsd="Dk06" wsdexp="词_句_语言_谜语" parent="13" relate="ATT" />
+                <word id="13" cont="学界" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="14" relate="DE" />
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="15" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="17" relate="QUN" />
+                <word id="16" cont="重大" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="17" relate="ATT" />
+                <word id="17" cont="损失" pos="n" ne="O" wsd="If24" wsdexp="赚_亏_损失_亏空" parent="5" relate="VOB" />
+                <word id="18" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="我们对此表示最沉痛的哀悼！" tag="">
+                <word id="0" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="3" relate="SBV" />
+                <word id="1" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="3" relate="ADV" />
+                <word id="2" cont="此" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="1" relate="POB" />
+                <word id="3" cont="表示" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="6" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                </word>
+                <word id="4" cont="最" pos="d" ne="O" wsd="Ka02" wsdexp="最_至多_至少" parent="5" relate="ADV" />
+                <word id="5" cont="沉痛" pos="a" ne="O" wsd="Ed29" wsdexp="紧急_严重_惊人" parent="6" relate="DE" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ADV" />
+                <word id="7" cont="哀悼" pos="v" ne="O" wsd="Gb06" wsdexp="回忆_怀念_挂念" parent="-1" relate="HED" />
+                <word id="8" cont="！" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="4">
+            <sent id="0" cont="治丧办公室决定于2003年1月10日上午10时，在北京八宝山革命公墓菊厅举行李荣教授遗体告别仪式。" tag="">
+                <word id="0" cont="治丧" pos="v" ne="O" wsd="Hj53" wsdexp="治丧_吊丧_守灵_大殓" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="1" end="2" />
+                </word>
+                <word id="1" cont="办公室" pos="n" ne="O" wsd="Bn03" wsdexp="房间" parent="2" relate="SBV" />
+                <word id="2" cont="决定" pos="v" ne="O" wsd="Hc14" wsdexp="建议_讨论_决定_制订" parent="0" relate="VOB">
+                    <arg id="0" type="施事" beg="1" end="1" />
+                </word>
+                <word id="3" cont="于" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="17" relate="ADV" />
+                <word id="4" cont="2003年" pos="nt" ne="B-Nt" wsd="-1" wsdexp="" parent="5" relate="ATT" />
+                <word id="5" cont="1月" pos="nt" ne="I-Nt" wsd="-1" wsdexp="" parent="6" relate="ATT" />
+                <word id="6" cont="10日" pos="nt" ne="I-Nt" wsd="-1" wsdexp="" parent="7" relate="ATT" />
+                <word id="7" cont="上午" pos="nt" ne="I-Nt" wsd="Ca28" wsdexp="上午_中午_下午_白天" parent="8" relate="ATT" />
+                <word id="8" cont="10时" pos="nt" ne="E-Nt" wsd="-1" wsdexp="" parent="3" relate="POB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="17" relate="ADV" />
+                <word id="11" cont="北京" pos="ns" ne="B-Ni" wsd="Di03" wsdexp="首都_省会" parent="12" relate="ATT" />
+                <word id="12" cont="八宝山" pos="ns" ne="I-Ni" wsd="Be04" wsdexp="山_坡" parent="13" relate="ATT" />
+                <word id="13" cont="革命" pos="v" ne="I-Ni" wsd="Ha01" wsdexp="革命_解放" parent="14" relate="ATT" />
+                <word id="14" cont="公墓" pos="n" ne="I-Ni" wsd="Bn22" wsdexp="坟墓_墓穴_碑" parent="15" relate="ATT" />
+                <word id="15" cont="菊" pos="n" ne="I-Ni" wsd="Bh02" wsdexp="花_花卉" parent="16" relate="ATT" />
+                <word id="16" cont="厅" pos="n" ne="E-Ni" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="10" relate="POB" />
+                <word id="17" cont="举行" pos="v" ne="O" wsd="Ie13" wsdexp="实行_举行" parent="0" relate="VV">
+                    <arg id="0" type="时间" beg="3" end="8" />
+                    <arg id="1" type="受事" beg="18" end="20" />
+                    <arg id="2" type="受事" beg="21" end="22" />
+                </word>
+                <word id="18" cont="李荣" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="19" relate="ATT" />
+                <word id="19" cont="教授" pos="n" ne="O" wsd="Ae13" wsdexp="教师_学生" parent="20" relate="ATT" />
+                <word id="20" cont="遗体" pos="n" ne="O" wsd="Bk01" wsdexp="身体_尸体" parent="17" relate="VOB" />
+                <word id="21" cont="告别" pos="v" ne="O" wsd="Hi06" wsdexp="送别_告别" parent="17" relate="VOB">
+                    <arg id="0" type="受事" beg="22" end="22" />
+                </word>
+                <word id="22" cont="仪式" pos="n" ne="O" wsd="Di13" wsdexp="礼仪_礼节" parent="21" relate="VOB" />
+                <word id="23" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="李荣教授生前同事、学生及亲朋友好，如参加告别仪式，请准时前往；" tag="">
+                <word id="0" cont="李荣" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="1" relate="ATT" />
+                <word id="1" cont="教授" pos="n" ne="O" wsd="Ae13" wsdexp="教师_学生" parent="2" relate="ATT" />
+                <word id="2" cont="生前" pos="nt" ne="O" wsd="Ca11" wsdexp="过去_近来" parent="3" relate="ATT" />
+                <word id="3" cont="同事" pos="n" ne="O" wsd="Aj04" wsdexp="同学_同事" parent="8" relate="SBV" />
+                <word id="4" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="学生" pos="n" ne="O" wsd="Ae13" wsdexp="教师_学生" parent="3" relate="COO" />
+                <word id="6" cont="及" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="7" relate="LAD" />
+                <word id="7" cont="亲朋" pos="n" ne="O" wsd="Aj01" wsdexp="朋友_恩人_仇人_对手" parent="3" relate="COO" />
+                <word id="8" cont="友好" pos="a" ne="O" wsd="Ed33" wsdexp="和睦_不和_敌对" parent="-1" relate="HED" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="如" pos="v" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="8" relate="IC">
+                    <arg id="0" type="受事" beg="11" end="11" />
+                    <arg id="1" type="受事" beg="12" end="13" />
+                </word>
+                <word id="11" cont="参加" pos="v" ne="O" wsd="Hj19" wsdexp="从事_参加_脱离" parent="10" relate="VOB" />
+                <word id="12" cont="告别" pos="v" ne="O" wsd="Hi06" wsdexp="送别_告别" parent="10" relate="VOB">
+                    <arg id="0" type="受事" beg="13" end="13" />
+                </word>
+                <word id="13" cont="仪式" pos="n" ne="O" wsd="Di13" wsdexp="礼仪_礼节" parent="12" relate="VOB" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="请" pos="v" ne="O" wsd="Hi25" wsdexp="请求_委托_讲情" parent="10" relate="VV" />
+                <word id="16" cont="准时" pos="a" ne="O" wsd="Ka09" wsdexp="姑且_临时_预先_首先_准时" parent="17" relate="ADV" />
+                <word id="17" cont="前往" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="10" relate="VV" />
+                <word id="18" cont="；" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="如有恭送花圈、挽联、唁电、诗文以及其他事项，请提前与治丧办公室联系。" tag="">
+                <word id="0" cont="如" pos="v" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="1" end="1" />
+                    <arg id="1" type="受事" beg="3" end="20" />
+                </word>
+                <word id="1" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="0" relate="VOB" />
+                <word id="2" cont="恭" pos="a" ne="O" wsd="Ee33" wsdexp="恭敬_客气_简慢_热情_冷淡" parent="0" relate="CMP" />
+                <word id="3" cont="送" pos="v" ne="O" wsd="Hi26" wsdexp="赠送_赠答_捐献" parent="0" relate="VOB">
+                    <arg id="0" type="受事" beg="4" end="10" />
+                    <arg id="1" type="受事" beg="11" end="13" />
+                </word>
+                <word id="4" cont="花圈" pos="n" ne="O" wsd="Bp37" wsdexp="棺材_冥器" parent="3" relate="VOB" />
+                <word id="5" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="挽联" pos="n" ne="O" wsd="Dk17" wsdexp="资料_文件" parent="4" relate="COO" />
+                <word id="7" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="唁电" pos="n" ne="O" wsd="Dk16" wsdexp="信_电报" parent="4" relate="COO" />
+                <word id="9" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="诗文" pos="n" ne="O" wsd="Dk27" wsdexp="诗_词_赋" parent="4" relate="COO" />
+                <word id="11" cont="以及" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="13" relate="LAD" />
+                <word id="12" cont="其他" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="13" relate="ATT" />
+                <word id="13" cont="事项" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="3" relate="VOB" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="请" pos="v" ne="O" wsd="Hi25" wsdexp="请求_委托_讲情" parent="3" relate="VV">
+                    <arg id="0" type="受事" beg="16" end="18" />
+                    <arg id="1" type="受事" beg="19" end="20" />
+                </word>
+                <word id="16" cont="提前" pos="v" ne="O" wsd="Ih07" wsdexp="提前_推迟" parent="15" relate="VOB" />
+                <word id="17" cont="与" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="18" relate="LAD" />
+                <word id="18" cont="治丧" pos="v" ne="O" wsd="Hj53" wsdexp="治丧_吊丧_守灵_大殓" parent="16" relate="COO" />
+                <word id="19" cont="办公室" pos="n" ne="O" wsd="Bn03" wsdexp="房间" parent="20" relate="ATT" />
+                <word id="20" cont="联系" pos="v" ne="O" wsd="Ie02" wsdexp="连接_纠缠_积压_结合_割裂" parent="15" relate="VOB" />
+                <word id="21" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="5">
+            <sent id="0" cont="地 址：" tag="">
+                <word id="0" cont="地" pos="n" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="1" relate="ATT" />
+                <word id="1" cont="址" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="-1" relate="HED" />
+                <word id="2" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="北京100732 建内大街5号中国社科院语言研究所 " tag="">
+                <word id="0" cont="北京" pos="ns" ne="S-Ns" wsd="Di03" wsdexp="首都_省会" parent="1" relate="DE" />
+                <word id="1" cont="100732 " pos="ws" ne="O" wsd="-1" wsdexp="" parent="2" relate="SBV" />
+                <word id="2" cont="建" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="3" end="10" />
+                </word>
+                <word id="3" cont="内" pos="nd" ne="O" wsd="Cb05" wsdexp="内_外" parent="4" relate="ATT" />
+                <word id="4" cont="大街" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="10" relate="ATT" />
+                <word id="5" cont="5" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="6" relate="QUN" />
+                <word id="6" cont="号" pos="q" ne="E-Nm" wsd="Dk04" wsdexp="号码_记号_曲谱_标点符号" parent="10" relate="ATT" />
+                <word id="7" cont="中国" pos="ns" ne="B-Ni" wsd="Di02" wsdexp="国家_行政区划" parent="8" relate="ATT" />
+                <word id="8" cont="社科院" pos="j" ne="I-Ni" wsd="Cb28" wsdexp="场所" parent="9" relate="ATT" />
+                <word id="9" cont="语言" pos="n" ne="I-Ni" wsd="Dk06" wsdexp="词_句_语言_谜语" parent="10" relate="ATT" />
+                <word id="10" cont="研究所" pos="n" ne="E-Ni" wsd="Di10" wsdexp="团体_派别" parent="2" relate="VOB" />
+            </sent>
+        </para>
+        <para id="6">
+            <sent id="0" cont="联系人：" tag="">
+                <word id="0" cont="联系人" pos="n" ne="O" wsd="Dd15" wsdexp="名称_姓名_生肖_性别" parent="-1" relate="HED" />
+                <word id="1" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="张振兴 周 磊 郑志芳 " tag="">
+                <word id="0" cont="张振兴" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="-1" relate="HED" />
+                <word id="1" cont="周" pos="q" ne="O" wsd="Ca22" wsdexp="旬_星期" parent="3" relate="ATT" />
+                <word id="2" cont="磊" pos="n" ne="O" wsd="-1" wsdexp="" parent="3" relate="ATT" />
+                <word id="3" cont="郑志芳" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="0" relate="COO" />
+            </sent>
+        </para>
+        <para id="7">
+            <sent id="0" cont="电 话：" tag="">
+                <word id="0" cont="电" pos="n" ne="O" wsd="Dk16" wsdexp="信_电报" parent="1" relate="ATT" />
+                <word id="1" cont="话" pos="n" ne="O" wsd="Dk11" wsdexp="话" parent="-1" relate="HED" />
+                <word id="2" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="010-65137403或010-65137744转5390 " tag="">
+                <word id="0" cont="010-65137403" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="3" relate="ADV" />
+                <word id="1" cont="或" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="2" relate="LAD" />
+                <word id="2" cont="010-65137744" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="0" relate="COO" />
+                <word id="3" cont="转" pos="v" ne="O" wsd="Ih02" wsdexp="改变_改换" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="4" end="4" />
+                </word>
+                <word id="4" cont="5390 " pos="ws" ne="O" wsd="-1" wsdexp="" parent="3" relate="VOB" />
+            </sent>
+        </para>
+        <para id="8">
+            <sent id="0" cont="参加告别仪式者可在院内停车场乘车。" tag="">
+                <word id="0" cont="参加" pos="v" ne="O" wsd="Hj19" wsdexp="从事_参加_脱离" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="1" end="3" />
+                    <arg id="1" type="受事" beg="4" end="8" />
+                </word>
+                <word id="1" cont="告别" pos="v" ne="O" wsd="Hi06" wsdexp="送别_告别" parent="0" relate="VOB">
+                    <arg id="0" type="受事" beg="2" end="3" />
+                </word>
+                <word id="2" cont="仪式" pos="n" ne="O" wsd="Di13" wsdexp="礼仪_礼节" parent="1" relate="VOB" />
+                <word id="3" cont="者" pos="k" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="2" relate="RAD" />
+                <word id="4" cont="可" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="8" relate="ADV" />
+                <word id="5" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="8" relate="ADV" />
+                <word id="6" cont="院内" pos="nl" ne="O" wsd="Bn09" wsdexp="阳台_院子" parent="7" relate="ATT" />
+                <word id="7" cont="停车场" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="5" relate="POB" />
+                <word id="8" cont="乘车" pos="v" ne="O" wsd="Hf02" wsdexp="搭客_搭乘" parent="0" relate="VOB" />
+                <word id="9" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="9">
+            <sent id="0" cont="发车时间：" tag="">
+                <word id="0" cont="发车" pos="v" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="1" relate="ATT" />
+                <word id="1" cont="时间" pos="n" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="-1" relate="HED" />
+                <word id="2" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="10日上午9点 " tag="">
+                <word id="0" cont="10日" pos="nt" ne="B-Nr" wsd="-1" wsdexp="" parent="1" relate="ATT" />
+                <word id="1" cont="上午" pos="nt" ne="E-Nr" wsd="Ca28" wsdexp="上午_中午_下午_白天" parent="3" relate="ATT" />
+                <word id="2" cont="9" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="3" relate="QUN" />
+                <word id="3" cont="点" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="-1" relate="HED" />
+            </sent>
+        </para>
+        <para id="10">
+            <sent id="0" cont="李荣教授治丧办公室 2003年1月2日 " tag="">
+                <word id="0" cont="李荣" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="1" relate="ATT" />
+                <word id="1" cont="教授" pos="n" ne="O" wsd="Ae13" wsdexp="教师_学生" parent="2" relate="SBV" />
+                <word id="2" cont="治丧" pos="v" ne="O" wsd="Hj53" wsdexp="治丧_吊丧_守灵_大殓" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="3" end="3" />
+                    <arg id="2" type="受事" beg="6" end="7" />
+                </word>
+                <word id="3" cont="办公室" pos="n" ne="O" wsd="Bn03" wsdexp="房间" parent="2" relate="VOB" />
+                <word id="4" cont=" 2003" pos="ws" ne="O" wsd="-1" wsdexp="" parent="5" relate="SBV" />
+                <word id="5" cont="年" pos="q" ne="O" wsd="Ca18" wsdexp="年" parent="2" relate="VOB" />
+                <word id="6" cont="1月" pos="nt" ne="B-Nr" wsd="-1" wsdexp="" parent="7" relate="ATT" />
+                <word id="7" cont="2日" pos="nt" ne="E-Nr" wsd="-1" wsdexp="" parent="2" relate="VOB" />
+            </sent>
+        </para>
+    </doc>
+    <class>教育</class>
+    <coref>
+        <cr id="0">
+            <mention id="0" beg="28" end="28" />
+            <mention id="1" beg="73" end="73" />
+        </cr>
+    </coref>
+</xml4nlp>

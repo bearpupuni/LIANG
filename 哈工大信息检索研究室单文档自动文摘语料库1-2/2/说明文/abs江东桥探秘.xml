@@ -1,0 +1,2054 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<?xml-stylesheet type="text/xsl" href="nlp_style.xsl" ?>
+<xml4nlp>
+    <doc>
+        <para id="0">
+            <sent id="0" cont="江东桥探秘" tag="">
+                <word id="0" cont="江东桥" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="1" relate="SBV" />
+                <word id="1" cont="探秘" pos="v" ne="O" wsd="-1" wsdexp="" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                </word>
+            </sent>
+        </para>
+        <para id="1" />
+        <para id="2">
+            <sent id="0" cont="在建筑技术上有很多创造，在起重和吊装方面更有意想不到的办法。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="4" relate="ADV" />
+                <word id="1" cont="建筑" pos="n" ne="O" wsd="Bn01" wsdexp="建筑_房屋" parent="2" relate="ATT" />
+                <word id="2" cont="技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="3" relate="ATT" />
+                <word id="3" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="0" relate="POB" />
+                <word id="4" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="3" />
+                    <arg id="1" type="受事" beg="5" end="6" />
+                </word>
+                <word id="5" cont="很多" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="6" relate="ADV" />
+                <word id="6" cont="创造" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="4" relate="VOB" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="11" relate="ADV" />
+                <word id="9" cont="起重" pos="b" ne="O" wsd="Ih06" wsdexp="削弱" parent="8" relate="POB" />
+                <word id="10" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="11" relate="CNJ" />
+                <word id="11" cont="吊装" pos="v" ne="O" wsd="Id07" wsdexp="耸立_停放_悬挂_颠倒" parent="4" relate="VV">
+                    <arg id="0" type="受事" beg="12" end="12" />
+                    <arg id="1" type="受事" beg="13" end="17" />
+                </word>
+                <word id="12" cont="方面" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="11" relate="VOB" />
+                <word id="13" cont="更" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="14" relate="ADV" />
+                <word id="14" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="11" relate="VOB">
+                    <arg id="0" type="受事" beg="15" end="17" />
+                </word>
+                <word id="15" cont="意想不到" pos="i" ne="O" wsd="Ka16" wsdexp="突然_偶然" parent="16" relate="DE" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="17" cont="办法" pos="n" ne="O" wsd="Db09" wsdexp="方法_诀窍_步骤" parent="14" relate="VOB" />
+                <word id="18" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="如福建漳州的江东桥，修建于八百多年前，有的石梁，一块就有二百来吨重。" tag="">
+                <word id="0" cont="如" pos="v" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="3" relate="DE">
+                    <arg id="0" type="受事" beg="1" end="2" />
+                </word>
+                <word id="1" cont="福建" pos="ns" ne="B-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="2" relate="ATT" />
+                <word id="2" cont="漳州" pos="ns" ne="E-Ns" wsd="Cb25" wsdexp="城市_集镇_乡村" parent="0" relate="VOB" />
+                <word id="3" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="ATT" />
+                <word id="4" cont="江东桥" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="6" relate="SBV" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="修建" pos="v" ne="O" wsd="Hd01" wsdexp="建筑_架设_铺设_养护" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="4" />
+                </word>
+                <word id="7" cont="于" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="6" relate="CMP" />
+                <word id="8" cont="八百" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="10" relate="QUN" />
+                <word id="9" cont="多" pos="m" ne="I-Nm" wsd="Dn05" wsdexp="半_概数_若干" parent="8" relate="RAD" />
+                <word id="10" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="11" relate="ATT" />
+                <word id="11" cont="前" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="7" relate="POB" />
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="有的" pos="r" ne="O" wsd="Eb02" wsdexp="单_双_全部_部分" parent="19" relate="ADV" />
+                <word id="14" cont="石梁" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="19" relate="SBV" />
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="17" relate="QUN" />
+                <word id="17" cont="块" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="19" relate="ADV" />
+                <word id="18" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="19" relate="ADV" />
+                <word id="19" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="6" relate="VV">
+                    <arg id="0" type="施事" beg="14" end="14" />
+                    <arg id="1" type="受事-数量性质" beg="20" end="22" />
+                    <arg id="2" type="受事" beg="23" end="23" />
+                </word>
+                <word id="20" cont="二百" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="22" relate="QUN" />
+                <word id="21" cont="来" pos="m" ne="I-Nm" wsd="Hj63" wsdexp="来_去_来去" parent="20" relate="RAD" />
+                <word id="22" cont="吨" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="19" relate="VOB" />
+                <word id="23" cont="重" pos="a" ne="O" wsd="Eb13" wsdexp="重_轻_笨重_轻巧" parent="19" relate="VOB" />
+                <word id="24" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="究竟是怎样安装上去的，至今还不完全知道……”——节选自初中语文课本第三册《中国石拱桥》。" tag="">
+                <word id="0" cont="究竟" pos="d" ne="O" wsd="Ka31" wsdexp="无怪_未尝_毋宁_究竟_不妨" parent="1" relate="ADV" />
+                <word id="1" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="2" end="2" />
+                    <arg id="1" type="受事" beg="3" end="3" />
+                    <arg id="2" type="受事" beg="4" end="5" />
+                </word>
+                <word id="2" cont="怎样" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="1" relate="VOB" />
+                <word id="3" cont="安装" pos="v" ne="O" wsd="Hd02" wsdexp="安装_装配" parent="1" relate="VOB" />
+                <word id="4" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="5" relate="ADV" />
+                <word id="5" cont="去" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="1" relate="VOB">
+                    <arg id="0" type="方位" beg="4" end="4" />
+                </word>
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="1" relate="MT" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="至今" pos="d" ne="O" wsd="Ca11" wsdexp="过去_近来" parent="11" relate="ADV" />
+                <word id="9" cont="还" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="11" relate="ADV" />
+                <word id="10" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="11" relate="ADV" />
+                <word id="11" cont="完全" pos="a" ne="O" wsd="Ka06" wsdexp="完全_彻底_半半拉拉" parent="12" relate="ADV" />
+                <word id="12" cont="知道" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="16" relate="IS" />
+                <word id="13" cont="……" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="——" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="节选" pos="v" ne="O" wsd="Hj25" wsdexp="采集_搜罗_挑选_取长补短" parent="1" relate="VV" />
+                <word id="17" cont="自" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="16" relate="CMP" />
+                <word id="18" cont="初中" pos="n" ne="O" wsd="Dm05" wsdexp="学校" parent="19" relate="ATT" />
+                <word id="19" cont="语文" pos="n" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="20" relate="ATT" />
+                <word id="20" cont="课本" pos="n" ne="O" wsd="Dk20" wsdexp="读物_书籍_版本_页张" parent="17" relate="POB" />
+                <word id="21" cont="第三" pos="m" ne="O" wsd="Dn04" wsdexp="基数_序数" parent="22" relate="QUN" />
+                <word id="22" cont="册" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="25" relate="ATT" />
+                <word id="23" cont="《" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="中国" pos="ns" ne="S-Ns" wsd="Di02" wsdexp="国家_行政区划" parent="25" relate="ATT" />
+                <word id="25" cont="石拱桥" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="17" relate="POB" />
+                <word id="26" cont="》" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="27" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="这一段短短的文字，便勾了我们浓厚的兴趣。" tag="">
+                <word id="0" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="2" relate="ATT" />
+                <word id="1" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="2" relate="QUN" />
+                <word id="2" cont="段" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="4" relate="ATT" />
+                <word id="3" cont="短短的" pos="a" ne="O" wsd="Ea01" wsdexp="长_短" parent="4" relate="ATT" />
+                <word id="4" cont="文字" pos="n" ne="O" wsd="Dk19" wsdexp="作品_文章_稿件" parent="7" relate="SBV" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="便" pos="d" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="7" relate="ADV" />
+                <word id="7" cont="勾" pos="v" ne="O" wsd="Hg18" wsdexp="润色_修改_修订" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="4" />
+                    <arg id="1" type="受事" beg="9" end="9" />
+                    <arg id="2" type="受事" beg="10" end="12" />
+                </word>
+                <word id="8" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="7" relate="MT" />
+                <word id="9" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="7" relate="VOB" />
+                <word id="10" cont="浓厚" pos="a" ne="O" wsd="Ed16" wsdexp="深刻_深远_深厚_深沉" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="12" cont="兴趣" pos="n" ne="O" wsd="Df12" wsdexp="兴趣_嗜好" parent="7" relate="VOB" />
+                <word id="13" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="于是，便忙里偷闲于去年游览了这一记载古代劳动人民智慧和汗水的古桥。" tag="">
+                <word id="0" cont="于是" pos="c" ne="O" wsd="Kc11" wsdexp="于是_此外" parent="3" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="便" pos="d" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="3" relate="ADV" />
+                <word id="3" cont="忙里偷闲" pos="i" ne="O" wsd="Hj07" wsdexp="奔波_操劳_抽空" parent="6" relate="ADV" />
+                <word id="4" cont="于" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="6" relate="ADV" />
+                <word id="5" cont="去年" pos="nt" ne="O" wsd="Ca18" wsdexp="年" parent="6" relate="ADV" />
+                <word id="6" cont="游览" pos="v" ne="O" wsd="Hj48" wsdexp="游戏_游览_消遣" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="5" end="5" />
+                    <arg id="1" type="受事" beg="8" end="19" />
+                </word>
+                <word id="7" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="6" relate="MT" />
+                <word id="8" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="9" relate="ATT" />
+                <word id="9" cont="一" pos="m" ne="S-Nm" wsd="Dn04" wsdexp="基数_序数" parent="10" relate="ADV" />
+                <word id="10" cont="记载" pos="v" ne="O" wsd="Hi13" wsdexp="演讲_论述_列举_叙述_描写" parent="6" relate="VOB">
+                    <arg id="0" type="受事" beg="11" end="19" />
+                </word>
+                <word id="11" cont="古代" pos="nt" ne="O" wsd="Ca02" wsdexp="时代_朝代_年代" parent="12" relate="ATT" />
+                <word id="12" cont="劳动" pos="v" ne="O" wsd="Hj11" wsdexp="工作_劳动" parent="13" relate="ATT" />
+                <word id="13" cont="人民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="14" relate="ATT" />
+                <word id="14" cont="智慧" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="17" relate="DE" />
+                <word id="15" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="16" relate="LAD" />
+                <word id="16" cont="汗水" pos="n" ne="O" wsd="Bl01" wsdexp="汗_痰_奶水" parent="14" relate="COO" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="18" cont="古" pos="a" ne="O" wsd="Eb29" wsdexp="老式" parent="19" relate="ATT" />
+                <word id="19" cont="桥" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="10" relate="VOB" />
+                <word id="20" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="5" cont="去倾听这位老人有力跳动着的脉搏和历经沧桑巨变的倾诉……" tag="">
+                <word id="0" cont="去" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="1" relate="ADV" />
+                <word id="1" cont="倾听" pos="v" ne="O" wsd="Fc05" wsdexp="听_嗅" parent="13" relate="DE">
+                    <arg id="0" type="受事" beg="2" end="4" />
+                    <arg id="1" type="受事" beg="5" end="9" />
+                </word>
+                <word id="2" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="3" relate="ATT" />
+                <word id="3" cont="位" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="4" relate="ATT" />
+                <word id="4" cont="老人" pos="n" ne="O" wsd="Ab02" wsdexp="老人_成年人_老小" parent="1" relate="VOB" />
+                <word id="5" cont="有力" pos="a" ne="O" wsd="Ed19" wsdexp="稳固_强大_弱小" parent="9" relate="ATT" />
+                <word id="6" cont="跳动" pos="v" ne="O" wsd="Id14" wsdexp="移动_动弹_跳动_摇摆_颤动" parent="8" relate="DE" />
+                <word id="7" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="6" relate="MT" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="9" cont="脉搏" pos="n" ne="O" wsd="Bk16" wsdexp="经络_骨髓_神经" parent="1" relate="VOB" />
+                <word id="10" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="11" relate="LAD" />
+                <word id="11" cont="历经沧桑" pos="i" ne="O" wsd="Da02" wsdexp="变故_动乱_风潮" parent="12" relate="ADV" />
+                <word id="12" cont="巨变" pos="v" ne="O" wsd="Da02" wsdexp="变故_动乱_风潮" parent="13" relate="DE" />
+                <word id="13" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="14" relate="ATT" />
+                <word id="14" cont="倾诉" pos="v" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="-1" relate="HED" />
+                <word id="15" cont="……" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="3">
+            <sent id="0" cont="江东桥原名虎渡桥，始建于宋朝嘉定甲戊年，原本是在江中垒石建墩筑成的木桥，嘉熙丁酉年改建为石桥。" tag="10%">
+                <word id="0" cont="江东桥" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="1" relate="ATT" />
+                <word id="1" cont="原名" pos="n" ne="O" wsd="Dd15" wsdexp="名称_姓名_生肖_性别" parent="2" relate="ATT" />
+                <word id="2" cont="虎渡桥" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="4" relate="SBV" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="始建" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="2" />
+                </word>
+                <word id="5" cont="于" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="4" relate="CMP" />
+                <word id="6" cont="宋朝" pos="nt" ne="O" wsd="Ca02" wsdexp="时代_朝代_年代" parent="7" relate="ATT" />
+                <word id="7" cont="嘉定" pos="ns" ne="S-Ns" wsd="Cb25" wsdexp="城市_集镇_乡村" parent="5" relate="POB" />
+                <word id="8" cont="甲" pos="m" ne="O" wsd="Bk13" wsdexp="骨骼_指甲_甲壳_鳞" parent="10" relate="QUN" />
+                <word id="9" cont="戊" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="8" relate="RAD" />
+                <word id="10" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="5" relate="POB" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="原本" pos="d" ne="O" wsd="Ed51" wsdexp="天然_本来_现成" parent="13" relate="ADV" />
+                <word id="13" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="4" relate="IC" />
+                <word id="14" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="17" relate="ADV" />
+                <word id="15" cont="江" pos="n" ne="O" wsd="Be05" wsdexp="海洋_江河_溪涧" parent="16" relate="ATT" />
+                <word id="16" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="14" relate="POB" />
+                <word id="17" cont="垒" pos="v" ne="O" wsd="Hd01" wsdexp="建筑_架设_铺设_养护" parent="23" relate="DE">
+                    <arg id="0" type="方位" beg="14" end="16" />
+                    <arg id="1" type="受事" beg="18" end="18" />
+                </word>
+                <word id="18" cont="石" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="17" relate="VOB" />
+                <word id="19" cont="建" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="17" relate="VV">
+                    <arg id="0" type="受事" beg="20" end="20" />
+                </word>
+                <word id="20" cont="墩" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="19" relate="VOB" />
+                <word id="21" cont="筑" pos="v" ne="O" wsd="Hd01" wsdexp="建筑_架设_铺设_养护" parent="23" relate="DE" />
+                <word id="22" cont="成" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="21" relate="CMP" />
+                <word id="23" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="24" relate="ATT" />
+                <word id="24" cont="木桥" pos="ns" ne="S-Ns" wsd="Bn11" wsdexp="路_胡同_桥" parent="28" relate="SBV" />
+                <word id="25" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="26" cont="嘉熙" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="27" relate="ATT" />
+                <word id="27" cont="丁酉年" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="28" relate="SBV" />
+                <word id="28" cont="改建" pos="v" ne="O" wsd="Hd01" wsdexp="建筑_架设_铺设_养护" parent="4" relate="VV">
+                    <arg id="0" type="施事" beg="14" end="24" />
+                    <arg id="1" type="施事" beg="26" end="27" />
+                </word>
+                <word id="29" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="28" relate="CMP" />
+                <word id="30" cont="石桥" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="29" relate="POB" />
+                <word id="31" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="宋郡守的《虎渡桥记》中有：" tag="">
+                <word id="0" cont="宋" pos="nh" ne="S-Nh" wsd="Dd15" wsdexp="名称_姓名_生肖_性别" parent="1" relate="ATT" />
+                <word id="1" cont="郡守" pos="n" ne="O" wsd="-1" wsdexp="" parent="2" relate="DE" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="ATT" />
+                <word id="3" cont="《" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="虎渡桥" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="8" relate="SBV" />
+                <word id="5" cont="记" pos="v" ne="O" wsd="Hg11" wsdexp="挥笔_记录_留言_附笔" parent="7" relate="ATT" />
+                <word id="6" cont="》" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="中" pos="nd" ne="O" wsd="Cb05" wsdexp="内_外" parent="8" relate="ADV" />
+                <word id="8" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="4" />
+                    <arg id="1" type="方位" beg="5" end="7" />
+                </word>
+                <word id="9" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="“其长三千尺，址高百尺，酾水一十五道，梁之垮于址五十有八，长八十尺，广博皆六尺有奇。" tag="">
+                <word id="0" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="4" relate="ATT" />
+                <word id="2" cont="长" pos="a" ne="O" wsd="Ea01" wsdexp="长_短" parent="4" relate="ATT" />
+                <word id="3" cont="三千" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="4" relate="QUN" />
+                <word id="4" cont="尺" pos="q" ne="E-Nm" wsd="Bo18" wsdexp="仪表_量具_秤_斗" parent="11" relate="ADV" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="址" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="7" relate="SBV" />
+                <word id="7" cont="高" pos="a" ne="O" wsd="Ea02" wsdexp="高_矮" parent="9" relate="ATT" />
+                <word id="8" cont="百" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="9" relate="QUN" />
+                <word id="9" cont="尺" pos="q" ne="E-Nm" wsd="Bo18" wsdexp="仪表_量具_秤_斗" parent="4" relate="IC" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="酾" pos="v" ne="O" wsd="Fa24" wsdexp="浇_洒_沏_斟" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="12" end="12" />
+                    <arg id="1" type="受事-数量性质" beg="13" end="14" />
+                </word>
+                <word id="12" cont="水" pos="n" ne="O" wsd="Bg01" wsdexp="水_汁_浆" parent="11" relate="VOB" />
+                <word id="13" cont="一十五" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="14" relate="QUN" />
+                <word id="14" cont="道" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="11" relate="VOB" />
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="梁" pos="nh" ne="S-Nh" wsd="Bn06" wsdexp="梁_柱" parent="17" relate="DE" />
+                <word id="17" cont="之" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="22" relate="SBV" />
+                <word id="18" cont="垮" pos="v" ne="O" wsd="If22" wsdexp="成功_失败_垮台_落空" parent="22" relate="ADV" />
+                <word id="19" cont="于" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="22" relate="ADV" />
+                <word id="20" cont="址" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="19" relate="POB" />
+                <word id="21" cont="五十" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="22" relate="ADV" />
+                <word id="22" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="11" relate="VV">
+                    <arg id="0" type="施事" beg="16" end="17" />
+                    <arg id="1" type="受事" beg="23" end="23" />
+                </word>
+                <word id="23" cont="八" pos="m" ne="S-Nm" wsd="Dn04" wsdexp="基数_序数" parent="22" relate="VOB" />
+                <word id="24" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="长" pos="a" ne="O" wsd="Ea01" wsdexp="长_短" parent="27" relate="ATT" />
+                <word id="26" cont="八十" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="27" relate="QUN" />
+                <word id="27" cont="尺" pos="q" ne="E-Nm" wsd="Bo18" wsdexp="仪表_量具_秤_斗" parent="22" relate="IC" />
+                <word id="28" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="29" cont="广博" pos="a" ne="O" wsd="Ed39" wsdexp="丰富_广博_广博_贫乏" parent="33" relate="ADV" />
+                <word id="30" cont="皆" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="33" relate="ADV" />
+                <word id="31" cont="六" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="32" relate="QUN" />
+                <word id="32" cont="尺" pos="q" ne="E-Nm" wsd="Bo18" wsdexp="仪表_量具_秤_斗" parent="33" relate="ADV" />
+                <word id="33" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="22" relate="VV" />
+                <word id="34" cont="奇" pos="a" ne="O" wsd="Ed04" wsdexp="杰出_异常_普通" parent="33" relate="CMP" />
+                <word id="35" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="”这是对江东桥最早的记载。" tag="">
+                <word id="0" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="2" relate="SBV" />
+                <word id="2" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="1" end="1" />
+                    <arg id="1" type="受事" beg="8" end="8" />
+                </word>
+                <word id="3" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="7" relate="DE" />
+                <word id="4" cont="江东桥" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="3" relate="POB" />
+                <word id="5" cont="最" pos="d" ne="O" wsd="Ka02" wsdexp="最_至多_至少" parent="6" relate="ADV" />
+                <word id="6" cont="早" pos="a" ne="O" wsd="Eb22" wsdexp="早_迟" parent="7" relate="DE" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="2" relate="MT" />
+                <word id="8" cont="记载" pos="v" ne="O" wsd="Hi13" wsdexp="演讲_论述_列举_叙述_描写" parent="2" relate="VOB" />
+                <word id="9" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="明清两代，桥屡坏屡修，今仅存古桥遗址两处：" tag="">
+                <word id="0" cont="明清" pos="nt" ne="O" wsd="Ca02" wsdexp="时代_朝代_年代" parent="2" relate="ATT" />
+                <word id="1" cont="两" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="2" relate="QUN" />
+                <word id="2" cont="代" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="8" relate="ADV" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="桥" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="6" relate="SBV" />
+                <word id="5" cont="屡" pos="d" ne="O" wsd="Ka10" wsdexp="经常_向来_本来" parent="6" relate="ADV" />
+                <word id="6" cont="坏" pos="a" ne="O" wsd="Id06" wsdexp="损坏_裂开_折断" parent="8" relate="ADV" />
+                <word id="7" cont="屡" pos="d" ne="O" wsd="Ka10" wsdexp="经常_向来_本来" parent="8" relate="ADV" />
+                <word id="8" cont="修" pos="v" ne="O" wsd="Hd01" wsdexp="建筑_架设_铺设_养护" parent="-1" relate="HED" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="今" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="12" relate="ADV" />
+                <word id="11" cont="仅" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="12" relate="ADV" />
+                <word id="12" cont="存" pos="v" ne="O" wsd="Hj40" wsdexp="寻找_储藏_储蓄" parent="8" relate="VV">
+                    <arg id="0" type="时间" beg="10" end="10" />
+                    <arg id="1" type="受事" beg="13" end="14" />
+                    <arg id="2" type="受事-数量性质" beg="15" end="16" />
+                </word>
+                <word id="13" cont="古桥" pos="nz" ne="S-Nz" wsd="-1" wsdexp="" parent="14" relate="ATT" />
+                <word id="14" cont="遗址" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="12" relate="VOB" />
+                <word id="15" cont="两" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="16" relate="QUN" />
+                <word id="16" cont="处" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="12" relate="VOB" />
+                <word id="17" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="5" cont="一处在第二、三个桥墩之间，有三块巨石；" tag="">
+                <word id="0" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="1" relate="QUN" />
+                <word id="1" cont="处" pos="q" ne="E-Nm" wsd="Cb08" wsdexp="地方_地点" parent="-1" relate="HED" />
+                <word id="2" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="10" relate="ADV" />
+                <word id="3" cont="第二" pos="m" ne="O" wsd="Dn04" wsdexp="基数_序数" parent="6" relate="QUN" />
+                <word id="4" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="三" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="3" relate="COO" />
+                <word id="6" cont="个" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="7" relate="ATT" />
+                <word id="7" cont="桥墩" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="8" relate="ATT" />
+                <word id="8" cont="之间" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="2" relate="POB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="1" relate="IC">
+                    <arg id="0" type="方位" beg="2" end="8" />
+                    <arg id="1" type="受事" beg="11" end="13" />
+                </word>
+                <word id="11" cont="三" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="12" relate="QUN" />
+                <word id="12" cont="块" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="13" relate="ATT" />
+                <word id="13" cont="巨石" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="10" relate="VOB" />
+                <word id="14" cont="；" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="6" cont="另一处在第四、五个桥墩之间，有两块巨石。" tag="">
+                <word id="0" cont="另" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="2" relate="ATT" />
+                <word id="1" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="2" relate="QUN" />
+                <word id="2" cont="处" pos="q" ne="E-Nm" wsd="Cb08" wsdexp="地方_地点" parent="-1" relate="HED" />
+                <word id="3" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="11" relate="ADV" />
+                <word id="4" cont="第四" pos="m" ne="O" wsd="Dn04" wsdexp="基数_序数" parent="7" relate="QUN" />
+                <word id="5" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="五" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="4" relate="COO" />
+                <word id="7" cont="个" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="8" relate="ATT" />
+                <word id="8" cont="桥墩" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="9" relate="ATT" />
+                <word id="9" cont="之间" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="3" relate="POB" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="2" relate="IC">
+                    <arg id="0" type="方位" beg="3" end="9" />
+                    <arg id="1" type="受事" beg="12" end="14" />
+                </word>
+                <word id="12" cont="两" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="13" relate="QUN" />
+                <word id="13" cont="块" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="14" relate="ATT" />
+                <word id="14" cont="巨石" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="11" relate="VOB" />
+                <word id="15" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="7" cont="如今屹立在我们面前的是重建重修后的江东桥，仅存古桥墩五处，仍保留原本十五处桥墩的记录。" tag="">
+                <word id="0" cont="如今" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="1" relate="ADV" />
+                <word id="1" cont="屹立" pos="v" ne="O" wsd="Id07" wsdexp="耸立_停放_悬挂_颠倒" parent="5" relate="DE">
+                    <arg id="0" type="时间" beg="0" end="0" />
+                </word>
+                <word id="2" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="1" relate="CMP" />
+                <word id="3" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="2" relate="POB" />
+                <word id="4" cont="面前" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="2" relate="POB" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="6" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="7" end="7" />
+                    <arg id="1" type="受事" beg="8" end="11" />
+                    <arg id="2" type="受事" beg="22" end="27" />
+                </word>
+                <word id="7" cont="重建" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="6" relate="VOB" />
+                <word id="8" cont="重修" pos="v" ne="O" wsd="Hg08" wsdexp="学习_从师_模仿" parent="9" relate="ATT" />
+                <word id="9" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="10" relate="DE" />
+                <word id="10" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="11" cont="江东桥" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="6" relate="VOB" />
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="仅" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="14" relate="ADV" />
+                <word id="14" cont="存" pos="v" ne="O" wsd="Hj40" wsdexp="寻找_储藏_储蓄" parent="6" relate="VV">
+                    <arg id="0" type="受事" beg="15" end="16" />
+                    <arg id="1" type="受事-数量性质" beg="17" end="18" />
+                </word>
+                <word id="15" cont="古" pos="a" ne="O" wsd="Eb29" wsdexp="老式" parent="16" relate="ATT" />
+                <word id="16" cont="桥墩" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="14" relate="VOB" />
+                <word id="17" cont="五" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="18" relate="QUN" />
+                <word id="18" cont="处" pos="q" ne="E-Nm" wsd="Cb08" wsdexp="地方_地点" parent="14" relate="VOB" />
+                <word id="19" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="20" cont="仍" pos="d" ne="O" wsd="Ka28" wsdexp="仍然_尚且" parent="21" relate="ADV" />
+                <word id="21" cont="保留" pos="v" ne="O" wsd="Hj40" wsdexp="寻找_储藏_储蓄" parent="14" relate="VV" />
+                <word id="22" cont="原本" pos="d" ne="O" wsd="Ed51" wsdexp="天然_本来_现成" parent="27" relate="ADV" />
+                <word id="23" cont="十五" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="24" relate="QUN" />
+                <word id="24" cont="处" pos="q" ne="E-Nm" wsd="Cb08" wsdexp="地方_地点" parent="25" relate="ATT" />
+                <word id="25" cont="桥墩" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="26" relate="DE" />
+                <word id="26" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="ATT" />
+                <word id="27" cont="记录" pos="n" ne="O" wsd="Hg11" wsdexp="挥笔_记录_留言_附笔" parent="6" relate="VOB" />
+                <word id="28" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="8" cont="一九八二年六月二十五日，龙海县人民政府公布其为第一批县级文物保护单位。" tag="">
+                <word id="0" cont="一九八二年" pos="nt" ne="B-Nr" wsd="-1" wsdexp="" parent="1" relate="ATT" />
+                <word id="1" cont="六月" pos="nt" ne="I-Nr" wsd="Ca21" wsdexp="月" parent="2" relate="ATT" />
+                <word id="2" cont="二十五日" pos="nt" ne="E-Nr" wsd="-1" wsdexp="" parent="6" relate="ADV" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="龙海县" pos="ns" ne="B-Ni" wsd="-1" wsdexp="" parent="5" relate="ATT" />
+                <word id="5" cont="人民政府" pos="i" ne="E-Ni" wsd="Dm01" wsdexp="政府" parent="6" relate="SBV" />
+                <word id="6" cont="公布" pos="v" ne="O" wsd="Hc11" wsdexp="召集_宣布_下令" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="2" />
+                    <arg id="1" type="施事" beg="4" end="5" />
+                    <arg id="2" type="受事" beg="7" end="7" />
+                </word>
+                <word id="7" cont="其" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="6" relate="VOB" />
+                <word id="8" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="6" relate="CMP" />
+                <word id="9" cont="第一" pos="m" ne="O" wsd="Dn04" wsdexp="基数_序数" parent="10" relate="QUN" />
+                <word id="10" cont="批" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="14" relate="ATT" />
+                <word id="11" cont="县级" pos="b" ne="O" wsd="Dd06" wsdexp="系统_种类_结构" parent="12" relate="ATT" />
+                <word id="12" cont="文物" pos="n" ne="O" wsd="Ba08" wsdexp="宝物_废物" parent="13" relate="ATT" />
+                <word id="13" cont="保护" pos="v" ne="O" wsd="Hi37" wsdexp="照顾_服侍_护理_保护" parent="14" relate="ATT" />
+                <word id="14" cont="单位" pos="n" ne="O" wsd="Di09" wsdexp="政策_制度_所有制_体制" parent="8" relate="POB" />
+                <word id="15" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="9" cont="它是国内现存单体最大的桥，对于研究我国古代桥梁具有重要价值。" tag="10%">
+                <word id="0" cont="它" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="1" relate="SBV" />
+                <word id="1" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="8" />
+                </word>
+                <word id="2" cont="国内" pos="nl" ne="O" wsd="Cb05" wsdexp="内_外" parent="3" relate="ADV" />
+                <word id="3" cont="现存" pos="v" ne="O" wsd="He14" wsdexp="足够_相抵_剩余_结存_亏欠" parent="1" relate="VOB">
+                    <arg id="0" type="地点" beg="2" end="2" />
+                    <arg id="1" type="受事" beg="4" end="8" />
+                </word>
+                <word id="4" cont="单体" pos="n" ne="O" wsd="Ba01" wsdexp="物_物体" parent="8" relate="ATT" />
+                <word id="5" cont="最" pos="d" ne="O" wsd="Ka02" wsdexp="最_至多_至少" parent="6" relate="ADV" />
+                <word id="6" cont="大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="7" relate="DE" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="8" cont="桥" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="3" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="对于" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="15" relate="ADV" />
+                <word id="11" cont="研究" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="12" relate="ATT" />
+                <word id="12" cont="我国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="13" relate="ATT" />
+                <word id="13" cont="古代" pos="nt" ne="O" wsd="Ca02" wsdexp="时代_朝代_年代" parent="14" relate="ATT" />
+                <word id="14" cont="桥梁" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="10" relate="POB" />
+                <word id="15" cont="具有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="1" relate="VV">
+                    <arg id="0" type="受事" beg="16" end="17" />
+                </word>
+                <word id="16" cont="重要" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="17" relate="ATT" />
+                <word id="17" cont="价值" pos="n" ne="O" wsd="Dj02" wsdexp="价值_价格" parent="15" relate="VOB" />
+                <word id="18" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="4" />
+        <para id="5">
+            <sent id="0" cont="今天，为了那顽强生命的活力还存在于你那笨重残破的躯干里，为了你深深的沉默中那些只能用心去倾听的语言——江东桥，我们来到了你的身旁。" tag="">
+                <word id="0" cont="今天" pos="nt" ne="O" wsd="Ca23" wsdexp="日" parent="9" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="为了" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="9" relate="ADV" />
+                <word id="3" cont="那" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="5" relate="ATT" />
+                <word id="4" cont="顽强" pos="a" ne="O" wsd="Ee12" wsdexp="果断_坚强_坚定_脆弱" parent="5" relate="ATT" />
+                <word id="5" cont="生命" pos="n" ne="O" wsd="Da17" wsdexp="生命_生活" parent="6" relate="DE" />
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ATT" />
+                <word id="7" cont="活力" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="2" relate="POB" />
+                <word id="8" cont="还" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="9" relate="ADV" />
+                <word id="9" cont="存在" pos="v" ne="O" wsd="Jd01" wsdexp="无关" parent="22" relate="DE">
+                    <arg id="0" type="时间" beg="0" end="0" />
+                </word>
+                <word id="10" cont="于" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="9" relate="CMP" />
+                <word id="11" cont="你" pos="r" ne="O" wsd="Aa03" wsdexp="你_你们" parent="10" relate="POB" />
+                <word id="12" cont="那" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="10" relate="POB" />
+                <word id="13" cont="笨重" pos="a" ne="O" wsd="Eb13" wsdexp="重_轻_笨重_轻巧" parent="15" relate="DE" />
+                <word id="14" cont="残破" pos="v" ne="O" wsd="Eb07" wsdexp="完整_齐全_残缺_零碎_破烂" parent="15" relate="DE" />
+                <word id="15" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ATT" />
+                <word id="16" cont="躯干" pos="n" ne="O" wsd="Bk01" wsdexp="身体_尸体" parent="17" relate="ATT" />
+                <word id="17" cont="里" pos="nd" ne="O" wsd="Cb05" wsdexp="内_外" parent="10" relate="POB" />
+                <word id="18" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="为了" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="22" relate="DE" />
+                <word id="20" cont="你" pos="r" ne="O" wsd="Aa03" wsdexp="你_你们" parent="22" relate="DE" />
+                <word id="21" cont="深深" pos="a" ne="O" wsd="Ed16" wsdexp="深刻_深远_深厚_深沉" parent="22" relate="DE" />
+                <word id="22" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="23" relate="ATT" />
+                <word id="23" cont="沉默" pos="a" ne="O" wsd="Ic04" wsdexp="叹气_发呆_沉默" parent="26" relate="ADV" />
+                <word id="24" cont="中" pos="nd" ne="O" wsd="Cb05" wsdexp="内_外" parent="26" relate="ADV" />
+                <word id="25" cont="那些" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="24" relate="NOT" />
+                <word id="26" cont="只能" pos="v" ne="O" wsd="Ka22" wsdexp="执意_只得" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="24" end="25" />
+                    <arg id="1" type="受事" beg="27" end="31" />
+                </word>
+                <word id="27" cont="用心" pos="a" ne="O" wsd="Ee24" wsdexp="勤奋_用功_懒惰_拖拉" parent="30" relate="DE" />
+                <word id="28" cont="去" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="29" relate="ADV" />
+                <word id="29" cont="倾听" pos="v" ne="O" wsd="Fc05" wsdexp="听_嗅" parent="30" relate="DE" />
+                <word id="30" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="31" relate="ATT" />
+                <word id="31" cont="语言" pos="n" ne="O" wsd="Dk06" wsdexp="词_句_语言_谜语" parent="26" relate="VOB" />
+                <word id="32" cont="——" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="33" cont="江东桥" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="26" relate="NOT" />
+                <word id="34" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="35" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="36" relate="SBV" />
+                <word id="36" cont="来到" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="39" relate="DE">
+                    <arg id="0" type="施事" beg="35" end="35" />
+                </word>
+                <word id="37" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="36" relate="MT" />
+                <word id="38" cont="你" pos="r" ne="O" wsd="Aa03" wsdexp="你_你们" parent="39" relate="DE" />
+                <word id="39" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="40" relate="ATT" />
+                <word id="40" cont="身旁" pos="nl" ne="O" wsd="Cb06" wsdexp="旁边_附近_周围_对面" parent="26" relate="NOT" />
+                <word id="41" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="踏上那冰凉光滑的石面，迎面吹来的那暖和中透着丝丝凉意的清风，冷却了生活疲累的高温，解除了神经绷紧的压力。" tag="">
+                <word id="0" cont="踏" pos="v" ne="O" wsd="Fb02" wsdexp="跳_踢_踩_踮" parent="9" relate="ADV">
+                    <arg id="0" type="受事" beg="2" end="6" />
+                </word>
+                <word id="1" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="0" relate="CMP" />
+                <word id="2" cont="那" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="6" relate="ATT" />
+                <word id="3" cont="冰凉" pos="a" ne="O" wsd="Eb26" wsdexp="冷_热_凉_暖" parent="5" relate="DE" />
+                <word id="4" cont="光滑" pos="a" ne="O" wsd="Eb33" wsdexp="光滑_毛糙_精巧_粗糙" parent="5" relate="DE" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="6" cont="石面" pos="n" ne="O" wsd="-1" wsdexp="" parent="0" relate="VOB" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="迎面" pos="d" ne="O" wsd="Ka25" wsdexp="迎头_径自_直接_间接" parent="9" relate="ADV" />
+                <word id="9" cont="吹" pos="v" ne="O" wsd="Fc08" wsdexp="呼_吐_吸_呼吸" parent="11" relate="DE" />
+                <word id="10" cont="来" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="9" relate="CMP" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="21" relate="ATT" />
+                <word id="12" cont="那" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="21" relate="ATT" />
+                <word id="13" cont="暖和" pos="v" ne="O" wsd="Eb26" wsdexp="冷_热_凉_暖" parent="14" relate="ATT" />
+                <word id="14" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="15" relate="ADV" />
+                <word id="15" cont="透" pos="v" ne="O" wsd="Ed37" wsdexp="简单_详细_透彻_均匀" parent="20" relate="DE">
+                    <arg id="0" type="方位" beg="13" end="14" />
+                    <arg id="1" type="受事" beg="17" end="19" />
+                </word>
+                <word id="16" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="15" relate="MT" />
+                <word id="17" cont="丝" pos="n" ne="O" wsd="Dn08" wsdexp="数量单位" parent="18" relate="ATT" />
+                <word id="18" cont="丝" pos="n" ne="O" wsd="Dn08" wsdexp="数量单位" parent="19" relate="ATT" />
+                <word id="19" cont="凉意" pos="n" ne="O" wsd="Eb26" wsdexp="冷_热_凉_暖" parent="15" relate="VOB" />
+                <word id="20" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="21" relate="ATT" />
+                <word id="21" cont="清风" pos="n" ne="O" wsd="Bf02" wsdexp="风_云" parent="31" relate="SBV" />
+                <word id="22" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="冷却" pos="v" ne="O" wsd="Ia11" wsdexp="冷却_结冰_解冻" parent="29" relate="ATT" />
+                <word id="24" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="29" relate="ATT" />
+                <word id="25" cont="生活" pos="v" ne="O" wsd="Hj01" wsdexp="生活_居住" parent="29" relate="ATT" />
+                <word id="26" cont="疲" pos="a" ne="O" wsd="Ic06" wsdexp="疲倦_懒散" parent="28" relate="DE" />
+                <word id="27" cont="累" pos="a" ne="O" wsd="Ic06" wsdexp="疲倦_懒散" parent="28" relate="DE" />
+                <word id="28" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="29" relate="ATT" />
+                <word id="29" cont="高温" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="31" relate="SBV" />
+                <word id="30" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="31" cont="解除" pos="v" ne="O" wsd="Hc06" wsdexp="撤销" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="21" />
+                    <arg id="1" type="施事" beg="23" end="29" />
+                    <arg id="2" type="受事" beg="33" end="33" />
+                </word>
+                <word id="32" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="31" relate="MT" />
+                <word id="33" cont="神经" pos="n" ne="O" wsd="Bk16" wsdexp="经络_骨髓_神经" parent="31" relate="VOB" />
+                <word id="34" cont="绷" pos="v" ne="O" wsd="Hj41" wsdexp="缝纫" parent="31" relate="VV">
+                    <arg id="0" type="受事" beg="35" end="37" />
+                </word>
+                <word id="35" cont="紧" pos="a" ne="O" wsd="Eb09" wsdexp="紧_松" parent="36" relate="DE" />
+                <word id="36" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="37" relate="ATT" />
+                <word id="37" cont="压力" pos="n" ne="O" wsd="Dd14" wsdexp="力气_力量_能量" parent="34" relate="VOB" />
+                <word id="38" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="听着那桥墩边上榕树叶随风而动的摩痧声，以及小船儿激起的“哗哗”的水声，江面上荡起了层层的涟漪……噢，听着这自然的合响，迎着这自然的清风，任思绪随风而舞，的确是一种难得的享受，当然也会给你一份不曾有过的好心情。" tag="">
+                <word id="0" cont="听" pos="v" ne="O" wsd="Fc05" wsdexp="听_嗅" parent="20" relate="DE">
+                    <arg id="0" type="受事" beg="2" end="14" />
+                </word>
+                <word id="1" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="0" relate="MT" />
+                <word id="2" cont="那" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="14" relate="ATT" />
+                <word id="3" cont="桥墩" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="4" relate="ATT" />
+                <word id="4" cont="边上" pos="nd" ne="O" wsd="Cb06" wsdexp="旁边_附近_周围_对面" parent="5" relate="ATT" />
+                <word id="5" cont="榕树" pos="n" ne="O" wsd="Bh01" wsdexp="树木_竹子" parent="6" relate="ATT" />
+                <word id="6" cont="叶" pos="nh" ne="S-Nh" wsd="Bh11" wsdexp="根_叶_花朵" parent="10" relate="SBV" />
+                <word id="7" cont="随" pos="p" ne="O" wsd="Hj36" wsdexp="携带_跟随" parent="10" relate="ADV" />
+                <word id="8" cont="风" pos="n" ne="O" wsd="Bf02" wsdexp="风_云" parent="7" relate="POB" />
+                <word id="9" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="10" relate="CNJ" />
+                <word id="10" cont="动" pos="v" ne="O" wsd="Id14" wsdexp="移动_动弹_跳动_摇摆_颤动" parent="11" relate="DE">
+                    <arg id="0" type="施事" beg="3" end="6" />
+                </word>
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="14" relate="ATT" />
+                <word id="12" cont="摩" pos="j" ne="O" wsd="Bp01" wsdexp="灯_镜子_眼镜" parent="13" relate="ATT" />
+                <word id="13" cont="痧" pos="n" ne="O" wsd="Dl01" wsdexp="疾病_兽疫_病害" parent="14" relate="ATT" />
+                <word id="14" cont="声" pos="n" ne="O" wsd="Bg07" wsdexp="声音_音调_节拍" parent="0" relate="VOB" />
+                <word id="15" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="16" cont="以及" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="18" relate="LAD" />
+                <word id="17" cont="小" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="18" relate="ATT" />
+                <word id="18" cont="船儿" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="19" relate="SBV" />
+                <word id="19" cont="激起" pos="v" ne="O" wsd="Je06" wsdexp="推动_激发" parent="20" relate="DE">
+                    <arg id="0" type="施事" beg="16" end="18" />
+                </word>
+                <word id="20" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="25" relate="ATT" />
+                <word id="21" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="哗哗" pos="o" ne="O" wsd="-1" wsdexp="" parent="20" relate="NOT" />
+                <word id="23" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="25" relate="ATT" />
+                <word id="25" cont="水声" pos="n" ne="O" wsd="Bg07" wsdexp="声音_音调_节拍" parent="43" relate="SBV" />
+                <word id="26" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="27" cont="江面" pos="n" ne="O" wsd="Dd08" wsdexp="表面_实质_根本" parent="28" relate="ATT" />
+                <word id="28" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="29" relate="ADV" />
+                <word id="29" cont="荡" pos="v" ne="O" wsd="Fa21" wsdexp="洗_扫_擦" parent="33" relate="DE">
+                    <arg id="0" type="方位" beg="27" end="28" />
+                    <arg id="1" type="受事" beg="32" end="32" />
+                </word>
+                <word id="30" cont="起" pos="v" ne="O" wsd="Jd07" wsdexp="出现_发生" parent="29" relate="CMP" />
+                <word id="31" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="30" relate="MT" />
+                <word id="32" cont="层层" pos="n" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="29" relate="VOB" />
+                <word id="33" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="34" relate="ATT" />
+                <word id="34" cont="涟漪" pos="n" ne="O" wsd="Bg02" wsdexp="泡_波浪" parent="25" relate="COO" />
+                <word id="35" cont="……" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="36" cont="噢" pos="e" ne="O" wsd="Ke01" wsdexp="喂_喳_喔_哼_嗳" parent="25" relate="NOT" />
+                <word id="37" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="38" cont="听" pos="v" ne="O" wsd="Fc05" wsdexp="听_嗅" parent="42" relate="DE">
+                    <arg id="0" type="受事" beg="40" end="41" />
+                </word>
+                <word id="39" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="38" relate="MT" />
+                <word id="40" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="41" relate="ATT" />
+                <word id="41" cont="自然" pos="n" ne="O" wsd="Ed51" wsdexp="天然_本来_现成" parent="38" relate="VOB" />
+                <word id="42" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="43" relate="ATT" />
+                <word id="43" cont="合" pos="v" ne="O" wsd="He16" wsdexp="合计" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="36" />
+                </word>
+                <word id="44" cont="响" pos="v" ne="O" wsd="Ia08" wsdexp="作响_爆炸" parent="43" relate="CMP" />
+                <word id="45" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="46" cont="迎" pos="v" ne="O" wsd="Hi05" wsdexp="迎接_会面_陪伴" parent="50" relate="DE">
+                    <arg id="0" type="受事" beg="48" end="49" />
+                </word>
+                <word id="47" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="46" relate="MT" />
+                <word id="48" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="49" relate="ATT" />
+                <word id="49" cont="自然" pos="n" ne="O" wsd="Ed51" wsdexp="天然_本来_现成" parent="46" relate="VOB" />
+                <word id="50" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="51" relate="ATT" />
+                <word id="51" cont="清风" pos="n" ne="O" wsd="Bf02" wsdexp="风_云" parent="57" relate="SBV" />
+                <word id="52" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="53" cont="任思绪" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="57" relate="SBV" />
+                <word id="54" cont="随" pos="p" ne="O" wsd="Hj36" wsdexp="携带_跟随" parent="57" relate="ADV" />
+                <word id="55" cont="风" pos="n" ne="O" wsd="Bf02" wsdexp="风_云" parent="54" relate="POB" />
+                <word id="56" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="57" relate="LAD" />
+                <word id="57" cont="舞" pos="v" ne="O" wsd="Dk29" wsdexp="戏剧_唱腔_舞蹈_电影_镜头" parent="43" relate="VV">
+                    <arg id="0" type="施事" beg="46" end="51" />
+                    <arg id="1" type="施事" beg="53" end="53" />
+                </word>
+                <word id="58" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="59" cont="的确" pos="d" ne="O" wsd="Ka30" wsdexp="实在_其实_不免_莫如" parent="60" relate="ADV" />
+                <word id="60" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="57" relate="IC">
+                    <arg id="0" type="受事" beg="61" end="65" />
+                </word>
+                <word id="61" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="62" relate="QUN" />
+                <word id="62" cont="种" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="65" relate="ATT" />
+                <word id="63" cont="难得" pos="a" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="64" relate="DE" />
+                <word id="64" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="65" relate="ATT" />
+                <word id="65" cont="享受" pos="v" ne="O" wsd="Je13" wsdexp="遭受_享受" parent="60" relate="VOB" />
+                <word id="66" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="67" cont="当然" pos="d" ne="O" wsd="Ka32" wsdexp="千万_当然" parent="69" relate="ADV" />
+                <word id="68" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="69" relate="ADV" />
+                <word id="69" cont="会" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="60" relate="VV" />
+                <word id="70" cont="给" pos="p" ne="O" wsd="Je05" wsdexp="给予_寄予_加以_冠以" parent="75" relate="ADV" />
+                <word id="71" cont="你" pos="r" ne="O" wsd="Aa03" wsdexp="你_你们" parent="70" relate="POB" />
+                <word id="72" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="73" relate="QUN" />
+                <word id="73" cont="份" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="75" relate="ADV" />
+                <word id="74" cont="不曾" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="75" relate="ADV" />
+                <word id="75" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="60" relate="IC">
+                    <arg id="0" type="受事" beg="76" end="79" />
+                </word>
+                <word id="76" cont="过" pos="v" ne="O" wsd="Kd02" wsdexp="来着_过" parent="77" relate="DE" />
+                <word id="77" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="79" relate="ATT" />
+                <word id="78" cont="好" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="79" relate="ATT" />
+                <word id="79" cont="心情" pos="n" ne="O" wsd="Df05" wsdexp="心意_心情_爱情" parent="75" relate="VOB" />
+                <word id="80" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="一时间，似乎有一种迷恋之情。" tag="">
+                <word id="0" cont="一时间" pos="nt" ne="O" wsd="Eb25" wsdexp="短促_暂时" parent="3" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="似乎" pos="d" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="3" relate="ADV" />
+                <word id="3" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="4" end="8" />
+                </word>
+                <word id="4" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="5" relate="QUN" />
+                <word id="5" cont="种" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="8" relate="ATT" />
+                <word id="6" cont="迷恋" pos="v" ne="O" wsd="Ga14" wsdexp="沉迷_迷惑_留恋_习惯" parent="7" relate="DE" />
+                <word id="7" cont="之" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ATT" />
+                <word id="8" cont="情" pos="n" ne="O" wsd="Df04" wsdexp="感觉_感情" parent="3" relate="VOB" />
+                <word id="9" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="迷恋于它的深沉悠远，它的神秘宁静，它的不饰雕琢，它的淳朴自然。" tag="">
+                <word id="0" cont="迷恋" pos="v" ne="O" wsd="Ga14" wsdexp="沉迷_迷惑_留恋_习惯" parent="3" relate="DE" />
+                <word id="1" cont="于" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="0" relate="CMP" />
+                <word id="2" cont="它" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="1" relate="POB" />
+                <word id="3" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="4" relate="ATT" />
+                <word id="4" cont="深沉" pos="a" ne="O" wsd="Ed16" wsdexp="深刻_深远_深厚_深沉" parent="8" relate="DE" />
+                <word id="5" cont="悠远" pos="a" ne="O" wsd="Eb21" wsdexp="远_近" parent="4" relate="COO" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="它" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="8" relate="DE" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="9" cont="神秘" pos="a" ne="O" wsd="Ed08" wsdexp="深奥_玄妙_浅近" parent="-1" relate="HED" />
+                <word id="10" cont="宁静" pos="a" ne="O" wsd="Ef04" wsdexp="安静_荒凉" parent="9" relate="COO" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="它" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="13" relate="DE" />
+                <word id="13" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="14" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="15" relate="ADV" />
+                <word id="15" cont="饰" pos="v" ne="O" wsd="Hh01" wsdexp="演出_排演_扮演" parent="9" relate="IC">
+                    <arg id="0" type="受事" beg="16" end="16" />
+                </word>
+                <word id="16" cont="雕琢" pos="v" ne="O" wsd="Hg19" wsdexp="绘画_制图_雕刻" parent="15" relate="VOB" />
+                <word id="17" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="它" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="19" relate="DE" />
+                <word id="19" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="21" relate="ATT" />
+                <word id="20" cont="淳朴" pos="a" ne="O" wsd="Ee02" wsdexp="厚道_刻薄_缺德" parent="21" relate="ATT" />
+                <word id="21" cont="自然" pos="n" ne="O" wsd="Ed51" wsdexp="天然_本来_现成" parent="9" relate="IC" />
+                <word id="22" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="5" cont="它给人们的不止是清新亮丽，更多的是轻松的环境和自由的遐想…… " tag="">
+                <word id="0" cont="它" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="3" relate="DE" />
+                <word id="1" cont="给" pos="p" ne="O" wsd="Je05" wsdexp="给予_寄予_加以_冠以" parent="3" relate="DE" />
+                <word id="2" cont="人们" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="1" relate="POB" />
+                <word id="3" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="4" cont="不止" pos="v" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="5" relate="SBV" />
+                <word id="5" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="4" end="4" />
+                </word>
+                <word id="6" cont="清新" pos="a" ne="O" wsd="Eb28" wsdexp="新_新鲜" parent="11" relate="DE" />
+                <word id="7" cont="亮丽" pos="a" ne="O" wsd="Eb30" wsdexp="美丽_丑陋" parent="6" relate="COO" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="更" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="10" relate="ADV" />
+                <word id="10" cont="多" pos="a" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="12" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="5" relate="VV">
+                    <arg id="0" type="受事" beg="13" end="15" />
+                </word>
+                <word id="13" cont="轻松" pos="a" ne="O" wsd="Ef10" wsdexp="和缓_紧张" parent="14" relate="DE" />
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="15" cont="环境" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="12" relate="VOB" />
+                <word id="16" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="19" relate="CNJ" />
+                <word id="17" cont="自由" pos="a" ne="O" wsd="Ka19" wsdexp="竭力_任意_胡乱" parent="18" relate="DE" />
+                <word id="18" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ADV" />
+                <word id="19" cont="遐想" pos="v" ne="O" wsd="Gb01" wsdexp="想象_思考_斟酌_着想_存心" parent="5" relate="IC" />
+                <word id="20" cont="……" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="6" />
+        <para id="7">
+            <sent id="0" cont="在游玩期间，我们发现古桥墩有一些与众不同的地方。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="1" relate="ADV" />
+                <word id="1" cont="游玩" pos="v" ne="O" wsd="Hj48" wsdexp="游戏_游览_消遣" parent="2" relate="ATT" />
+                <word id="2" cont="期间" pos="nd" ne="O" wsd="Ca06" wsdexp="期限_期间" parent="5" relate="ADV" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="5" relate="SBV" />
+                <word id="5" cont="发现" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="2" />
+                    <arg id="1" type="施事" beg="4" end="4" />
+                    <arg id="2" type="受事" beg="6" end="12" />
+                </word>
+                <word id="6" cont="古" pos="a" ne="O" wsd="Eb29" wsdexp="老式" parent="7" relate="ATT" />
+                <word id="7" cont="桥墩" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="8" relate="SBV" />
+                <word id="8" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="5" relate="VOB">
+                    <arg id="0" type="施事" beg="6" end="7" />
+                    <arg id="1" type="受事" beg="9" end="12" />
+                </word>
+                <word id="9" cont="一些" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="12" relate="QUN" />
+                <word id="10" cont="与众不同" pos="i" ne="O" wsd="Ed04" wsdexp="杰出_异常_普通" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="12" cont="地方" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="8" relate="VOB" />
+                <word id="13" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="桥墩的下半部份形态酷似小船，它的中部宽厚而沉稳，两头则高高翘起，这样即有利于水的流动，又能缓和水对桥的冲击，就算是在洪水来临时，也能保证整座桥的平稳和安全。" tag="10%">
+                <word id="0" cont="桥墩" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="1" relate="DE" />
+                <word id="1" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="2" relate="SBV" />
+                <word id="2" cont="下" pos="v" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="12" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="3" end="6" />
+                    <arg id="2" type="受事" beg="7" end="9" />
+                </word>
+                <word id="3" cont="半" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="4" relate="QUN" />
+                <word id="4" cont="部" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="6" relate="ATT" />
+                <word id="5" cont="份" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="6" relate="ATT" />
+                <word id="6" cont="形态" pos="n" ne="O" wsd="Dc01" wsdexp="形状_状态_式样_装饰" parent="2" relate="VOB" />
+                <word id="7" cont="酷似" pos="v" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="2" relate="VOB">
+                    <arg id="0" type="受事" beg="8" end="9" />
+                </word>
+                <word id="8" cont="小" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="9" relate="ATT" />
+                <word id="9" cont="船" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="7" relate="VOB" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="它" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="12" relate="DE" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="14" relate="ATT" />
+                <word id="13" cont="中部" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="14" relate="ADV" />
+                <word id="14" cont="宽厚" pos="a" ne="O" wsd="Ee02" wsdexp="厚道_刻薄_缺德" parent="-1" relate="HED" />
+                <word id="15" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="16" relate="LAD" />
+                <word id="16" cont="沉稳" pos="a" ne="O" wsd="Ee29" wsdexp="稳重_踏实_轻浮" parent="14" relate="COO" />
+                <word id="17" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="18" cont="两头" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="20" relate="SBV" />
+                <word id="19" cont="则" pos="d" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="20" relate="ADV" />
+                <word id="20" cont="高" pos="a" ne="O" wsd="Ea02" wsdexp="高_矮" parent="22" relate="ADV" />
+                <word id="21" cont="高" pos="a" ne="O" wsd="Ea02" wsdexp="高_矮" parent="20" relate="COO" />
+                <word id="22" cont="翘" pos="v" ne="O" wsd="Ea08" wsdexp="直_曲_平_挺_皱" parent="34" relate="SBV" />
+                <word id="23" cont="起" pos="v" ne="O" wsd="Jd07" wsdexp="出现_发生" parent="22" relate="CMP" />
+                <word id="24" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="这样" pos="r" ne="O" wsd="Ka34" wsdexp="这样_那样" parent="27" relate="SBV" />
+                <word id="26" cont="即" pos="d" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="27" relate="ADV" />
+                <word id="27" cont="有利于" pos="v" ne="O" wsd="Je10" wsdexp="有利_有害" parent="29" relate="DE">
+                    <arg id="0" type="施事" beg="25" end="25" />
+                    <arg id="1" type="受事" beg="28" end="28" />
+                </word>
+                <word id="28" cont="水" pos="n" ne="O" wsd="Bg01" wsdexp="水_汁_浆" parent="27" relate="VOB" />
+                <word id="29" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="30" relate="ATT" />
+                <word id="30" cont="流动" pos="v" ne="O" wsd="Id11" wsdexp="泡_淹_沉_陷_漂_流" parent="22" relate="VV" />
+                <word id="31" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="32" cont="又" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="33" relate="ADV" />
+                <word id="33" cont="能" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="34" relate="ADV" />
+                <word id="34" cont="缓和" pos="v" ne="O" wsd="Ef10" wsdexp="和缓_紧张" parent="14" relate="IC">
+                    <arg id="0" type="施事" beg="18" end="30" />
+                    <arg id="1" type="受事" beg="35" end="35" />
+                    <arg id="2" type="受事" beg="36" end="39" />
+                    <arg id="3" type="受事" beg="41" end="42" />
+                </word>
+                <word id="35" cont="水" pos="n" ne="O" wsd="Bg01" wsdexp="水_汁_浆" parent="34" relate="VOB" />
+                <word id="36" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="38" relate="DE" />
+                <word id="37" cont="桥" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="36" relate="POB" />
+                <word id="38" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="39" relate="ATT" />
+                <word id="39" cont="冲击" pos="v" ne="O" wsd="Hb03" wsdexp="进攻_抵抗_回击" parent="34" relate="VOB" />
+                <word id="40" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="41" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="42" relate="ADV" />
+                <word id="42" cont="算是" pos="v" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="34" relate="VOB" />
+                <word id="43" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="45" relate="ADV" />
+                <word id="44" cont="洪水" pos="n" ne="O" wsd="Bg01" wsdexp="水_汁_浆" parent="43" relate="POB" />
+                <word id="45" cont="来临" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="34" relate="VV">
+                    <arg id="0" type="受事" beg="46" end="46" />
+                </word>
+                <word id="46" cont="时" pos="n" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="45" relate="VOB" />
+                <word id="47" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="48" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="49" relate="ADV" />
+                <word id="49" cont="能" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="50" relate="ADV" />
+                <word id="50" cont="保证" pos="v" ne="O" wsd="Ka15" wsdexp="必然_管保_未必" parent="54" relate="DE">
+                    <arg id="0" type="受事" beg="51" end="53" />
+                </word>
+                <word id="51" cont="整" pos="m" ne="B-Nm" wsd="Hc03" wsdexp="安置_部署_调动_整顿_整编" parent="52" relate="QUN" />
+                <word id="52" cont="座" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="53" relate="ATT" />
+                <word id="53" cont="桥" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="50" relate="VOB" />
+                <word id="54" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="55" relate="ATT" />
+                <word id="55" cont="平稳" pos="a" ne="O" wsd="Ef01" wsdexp="太平_安定_动荡_混乱" parent="34" relate="IC" />
+                <word id="56" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="57" relate="LAD" />
+                <word id="57" cont="安全" pos="a" ne="O" wsd="Ef08" wsdexp="安全_危险" parent="55" relate="COO" />
+                <word id="58" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="而现在的桥墩则多半建为圆柱体。" tag="">
+                <word id="0" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="6" relate="CNJ" />
+                <word id="1" cont="现在" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="2" relate="DE" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="3" relate="ATT" />
+                <word id="3" cont="桥墩" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="6" relate="SBV" />
+                <word id="4" cont="则" pos="d" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="6" relate="ADV" />
+                <word id="5" cont="多半" pos="d" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="6" relate="ADV" />
+                <word id="6" cont="建" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="1" end="3" />
+                </word>
+                <word id="7" cont="为" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="6" relate="CMP" />
+                <word id="8" cont="圆柱" pos="n" ne="O" wsd="Bn06" wsdexp="梁_柱" parent="9" relate="ATT" />
+                <word id="9" cont="体" pos="n" ne="O" wsd="Bk01" wsdexp="身体_尸体" parent="7" relate="POB" />
+                <word id="10" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="这可以说是桥梁史上一个闪光点。" tag="">
+                <word id="0" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="2" relate="SBV" />
+                <word id="1" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="2" relate="ADV" />
+                <word id="2" cont="说是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="4" relate="ATT">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                </word>
+                <word id="3" cont="桥梁史" pos="n" ne="O" wsd="-1" wsdexp="" parent="4" relate="ATT" />
+                <word id="4" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="6" relate="ATT" />
+                <word id="5" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="6" relate="QUN" />
+                <word id="6" cont="闪光点" pos="n" ne="O" wsd="Dd09" wsdexp="关键_核心" parent="-1" relate="HED" />
+                <word id="7" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="这也难怪，经历了八百多年的风风雨雨，沧桑变幻，江东桥的桥墩并没有因此向自然屈服，桥面也并没有如人所料的风化、破裂，它依然是那样挺立着，奉献着，@@@可以说，它的坚固耐用是近现代许多桥梁所无法媲美的。" tag="">
+                <word id="0" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="2" relate="ADV" />
+                <word id="1" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="2" relate="ADV" />
+                <word id="2" cont="难怪" pos="d" ne="O" wsd="Ka31" wsdexp="无怪_未尝_毋宁_究竟_不妨" parent="24" relate="ADV" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="经历" pos="v" ne="O" wsd="Hj03" wsdexp="消磨_度过_经历" parent="9" relate="DE">
+                    <arg id="0" type="受事-数量性质" beg="6" end="8" />
+                </word>
+                <word id="5" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="4" relate="MT" />
+                <word id="6" cont="八百" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="8" relate="QUN" />
+                <word id="7" cont="多" pos="m" ne="I-Nm" wsd="Dn05" wsdexp="半_概数_若干" parent="6" relate="RAD" />
+                <word id="8" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="4" relate="VOB" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="10" cont="风风雨雨" pos="i" ne="O" wsd="Ia03" wsdexp="刮风_下雨" parent="13" relate="IS" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="沧桑" pos="n" ne="O" wsd="Da02" wsdexp="变故_动乱_风潮" parent="13" relate="SBV" />
+                <word id="13" cont="变幻" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="24" relate="ADV">
+                    <arg id="0" type="施事" beg="12" end="12" />
+                </word>
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="江东桥" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="16" relate="DE" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="17" relate="ATT" />
+                <word id="17" cont="桥墩" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="24" relate="SBV" />
+                <word id="18" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="24" relate="CNJ" />
+                <word id="19" cont="没有" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="24" relate="ADV" />
+                <word id="20" cont="因" pos="p" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="24" relate="ADV" />
+                <word id="21" cont="此" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="20" relate="POB" />
+                <word id="22" cont="向" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="24" relate="ADV" />
+                <word id="23" cont="自然" pos="n" ne="O" wsd="Ed51" wsdexp="天然_本来_现成" parent="22" relate="POB" />
+                <word id="24" cont="屈服" pos="v" ne="O" wsd="Hi45" wsdexp="调解_屈服_降伏_讲和" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="15" end="17" />
+                </word>
+                <word id="25" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="26" cont="桥面" pos="n" ne="O" wsd="Bc02" wsdexp="边_角_面_脊" parent="30" relate="SBV" />
+                <word id="27" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="30" relate="ADV" />
+                <word id="28" cont="并" pos="d" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="30" relate="ADV" />
+                <word id="29" cont="没有" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="30" relate="ADV" />
+                <word id="30" cont="如" pos="v" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="24" relate="VV">
+                    <arg id="0" type="施事" beg="26" end="26" />
+                    <arg id="1" type="受事" beg="31" end="31" />
+                </word>
+                <word id="31" cont="人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="30" relate="VOB" />
+                <word id="32" cont="所" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="33" relate="ATT" />
+                <word id="33" cont="料" pos="n" ne="O" wsd="Br02" wsdexp="饲料_粮草_鱼饵" parent="34" relate="DE" />
+                <word id="34" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="35" relate="ATT" />
+                <word id="35" cont="风化" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="24" relate="IC" />
+                <word id="36" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="37" cont="破裂" pos="v" ne="O" wsd="Id06" wsdexp="损坏_裂开_折断" parent="35" relate="COO" />
+                <word id="38" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="39" cont="它" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="41" relate="SBV" />
+                <word id="40" cont="依然" pos="d" ne="O" wsd="Ka28" wsdexp="仍然_尚且" parent="41" relate="ADV" />
+                <word id="41" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="35" relate="VV">
+                    <arg id="0" type="施事" beg="39" end="39" />
+                    <arg id="1" type="受事" beg="42" end="42" />
+                    <arg id="2" type="受事" beg="43" end="44" />
+                </word>
+                <word id="42" cont="那样" pos="r" ne="O" wsd="Ka34" wsdexp="这样_那样" parent="41" relate="VOB" />
+                <word id="43" cont="挺立" pos="v" ne="O" wsd="Fb03" wsdexp="坐_蹲_立_骑" parent="41" relate="VOB" />
+                <word id="44" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="43" relate="MT" />
+                <word id="45" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="46" cont="奉献" pos="v" ne="O" wsd="Hi26" wsdexp="赠送_赠答_捐献" parent="41" relate="VV" />
+                <word id="47" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="46" relate="MT" />
+                <word id="48" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="49" cont="@@@" pos="ws" ne="O" wsd="-1" wsdexp="" parent="51" relate="SBV" />
+                <word id="50" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="51" relate="ADV" />
+                <word id="51" cont="说" pos="v" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="41" relate="IC">
+                    <arg id="0" type="施事" beg="49" end="49" />
+                </word>
+                <word id="52" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="53" cont="它" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="54" relate="DE" />
+                <word id="54" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="55" relate="ATT" />
+                <word id="55" cont="坚固" pos="a" ne="O" wsd="Eb11" wsdexp="牢_韧" parent="57" relate="ADV" />
+                <word id="56" cont="耐用" pos="a" ne="O" wsd="Eb11" wsdexp="牢_韧" parent="55" relate="COO" />
+                <word id="57" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="24" relate="IC">
+                    <arg id="0" type="受事" beg="58" end="60" />
+                    <arg id="1" type="受事" beg="61" end="63" />
+                </word>
+                <word id="58" cont="近现代" pos="j" ne="O" wsd="Ca02" wsdexp="时代_朝代_年代" parent="60" relate="ATT" />
+                <word id="59" cont="许多" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="60" relate="QUN" />
+                <word id="60" cont="桥梁" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="57" relate="VOB" />
+                <word id="61" cont="所" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="62" relate="LAD" />
+                <word id="62" cont="无法" pos="v" ne="O" wsd="Ga12" wsdexp="无奈_无法_难堪" parent="63" relate="ADV" />
+                <word id="63" cont="媲美" pos="v" ne="O" wsd="Jb01" wsdexp="相同_相等_差不多" parent="57" relate="VOB" />
+                <word id="64" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="57" relate="MT" />
+                <word id="65" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="8" />
+        <para id="9">
+            <sent id="0" cont="江东桥在建筑方法上是十分巧妙的，它不需要机器的轰鸣，拚弃了水泥、石油等的污染。" tag="20%">
+                <word id="0" cont="江东桥" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="5" relate="SBV" />
+                <word id="1" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="5" relate="ADV" />
+                <word id="2" cont="建筑" pos="n" ne="O" wsd="Bn01" wsdexp="建筑_房屋" parent="3" relate="ATT" />
+                <word id="3" cont="方法" pos="n" ne="O" wsd="Db09" wsdexp="方法_诀窍_步骤" parent="4" relate="ATT" />
+                <word id="4" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="1" relate="POB" />
+                <word id="5" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="方位" beg="1" end="4" />
+                </word>
+                <word id="6" cont="十分" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="7" relate="ADV" />
+                <word id="7" cont="巧妙" pos="a" ne="O" wsd="Ed03" wsdexp="好_坏" parent="8" relate="DE" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="MT" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="它" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="12" relate="SBV" />
+                <word id="11" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="12" relate="ADV" />
+                <word id="12" cont="需要" pos="v" ne="O" wsd="Jc05" wsdexp="需要_提供_满足" parent="14" relate="DE">
+                    <arg id="0" type="施事" beg="10" end="10" />
+                    <arg id="1" type="受事" beg="13" end="13" />
+                </word>
+                <word id="13" cont="机器" pos="n" ne="O" wsd="Bo01" wsdexp="机器_工具_泵" parent="12" relate="VOB" />
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="15" cont="轰鸣" pos="v" ne="O" wsd="Ia08" wsdexp="作响_爆炸" parent="5" relate="IC" />
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="拚" pos="v" ne="O" wsd="-1" wsdexp="" parent="15" relate="VV">
+                    <arg id="0" type="受事" beg="18" end="25" />
+                </word>
+                <word id="18" cont="弃" pos="v" ne="O" wsd="Jd11" wsdexp="戒除_抛弃_葬送" parent="24" relate="DE">
+                    <arg id="0" type="受事" beg="20" end="22" />
+                </word>
+                <word id="19" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="18" relate="MT" />
+                <word id="20" cont="水泥" pos="n" ne="O" wsd="Bm05" wsdexp="水泥_石灰_沥青" parent="18" relate="VOB" />
+                <word id="21" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="石油" pos="n" ne="O" wsd="Bm10" wsdexp="石油_酒精_润滑油_煤焦油" parent="20" relate="COO" />
+                <word id="23" cont="等" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="18" relate="MT" />
+                <word id="24" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="25" relate="ATT" />
+                <word id="25" cont="污染" pos="v" ne="O" wsd="Je03" wsdexp="沾染_传染" parent="17" relate="VOB" />
+                <word id="26" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="而这恰恰是对现在提倡的“绿色革命”的一个重要补充。" tag="">
+                <word id="0" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="3" relate="CNJ" />
+                <word id="1" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="3" relate="SBV" />
+                <word id="2" cont="恰恰" pos="d" ne="O" wsd="Ka26" wsdexp="恰巧_幸亏_偏偏" parent="3" relate="ADV" />
+                <word id="3" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="12" relate="DE">
+                    <arg id="0" type="施事" beg="1" end="1" />
+                    <arg id="1" type="受事" beg="9" end="10" />
+                </word>
+                <word id="4" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="6" relate="ADV" />
+                <word id="5" cont="现在" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="4" relate="POB" />
+                <word id="6" cont="提倡" pos="v" ne="O" wsd="Hc12" wsdexp="宣传_发动_提倡" parent="7" relate="DE">
+                    <arg id="0" type="时间" beg="4" end="5" />
+                </word>
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="3" relate="MT" />
+                <word id="8" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="绿色" pos="n" ne="O" wsd="Bg06" wsdexp="颜色_气息_味道" parent="10" relate="ATT" />
+                <word id="10" cont="革命" pos="v" ne="O" wsd="Ha01" wsdexp="革命_解放" parent="3" relate="VOB" />
+                <word id="11" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="13" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="15" relate="QUN" />
+                <word id="14" cont="重要" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="15" relate="ATT" />
+                <word id="15" cont="补充" pos="v" ne="O" wsd="Ih05" wsdexp="增多_添补_减少" parent="-1" relate="HED" />
+                <word id="16" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="而且，据我所知，现在起重机的最大起重吨位也不过是一百多吨，而这２００来吨重的石块是如何安装上去的？" tag="">
+                <word id="0" cont="而且" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="5" relate="CNJ" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="据" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="5" relate="ADV" />
+                <word id="3" cont="我" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="5" relate="SBV" />
+                <word id="4" cont="所" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="LAD" />
+                <word id="5" cont="知" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="3" end="3" />
+                </word>
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="现在" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="8" relate="ATT" />
+                <word id="8" cont="起重机" pos="n" ne="O" wsd="Bo01" wsdexp="机器_工具_泵" parent="9" relate="DE" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="10" cont="最" pos="d" ne="O" wsd="Ka02" wsdexp="最_至多_至少" parent="11" relate="ADV" />
+                <word id="11" cont="大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="12" relate="ADV" />
+                <word id="12" cont="起" pos="v" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="5" relate="VV">
+                    <arg id="0" type="受事" beg="13" end="30" />
+                </word>
+                <word id="13" cont="重" pos="a" ne="O" wsd="Eb13" wsdexp="重_轻_笨重_轻巧" parent="17" relate="ADV" />
+                <word id="14" cont="吨位" pos="n" ne="O" wsd="Cb01" wsdexp="方向_位置" parent="17" relate="SBV" />
+                <word id="15" cont="也" pos="d" ne="O" wsd="Ka33" wsdexp="却_还_也_反而" parent="17" relate="ADV" />
+                <word id="16" cont="不过" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="17" relate="ADV" />
+                <word id="17" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="12" relate="VOB">
+                    <arg id="0" type="施事" beg="14" end="14" />
+                    <arg id="1" type="受事-数量性质" beg="18" end="20" />
+                </word>
+                <word id="18" cont="一百" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="20" relate="QUN" />
+                <word id="19" cont="多" pos="m" ne="I-Nm" wsd="Dn05" wsdexp="半_概数_若干" parent="18" relate="RAD" />
+                <word id="20" cont="吨" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="17" relate="VOB" />
+                <word id="21" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="而" pos="c" ne="O" wsd="Kc03" wsdexp="但是" parent="30" relate="CNJ" />
+                <word id="23" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="26" relate="ATT" />
+                <word id="24" cont="２００" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="26" relate="QUN" />
+                <word id="25" cont="来" pos="m" ne="I-Nm" wsd="Hj63" wsdexp="来_去_来去" parent="24" relate="RAD" />
+                <word id="26" cont="吨" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="29" relate="ATT" />
+                <word id="27" cont="重" pos="a" ne="O" wsd="Eb13" wsdexp="重_轻_笨重_轻巧" parent="28" relate="DE" />
+                <word id="28" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="29" relate="ATT" />
+                <word id="29" cont="石块" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="30" relate="SBV" />
+                <word id="30" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="17" relate="VV">
+                    <arg id="0" type="施事" beg="23" end="29" />
+                </word>
+                <word id="31" cont="如何" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="32" relate="ADV" />
+                <word id="32" cont="安装" pos="v" ne="O" wsd="Hd02" wsdexp="安装_装配" parent="33" relate="ATT" />
+                <word id="33" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="34" relate="ADV" />
+                <word id="34" cont="去" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="5" relate="VV">
+                    <arg id="0" type="方位" beg="31" end="33" />
+                </word>
+                <word id="35" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="34" relate="MT" />
+                <word id="36" cont="？" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="对这一问题的研究，不论是对起重技术的提高还是对桥梁建筑方法的改进，都有着重大的意义。" tag="">
+                <word id="0" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="4" relate="DE" />
+                <word id="1" cont="这" pos="r" ne="O" wsd="Ed61" wsdexp="这个_那个_某个_各个_其他_何" parent="2" relate="ATT" />
+                <word id="2" cont="一" pos="m" ne="S-Nm" wsd="Dn04" wsdexp="基数_序数" parent="3" relate="QUN" />
+                <word id="3" cont="问题" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="0" relate="POB" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="5" cont="研究" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="-1" relate="HED" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="不论是" pos="c" ne="O" wsd="Kc10" wsdexp="不论_只管" parent="12" relate="CNJ" />
+                <word id="8" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="11" relate="DE" />
+                <word id="9" cont="起重" pos="b" ne="O" wsd="Ih06" wsdexp="削弱" parent="10" relate="ATT" />
+                <word id="10" cont="技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="8" relate="POB" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="12" cont="提高" pos="v" ne="O" wsd="Ih06" wsdexp="削弱" parent="5" relate="COO" />
+                <word id="13" cont="还是" pos="c" ne="O" wsd="Ka28" wsdexp="仍然_尚且" parent="19" relate="LAD" />
+                <word id="14" cont="对" pos="p" ne="O" wsd="Kb04" wsdexp="对于_关于" parent="18" relate="DE" />
+                <word id="15" cont="桥梁" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="16" relate="ATT" />
+                <word id="16" cont="建筑" pos="n" ne="O" wsd="Bn01" wsdexp="建筑_房屋" parent="17" relate="ATT" />
+                <word id="17" cont="方法" pos="n" ne="O" wsd="Db09" wsdexp="方法_诀窍_步骤" parent="14" relate="POB" />
+                <word id="18" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="19" cont="改进" pos="v" ne="O" wsd="Ih11" wsdexp="好转_改进_恶化" parent="12" relate="COO" />
+                <word id="20" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="都" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="22" relate="ADV" />
+                <word id="22" cont="有着" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="19" relate="VV">
+                    <arg id="0" type="受事" beg="23" end="25" />
+                </word>
+                <word id="23" cont="重大" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="24" relate="DE" />
+                <word id="24" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="25" relate="ATT" />
+                <word id="25" cont="意义" pos="n" ne="O" wsd="Db06" wsdexp="规律_意义" parent="22" relate="VOB" />
+                <word id="26" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="我们来到江东桥之后，便迫不及待地想揭开笼罩着它的神秘面纱。" tag="">
+                <word id="0" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="1" relate="SBV" />
+                <word id="1" cont="来到" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="2" />
+                </word>
+                <word id="2" cont="江东桥" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="1" relate="VOB" />
+                <word id="3" cont="之后" pos="nd" ne="O" wsd="Ca12" wsdexp="将来_隔日" parent="8" relate="ADV" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="便" pos="d" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="8" relate="ADV" />
+                <word id="6" cont="迫不及待" pos="i" ne="O" wsd="Ga10" wsdexp="着急_急切" parent="7" relate="DI" />
+                <word id="7" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="ADV" />
+                <word id="8" cont="想" pos="v" ne="O" wsd="Gb04" wsdexp="希望_要求_追求" parent="1" relate="VV">
+                    <arg id="0" type="方位" beg="3" end="3" />
+                    <arg id="1" type="受事" beg="9" end="15" />
+                </word>
+                <word id="9" cont="揭开" pos="v" ne="O" wsd="Hi20" wsdexp="隐瞒_保密_揭露" parent="8" relate="VOB">
+                    <arg id="0" type="受事" beg="10" end="10" />
+                    <arg id="1" type="受事" beg="12" end="15" />
+                </word>
+                <word id="10" cont="笼罩" pos="v" ne="O" wsd="Id03" wsdexp="裸露_遮盖" parent="9" relate="VOB" />
+                <word id="11" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="9" relate="MT" />
+                <word id="12" cont="它" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="13" relate="DE" />
+                <word id="13" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="14" cont="神秘" pos="a" ne="O" wsd="Ed08" wsdexp="深奥_玄妙_浅近" parent="15" relate="ATT" />
+                <word id="15" cont="面纱" pos="n" ne="O" wsd="Bp30" wsdexp="垫子_罩子" parent="9" relate="VOB" />
+                <word id="16" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="5" cont="经过一番仔细观察，以及查阅资料，与当地老农的交谈，结合当地的实际情况，发挥我们的想象力，便拟定了一个在当时条件下可行的方案：" tag="">
+                <word id="0" cont="经过" pos="p" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="3" relate="ADV" />
+                <word id="1" cont="一番" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="3" relate="ADV" />
+                <word id="2" cont="仔细" pos="a" ne="O" wsd="Ee28" wsdexp="仔细_粗心_谨慎_轻率" parent="3" relate="ADV" />
+                <word id="3" cont="观察" pos="v" ne="O" wsd="Hj26" wsdexp="观察_比较_区分" parent="-1" relate="HED" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="以及" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="6" relate="CNJ" />
+                <word id="6" cont="查阅" pos="v" ne="O" wsd="Hg10" wsdexp="阅读_查阅_朗读_吟咏_背诵" parent="3" relate="IC">
+                    <arg id="0" type="受事" beg="7" end="7" />
+                </word>
+                <word id="7" cont="资料" pos="n" ne="O" wsd="Dk17" wsdexp="资料_文件" parent="6" relate="VOB" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="与" pos="p" ne="O" wsd="Kc01" wsdexp="和_或者" parent="12" relate="DE" />
+                <word id="10" cont="当地" pos="nl" ne="O" wsd="Cb15" wsdexp="本地_外地_家乡" parent="11" relate="ATT" />
+                <word id="11" cont="老农" pos="n" ne="O" wsd="Ae07" wsdexp="农民_牧民_渔民" parent="9" relate="POB" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="13" cont="交谈" pos="v" ne="O" wsd="Hi12" wsdexp="讲话_谈天" parent="3" relate="VV" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="结合" pos="v" ne="O" wsd="Ie02" wsdexp="连接_纠缠_积压_结合_割裂" parent="13" relate="VV">
+                    <arg id="0" type="受事" beg="16" end="19" />
+                </word>
+                <word id="16" cont="当地" pos="nl" ne="O" wsd="Cb15" wsdexp="本地_外地_家乡" parent="17" relate="DE" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="19" relate="ATT" />
+                <word id="18" cont="实际" pos="a" ne="O" wsd="Ed10" wsdexp="实际_空洞" parent="19" relate="ATT" />
+                <word id="19" cont="情况" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="15" relate="VOB" />
+                <word id="20" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="发挥" pos="v" ne="O" wsd="Hi14" wsdexp="表示_表达_阐明_表露_发誓" parent="15" relate="VV" />
+                <word id="22" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="23" relate="DE" />
+                <word id="23" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="24" relate="ATT" />
+                <word id="24" cont="想象力" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="27" relate="SBV" />
+                <word id="25" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="26" cont="便" pos="d" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="27" relate="ADV" />
+                <word id="27" cont="拟定" pos="v" ne="O" wsd="Hc14" wsdexp="建议_讨论_决定_制订" parent="3" relate="IC">
+                    <arg id="0" type="施事" beg="22" end="24" />
+                    <arg id="1" type="受事" beg="29" end="29" />
+                </word>
+                <word id="28" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="27" relate="MT" />
+                <word id="29" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="27" relate="VOB" />
+                <word id="30" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="27" relate="CMP" />
+                <word id="31" cont="当时" pos="nt" ne="O" wsd="Ca31" wsdexp="这时_那时_几时" parent="32" relate="ATT" />
+                <word id="32" cont="条件" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="33" relate="ATT" />
+                <word id="33" cont="下" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="30" relate="POB" />
+                <word id="34" cont="可行" pos="a" ne="O" wsd="Ed47" wsdexp="顶用_有功_无用_无偿" parent="35" relate="DE" />
+                <word id="35" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="36" relate="ATT" />
+                <word id="36" cont="方案" pos="n" ne="O" wsd="Df09" wsdexp="计划_计策_手段" parent="30" relate="POB" />
+                <word id="37" cont="：" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="6" cont="首先要解决采石场的问题。" tag="">
+                <word id="0" cont="首先" pos="d" ne="O" wsd="Ka09" wsdexp="姑且_临时_预先_首先_准时" parent="2" relate="ADV" />
+                <word id="1" cont="要" pos="v" ne="O" wsd="Gc03" wsdexp="应该_必须_无须" parent="2" relate="ADV" />
+                <word id="2" cont="解决" pos="v" ne="O" wsd="Jd09" wsdexp="解决" parent="4" relate="DE">
+                    <arg id="0" type="受事" beg="3" end="3" />
+                </word>
+                <word id="3" cont="采石场" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="2" relate="VOB" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="5" cont="问题" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="-1" relate="HED" />
+                <word id="6" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="7" cont="我们发现江东桥附近的山普遍有一个特点，就是山上巨石繁多。" tag="">
+                <word id="0" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="1" relate="SBV" />
+                <word id="1" cont="发现" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="9" />
+                    <arg id="2" type="受事" beg="11" end="13" />
+                </word>
+                <word id="2" cont="江东桥" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="7" relate="SBV" />
+                <word id="3" cont="附近" pos="nd" ne="O" wsd="Cb06" wsdexp="旁边_附近_周围_对面" parent="4" relate="DE" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="5" cont="山" pos="n" ne="O" wsd="Be04" wsdexp="山_坡" parent="7" relate="SBV" />
+                <word id="6" cont="普遍" pos="a" ne="O" wsd="Ed38" wsdexp="广泛_无穷_狭隘" parent="7" relate="ADV" />
+                <word id="7" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="1" relate="VOB">
+                    <arg id="0" type="施事" beg="2" end="2" />
+                    <arg id="1" type="施事" beg="3" end="5" />
+                    <arg id="2" type="受事" beg="8" end="9" />
+                </word>
+                <word id="8" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="9" relate="QUN" />
+                <word id="9" cont="特点" pos="n" ne="O" wsd="Dd04" wsdexp="特征_差别" parent="7" relate="VOB" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="就是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="1" relate="VOB">
+                    <arg id="0" type="受事" beg="12" end="13" />
+                </word>
+                <word id="12" cont="山上" pos="nl" ne="O" wsd="Be04" wsdexp="山_坡" parent="13" relate="ATT" />
+                <word id="13" cont="巨石" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="11" relate="VOB" />
+                <word id="14" cont="繁多" pos="a" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="1" relate="IC" />
+                <word id="15" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="8" cont="经过分析比较，我们认为，瑞竹岩的可能性最大。" tag="">
+                <word id="0" cont="经过" pos="p" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="5" relate="ADV" />
+                <word id="1" cont="分析" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="2" relate="ATT" />
+                <word id="2" cont="比较" pos="v" ne="O" wsd="Ka05" wsdexp="相当_比较_稍微_大多" parent="0" relate="POB" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="5" relate="SBV" />
+                <word id="5" cont="认为" pos="v" ne="O" wsd="Gb02" wsdexp="感到_认为_主张" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="4" end="4" />
+                </word>
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="瑞" pos="j" ne="O" wsd="If03" wsdexp="尴尬_折磨" parent="8" relate="ATT" />
+                <word id="8" cont="竹" pos="n" ne="O" wsd="Bh01" wsdexp="树木_竹子" parent="9" relate="ATT" />
+                <word id="9" cont="岩" pos="n" ne="O" wsd="Be04" wsdexp="山_坡" parent="10" relate="DE" />
+                <word id="10" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="11" cont="可能性" pos="n" ne="O" wsd="Dd01" wsdexp="性质" parent="13" relate="SBV" />
+                <word id="12" cont="最" pos="d" ne="O" wsd="Ka02" wsdexp="最_至多_至少" parent="13" relate="ADV" />
+                <word id="13" cont="大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="5" relate="IC" />
+                <word id="14" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="9" cont="因为瑞竹岩的南面有一个巨大的残断面，很可能就是开采后所遗留下来的，另外，瑞竹岩的地势较高，距江东桥又近，开采后的巨型石块可以直接滚落到江边，便于运输。" tag="">
+                <word id="0" cont="因为" pos="p" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="4" relate="DE" />
+                <word id="1" cont="瑞" pos="j" ne="O" wsd="If03" wsdexp="尴尬_折磨" parent="2" relate="ATT" />
+                <word id="2" cont="竹" pos="n" ne="O" wsd="Bh01" wsdexp="树木_竹子" parent="3" relate="ATT" />
+                <word id="3" cont="岩" pos="n" ne="O" wsd="Be04" wsdexp="山_坡" parent="4" relate="DE" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="SBV" />
+                <word id="5" cont="南面" pos="nd" ne="O" wsd="Ha03" wsdexp="上台_统治_下台" parent="6" relate="ADV" />
+                <word id="6" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="4" />
+                    <arg id="1" type="方位" beg="5" end="5" />
+                    <arg id="2" type="受事" beg="7" end="11" />
+                    <arg id="3" type="受事" beg="19" end="19" />
+                </word>
+                <word id="7" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="11" relate="QUN" />
+                <word id="8" cont="巨大" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="9" relate="DE" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="10" cont="残" pos="a" ne="O" wsd="Eb07" wsdexp="完整_齐全_残缺_零碎_破烂" parent="11" relate="ATT" />
+                <word id="11" cont="断面" pos="n" ne="O" wsd="Cb23" wsdexp="点_线_角_面_体" parent="6" relate="VOB" />
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="很" pos="d" ne="O" wsd="Ka01" wsdexp="非常_多么" parent="14" relate="ADV" />
+                <word id="14" cont="可能" pos="v" ne="O" wsd="Ka17" wsdexp="也许_大概_难道" parent="16" relate="ADV" />
+                <word id="15" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="16" relate="ADV" />
+                <word id="16" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="6" relate="IC" />
+                <word id="17" cont="开采" pos="v" ne="O" wsd="Hd15" wsdexp="开矿_选矿" parent="18" relate="ATT" />
+                <word id="18" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="6" relate="COO" />
+                <word id="19" cont="所" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="VOB" />
+                <word id="20" cont="遗留" pos="v" ne="O" wsd="Jd01" wsdexp="无关" parent="22" relate="DE" />
+                <word id="21" cont="下来" pos="v" ne="O" wsd="Hj62" wsdexp="上来_下去" parent="20" relate="CMP" />
+                <word id="22" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="32" relate="ATT" />
+                <word id="23" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="另外" pos="c" ne="O" wsd="Kc11" wsdexp="于是_此外" parent="32" relate="CNJ" />
+                <word id="25" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="26" cont="瑞" pos="j" ne="O" wsd="If03" wsdexp="尴尬_折磨" parent="27" relate="ATT" />
+                <word id="27" cont="竹" pos="n" ne="O" wsd="Bh01" wsdexp="树木_竹子" parent="28" relate="ATT" />
+                <word id="28" cont="岩" pos="n" ne="O" wsd="Be04" wsdexp="山_坡" parent="29" relate="DE" />
+                <word id="29" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="30" relate="ATT" />
+                <word id="30" cont="地势" pos="n" ne="O" wsd="Dc01" wsdexp="形状_状态_式样_装饰" parent="32" relate="SBV" />
+                <word id="31" cont="较" pos="d" ne="O" wsd="Ka05" wsdexp="相当_比较_稍微_大多" parent="32" relate="ADV" />
+                <word id="32" cont="高" pos="a" ne="O" wsd="Ea02" wsdexp="高_矮" parent="6" relate="IC" />
+                <word id="33" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="34" cont="距" pos="p" ne="O" wsd="Id21" wsdexp="交界_靠近_逼近_相距" parent="37" relate="ADV" />
+                <word id="35" cont="江东桥" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="34" relate="POB" />
+                <word id="36" cont="又" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="37" relate="ADV" />
+                <word id="37" cont="近" pos="a" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="32" relate="IC" />
+                <word id="38" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="39" cont="开采" pos="v" ne="O" wsd="Hd15" wsdexp="开矿_选矿" parent="40" relate="ATT" />
+                <word id="40" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="41" relate="DE" />
+                <word id="41" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="43" relate="ATT" />
+                <word id="42" cont="巨型" pos="b" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="43" relate="ATT" />
+                <word id="43" cont="石块" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="46" relate="SBV" />
+                <word id="44" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="46" relate="ADV" />
+                <word id="45" cont="直接" pos="a" ne="O" wsd="Ka25" wsdexp="迎头_径自_直接_间接" parent="46" relate="ADV" />
+                <word id="46" cont="滚" pos="v" ne="O" wsd="Hf07" wsdexp="离开_返回" parent="47" relate="ADV">
+                    <arg id="0" type="施事" beg="39" end="43" />
+                </word>
+                <word id="47" cont="落" pos="v" ne="O" wsd="Id05" wsdexp="落下_倒塌" parent="32" relate="IC" />
+                <word id="48" cont="到" pos="p" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="51" relate="ADV" />
+                <word id="49" cont="江边" pos="nl" ne="O" wsd="-1" wsdexp="" parent="48" relate="POB" />
+                <word id="50" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="51" cont="便于" pos="v" ne="O" wsd="Jc07" wsdexp="易于" parent="32" relate="IC">
+                    <arg id="0" type="地点" beg="48" end="49" />
+                    <arg id="1" type="受事" beg="52" end="52" />
+                </word>
+                <word id="52" cont="运输" pos="v" ne="O" wsd="Hf05" wsdexp="搬运_运输_装卸" parent="51" relate="VOB" />
+                <word id="53" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="10" cont="因此，经过分析，我们可以认定，瑞竹岩就是当时建桥时的采石场。" tag="10%">
+                <word id="0" cont="因此" pos="c" ne="O" wsd="Kc09" wsdexp="因为_所以" parent="3" relate="CNJ" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="经过" pos="p" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="3" relate="ADV" />
+                <word id="3" cont="分析" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="-1" relate="HED" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="7" relate="SBV" />
+                <word id="6" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="7" relate="ADV" />
+                <word id="7" cont="认定" pos="v" ne="O" wsd="Hi22" wsdexp="承认_否认_抵赖" parent="3" relate="VV">
+                    <arg id="0" type="施事" beg="5" end="5" />
+                </word>
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="瑞" pos="j" ne="O" wsd="If03" wsdexp="尴尬_折磨" parent="10" relate="ATT" />
+                <word id="10" cont="竹" pos="n" ne="O" wsd="Bh01" wsdexp="树木_竹子" parent="11" relate="ATT" />
+                <word id="11" cont="岩" pos="n" ne="O" wsd="Be04" wsdexp="山_坡" parent="12" relate="SBV" />
+                <word id="12" cont="就是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="7" relate="IC">
+                    <arg id="0" type="施事" beg="9" end="11" />
+                    <arg id="1" type="受事" beg="13" end="18" />
+                </word>
+                <word id="13" cont="当时" pos="nt" ne="O" wsd="Ca31" wsdexp="这时_那时_几时" parent="14" relate="ADV" />
+                <word id="14" cont="建" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="17" relate="DE">
+                    <arg id="0" type="时间" beg="13" end="13" />
+                    <arg id="1" type="受事" beg="15" end="15" />
+                    <arg id="2" type="受事" beg="16" end="16" />
+                </word>
+                <word id="15" cont="桥" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="14" relate="VOB" />
+                <word id="16" cont="时" pos="n" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="14" relate="VOB" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="18" relate="ATT" />
+                <word id="18" cont="采石场" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="12" relate="VOB" />
+                <word id="19" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="11" cont="其次，是运输装船的问题。" tag="">
+                <word id="0" cont="其次" pos="c" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="2" relate="SBV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="3" end="3" />
+                    <arg id="2" type="受事" beg="4" end="4" />
+                    <arg id="3" type="受事" beg="5" end="6" />
+                </word>
+                <word id="3" cont="运输" pos="v" ne="O" wsd="Hf05" wsdexp="搬运_运输_装卸" parent="2" relate="VOB" />
+                <word id="4" cont="装船" pos="v" ne="O" wsd="Hf05" wsdexp="搬运_运输_装卸" parent="2" relate="VOB" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="6" cont="问题" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="2" relate="VOB" />
+                <word id="7" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="12" cont="人们将采下的石块加工成长方体，并在石块下方排上几根圆柱形的木棍，这样就可以将石块较为轻松的推到江边的指定位置。" tag="20%">
+                <word id="0" cont="人们" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="2" relate="SBV" />
+                <word id="1" cont="将" pos="d" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="2" relate="ADV" />
+                <word id="2" cont="采" pos="v" ne="O" wsd="Hj25" wsdexp="采集_搜罗_挑选_取长补短" parent="3" relate="ATT">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                </word>
+                <word id="3" cont="下" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="4" relate="DE" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="5" cont="石块" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="6" relate="ATT" />
+                <word id="6" cont="加工" pos="v" ne="O" wsd="Hd29" wsdexp="出产" parent="29" relate="DE" />
+                <word id="7" cont="成" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="6" relate="CMP">
+                    <arg id="0" type="受事" beg="8" end="8" />
+                    <arg id="1" type="受事" beg="10" end="14" />
+                </word>
+                <word id="8" cont="长方体" pos="n" ne="O" wsd="Cb23" wsdexp="点_线_角_面_体" parent="7" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="14" relate="CNJ" />
+                <word id="11" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="14" relate="ADV" />
+                <word id="12" cont="石块" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="13" relate="ATT" />
+                <word id="13" cont="下方" pos="nd" ne="O" wsd="Di01" wsdexp="世界_社会_人间" parent="11" relate="POB" />
+                <word id="14" cont="排" pos="v" ne="O" wsd="Id08" wsdexp="陈列_布置_排列_分布" parent="7" relate="VOB">
+                    <arg id="0" type="方位" beg="11" end="13" />
+                </word>
+                <word id="15" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="18" relate="ATT" />
+                <word id="16" cont="几" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="17" relate="QUN" />
+                <word id="17" cont="根" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="18" relate="ATT" />
+                <word id="18" cont="圆柱形" pos="n" ne="O" wsd="Dc01" wsdexp="形状_状态_式样_装饰" parent="19" relate="DE" />
+                <word id="19" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="20" relate="ATT" />
+                <word id="20" cont="木棍" pos="n" ne="O" wsd="Bo13" wsdexp="棒_杠" parent="24" relate="SBV" />
+                <word id="21" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="22" cont="这样" pos="r" ne="O" wsd="Ka34" wsdexp="这样_那样" parent="24" relate="SBV" />
+                <word id="23" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="24" relate="ADV" />
+                <word id="24" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="6" relate="VV">
+                    <arg id="0" type="施事" beg="15" end="20" />
+                    <arg id="1" type="施事" beg="22" end="22" />
+                </word>
+                <word id="25" cont="将" pos="p" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="29" relate="DE" />
+                <word id="26" cont="石块" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="25" relate="POB" />
+                <word id="27" cont="较为" pos="d" ne="O" wsd="Ka05" wsdexp="相当_比较_稍微_大多" parent="28" relate="ADV" />
+                <word id="28" cont="轻松" pos="a" ne="O" wsd="Ef10" wsdexp="和缓_紧张" parent="29" relate="DE" />
+                <word id="29" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="30" relate="ADV" />
+                <word id="30" cont="推" pos="v" ne="O" wsd="Fa02" wsdexp="拉_推_拖" parent="-1" relate="HED" />
+                <word id="31" cont="到" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="30" relate="CMP" />
+                <word id="32" cont="江边" pos="nl" ne="O" wsd="-1" wsdexp="" parent="31" relate="POB" />
+                <word id="33" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="35" relate="ATT" />
+                <word id="34" cont="指定" pos="v" ne="O" wsd="Hc04" wsdexp="派遣_支使" parent="35" relate="ATT" />
+                <word id="35" cont="位置" pos="n" ne="O" wsd="Di15" wsdexp="地位_职位" parent="31" relate="POB" />
+                <word id="36" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="13" cont="在江边，筑有一临时的用沙堆成的旱船坞，旱成的木船就埋没在沙堆中。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="3" relate="ADV" />
+                <word id="1" cont="江边" pos="nl" ne="O" wsd="-1" wsdexp="" parent="0" relate="POB" />
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="筑" pos="v" ne="O" wsd="Hd01" wsdexp="建筑_架设_铺设_养护" parent="7" relate="DE">
+                    <arg id="0" type="地点" beg="0" end="1" />
+                    <arg id="1" type="受事" beg="4" end="4" />
+                </word>
+                <word id="4" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="3" relate="VOB" />
+                <word id="5" cont="一" pos="m" ne="S-Nm" wsd="Dn04" wsdexp="基数_序数" parent="7" relate="DI" />
+                <word id="6" cont="临时" pos="b" ne="O" wsd="Ka09" wsdexp="姑且_临时_预先_首先_准时" parent="7" relate="DE" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="8" relate="SBV" />
+                <word id="8" cont="用" pos="p" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="10" relate="ADV" />
+                <word id="9" cont="沙堆" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="10" relate="SBV" />
+                <word id="10" cont="成" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="11" relate="DE">
+                    <arg id="0" type="施事" beg="9" end="9" />
+                </word>
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="13" relate="ATT" />
+                <word id="12" cont="旱" pos="a" ne="O" wsd="If17" wsdexp="受灾_旱_涝" parent="13" relate="ATT" />
+                <word id="13" cont="船坞" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="24" relate="ATT" />
+                <word id="14" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="15" cont="旱" pos="a" ne="O" wsd="If17" wsdexp="受灾_旱_涝" parent="17" relate="DE" />
+                <word id="16" cont="成" pos="v" ne="O" wsd="Ih01" wsdexp="变化_成为" parent="17" relate="DE" />
+                <word id="17" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="18" relate="ATT" />
+                <word id="18" cont="木船" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="20" relate="SBV" />
+                <word id="19" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="20" relate="ADV" />
+                <word id="20" cont="埋没" pos="v" ne="O" wsd="Jd11" wsdexp="戒除_抛弃_葬送" parent="24" relate="ATT">
+                    <arg id="0" type="施事" beg="15" end="18" />
+                </word>
+                <word id="21" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="23" relate="ADV" />
+                <word id="22" cont="沙" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="21" relate="POB" />
+                <word id="23" cont="堆" pos="v" ne="O" wsd="Dn08" wsdexp="数量单位" parent="24" relate="ATT" />
+                <word id="24" cont="中" pos="nd" ne="O" wsd="Da05" wsdexp="过程_内中" parent="-1" relate="HED" />
+                <word id="25" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="14" cont="在船边放上一块结实的木板，然后，将石块推上船，使石块中线与木船中轴线垂直，并保证重心平衡后，将木船下的沙堆掏空，让溪水注入，直至水把木船抬起。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="3" relate="ADV" />
+                <word id="1" cont="船" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="3" relate="SBV" />
+                <word id="2" cont="边" pos="d" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="3" relate="ADV" />
+                <word id="3" cont="放" pos="v" ne="O" wsd="Fa13" wsdexp="放_堆_叠_挂" parent="4" relate="ATT">
+                    <arg id="0" type="施事" beg="1" end="1" />
+                </word>
+                <word id="4" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="9" relate="ATT" />
+                <word id="5" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="6" relate="QUN" />
+                <word id="6" cont="块" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="9" relate="ATT" />
+                <word id="7" cont="结实" pos="a" ne="O" wsd="Eb11" wsdexp="牢_韧" parent="8" relate="DE" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="9" cont="木板" pos="n" ne="O" wsd="Bm07" wsdexp="板_管" parent="38" relate="SBV" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="然后" pos="c" ne="O" wsd="Dd07" wsdexp="次序_行列" parent="15" relate="CNJ" />
+                <word id="12" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="13" cont="将" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="15" relate="ADV" />
+                <word id="14" cont="石块" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="13" relate="POB" />
+                <word id="15" cont="推" pos="v" ne="O" wsd="Fa02" wsdexp="拉_推_拖" parent="31" relate="ATT">
+                    <arg id="0" type="受事" beg="16" end="17" />
+                </word>
+                <word id="16" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="17" relate="ATT" />
+                <word id="17" cont="船" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="15" relate="VOB" />
+                <word id="18" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="使" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="15" relate="VV">
+                    <arg id="0" type="受事" beg="20" end="24" />
+                    <arg id="1" type="受事" beg="25" end="25" />
+                </word>
+                <word id="20" cont="石块" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="21" relate="ATT" />
+                <word id="21" cont="中线" pos="n" ne="O" wsd="Cb14" wsdexp="边疆_界线" parent="19" relate="VOB" />
+                <word id="22" cont="与" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="24" relate="LAD" />
+                <word id="23" cont="木船" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="24" relate="ATT" />
+                <word id="24" cont="中轴线" pos="n" ne="O" wsd="Cb23" wsdexp="点_线_角_面_体" parent="21" relate="COO" />
+                <word id="25" cont="垂直" pos="v" ne="O" wsd="Ea08" wsdexp="直_曲_平_挺_皱" parent="19" relate="VOB" />
+                <word id="26" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="27" cont="并" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="30" relate="CNJ" />
+                <word id="28" cont="保证" pos="v" ne="O" wsd="Ka15" wsdexp="必然_管保_未必" parent="29" relate="ATT" />
+                <word id="29" cont="重心" pos="n" ne="O" wsd="Dd09" wsdexp="关键_核心" parent="30" relate="ATT" />
+                <word id="30" cont="平衡" pos="v" ne="O" wsd="Ed37" wsdexp="简单_详细_透彻_均匀" parent="31" relate="ATT" />
+                <word id="31" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="38" relate="ADV" />
+                <word id="32" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="33" cont="将" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="36" relate="DE" />
+                <word id="34" cont="木船" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="35" relate="ATT" />
+                <word id="35" cont="下" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="33" relate="POB" />
+                <word id="36" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="37" relate="ATT" />
+                <word id="37" cont="沙堆" pos="nh" ne="S-Nh" wsd="-1" wsdexp="" parent="38" relate="SBV" />
+                <word id="38" cont="掏空" pos="v" ne="O" wsd="Fa10" wsdexp="挖_剔_钳" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="9" />
+                    <arg id="1" type="方位" beg="11" end="31" />
+                    <arg id="2" type="施事" beg="33" end="37" />
+                </word>
+                <word id="39" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="40" cont="让" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="38" relate="VV">
+                    <arg id="0" type="受事" beg="41" end="41" />
+                    <arg id="1" type="受事" beg="42" end="42" />
+                </word>
+                <word id="41" cont="溪水" pos="n" ne="O" wsd="Be05" wsdexp="海洋_江河_溪涧" parent="40" relate="VOB" />
+                <word id="42" cont="注入" pos="v" ne="O" wsd="Hj64" wsdexp="出_进_出入" parent="40" relate="VOB" />
+                <word id="43" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="44" cont="直至" pos="v" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="40" relate="VV">
+                    <arg id="0" type="受事" beg="45" end="45" />
+                    <arg id="1" type="受事" beg="46" end="49" />
+                </word>
+                <word id="45" cont="水" pos="n" ne="O" wsd="Bg01" wsdexp="水_汁_浆" parent="44" relate="VOB" />
+                <word id="46" cont="把" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="48" relate="ADV" />
+                <word id="47" cont="木船" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="46" relate="POB" />
+                <word id="48" cont="抬" pos="v" ne="O" wsd="Fa03" wsdexp="扛_挑_抬_背" parent="44" relate="VOB" />
+                <word id="49" cont="起" pos="v" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="48" relate="CMP" />
+                <word id="50" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="15" cont="根据史料可以考证，以当时的的技术水平，造出足以承受二百多吨重的木船，是完全有可能的。" tag="">
+                <word id="0" cont="根据" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="3" relate="ADV" />
+                <word id="1" cont="史料" pos="n" ne="O" wsd="Dk17" wsdexp="资料_文件" parent="0" relate="POB" />
+                <word id="2" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="3" relate="ADV" />
+                <word id="3" cont="考证" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="-1" relate="HED" />
+                <word id="4" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="5" cont="以" pos="p" ne="O" wsd="Kb05" wsdexp="为_被_以_由" parent="12" relate="ADV" />
+                <word id="6" cont="当时" pos="nt" ne="O" wsd="Ca31" wsdexp="这时_那时_几时" parent="7" relate="DE" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="8" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="9" cont="技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="10" relate="ATT" />
+                <word id="10" cont="水平" pos="n" ne="O" wsd="Dd12" wsdexp="质量_基础" parent="5" relate="POB" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="造" pos="v" ne="O" wsd="Hj58" wsdexp="捏造_冒充" parent="3" relate="VV" />
+                <word id="13" cont="出" pos="v" ne="O" wsd="Hj64" wsdexp="出_进_出入" parent="12" relate="CMP" />
+                <word id="14" cont="足以" pos="d" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="15" relate="ADV" />
+                <word id="15" cont="承受" pos="v" ne="O" wsd="Hj24" wsdexp="担负_承揽_担任_兼职" parent="12" relate="VV">
+                    <arg id="0" type="受事" beg="16" end="21" />
+                </word>
+                <word id="16" cont="二百" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="18" relate="QUN" />
+                <word id="17" cont="多" pos="m" ne="I-Nm" wsd="Dn05" wsdexp="半_概数_若干" parent="16" relate="RAD" />
+                <word id="18" cont="吨" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="21" relate="ATT" />
+                <word id="19" cont="重" pos="a" ne="O" wsd="Eb13" wsdexp="重_轻_笨重_轻巧" parent="20" relate="DE" />
+                <word id="20" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="21" relate="ATT" />
+                <word id="21" cont="木船" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="15" relate="VOB" />
+                <word id="22" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="23" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="12" relate="VV">
+                    <arg id="0" type="受事" beg="24" end="26" />
+                </word>
+                <word id="24" cont="完全" pos="a" ne="O" wsd="Ka06" wsdexp="完全_彻底_半半拉拉" parent="25" relate="ADV" />
+                <word id="25" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="23" relate="VOB">
+                    <arg id="0" type="受事" beg="26" end="26" />
+                </word>
+                <word id="26" cont="可能" pos="v" ne="O" wsd="Ka17" wsdexp="也许_大概_难道" parent="25" relate="VOB" />
+                <word id="27" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="23" relate="MT" />
+                <word id="28" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="16" cont="（木船长大约三十米，宽十米左右，吃水深度六至八米）再次是如何将石块安置到桥墩上的问题。" tag="">
+                <word id="0" cont="（" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="1" cont="木船" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="2" relate="SBV" />
+                <word id="2" cont="长" pos="a" ne="O" wsd="Ea01" wsdexp="长_短" parent="5" relate="ATT" />
+                <word id="3" cont="大约" pos="d" ne="O" wsd="Ka17" wsdexp="也许_大概_难道" parent="5" relate="ATT" />
+                <word id="4" cont="三十" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="5" relate="QUN" />
+                <word id="5" cont="米" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="20" relate="SBV" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="宽" pos="a" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="9" relate="ATT" />
+                <word id="8" cont="十" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="9" relate="QUN" />
+                <word id="9" cont="米" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="20" relate="SBV" />
+                <word id="10" cont="左右" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="9" relate="RAD" />
+                <word id="11" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="12" cont="吃水" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="13" relate="ATT" />
+                <word id="13" cont="深度" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="20" relate="SBV" />
+                <word id="14" cont="六" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="15" relate="ADV" />
+                <word id="15" cont="至" pos="p" ne="E-Nm" wsd="Kb02" wsdexp="从_到_沿" parent="20" relate="ADV" />
+                <word id="16" cont="八" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="17" relate="QUN" />
+                <word id="17" cont="米" pos="q" ne="E-Nm" wsd="Dn10" wsdexp="度量衡单位" parent="15" relate="POB" />
+                <word id="18" cont="）" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="再次" pos="d" ne="O" wsd="Ka14" wsdexp="再" parent="20" relate="ADV" />
+                <word id="20" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="施事-数量性质" beg="1" end="5" />
+                    <arg id="1" type="施事-数量性质" beg="7" end="10" />
+                    <arg id="2" type="施事" beg="12" end="13" />
+                    <arg id="3" type="受事" beg="21" end="29" />
+                </word>
+                <word id="21" cont="如何" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="24" relate="ADV" />
+                <word id="22" cont="将" pos="p" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="24" relate="ADV" />
+                <word id="23" cont="石块" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="22" relate="POB" />
+                <word id="24" cont="安置" pos="v" ne="O" wsd="Hc03" wsdexp="安置_部署_调动_整顿_整编" parent="20" relate="VOB">
+                    <arg id="0" type="受事" beg="26" end="29" />
+                </word>
+                <word id="25" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="24" relate="CMP" />
+                <word id="26" cont="桥墩" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="27" relate="ATT" />
+                <word id="27" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="28" relate="DE" />
+                <word id="28" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="29" relate="ATT" />
+                <word id="29" cont="问题" pos="n" ne="O" wsd="Da01" wsdexp="事情_事件_事故" parent="24" relate="VOB" />
+                <word id="30" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="17" cont="在桥的下游可以先建设一个小水坝，坝上留有活动的闸门。" tag="">
+                <word id="0" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="6" relate="ADV" />
+                <word id="1" cont="桥" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="2" relate="DE" />
+                <word id="2" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="6" relate="ATT" />
+                <word id="3" cont="下游" pos="nd" ne="O" wsd="Cb10" wsdexp="山区_水乡_流域" parent="6" relate="ADV" />
+                <word id="4" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="6" relate="ADV" />
+                <word id="5" cont="先" pos="d" ne="O" wsd="Ka09" wsdexp="姑且_临时_预先_首先_准时" parent="6" relate="ADV" />
+                <word id="6" cont="建设" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="3" end="3" />
+                    <arg id="1" type="受事" beg="7" end="9" />
+                    <arg id="2" type="受事" beg="11" end="15" />
+                </word>
+                <word id="7" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="9" relate="QUN" />
+                <word id="8" cont="小" pos="a" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="9" relate="ATT" />
+                <word id="9" cont="水坝" pos="n" ne="O" wsd="Bn14" wsdexp="水库_堤坝_水闸" parent="6" relate="VOB" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="坝上" pos="nl" ne="O" wsd="-1" wsdexp="" parent="15" relate="ATT" />
+                <word id="12" cont="留有" pos="v" ne="O" wsd="-1" wsdexp="" parent="14" relate="DE">
+                    <arg id="0" type="受事" beg="13" end="13" />
+                </word>
+                <word id="13" cont="活动" pos="v" ne="O" wsd="Di20" wsdexp="动作_举动_行为" parent="12" relate="VOB" />
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="15" cont="闸门" pos="n" ne="O" wsd="Bn14" wsdexp="水库_堤坝_水闸" parent="6" relate="VOB" />
+                <word id="16" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="18" cont="让船从上游顺流而下，与此同时关毕闸门蓄水。" tag="10%">
+                <word id="0" cont="让" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="1" end="1" />
+                    <arg id="1" type="受事" beg="2" end="4" />
+                </word>
+                <word id="1" cont="船" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="0" relate="VOB" />
+                <word id="2" cont="从" pos="p" ne="O" wsd="Kb02" wsdexp="从_到_沿" parent="4" relate="ADV" />
+                <word id="3" cont="上游" pos="nd" ne="O" wsd="Cb10" wsdexp="山区_水乡_流域" parent="2" relate="POB" />
+                <word id="4" cont="顺流而下" pos="i" ne="O" wsd="Hj62" wsdexp="上来_下去" parent="0" relate="VOB" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="与此同时" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="7" relate="CNJ" />
+                <word id="7" cont="关" pos="v" ne="O" wsd="Fa31" wsdexp="开_关" parent="0" relate="VV">
+                    <arg id="0" type="受事" beg="8" end="10" />
+                </word>
+                <word id="8" cont="毕" pos="v" ne="O" wsd="Ig01" wsdexp="开始_结束" parent="7" relate="VOB">
+                    <arg id="0" type="受事" beg="9" end="9" />
+                </word>
+                <word id="9" cont="闸门" pos="n" ne="O" wsd="Bn14" wsdexp="水库_堤坝_水闸" parent="8" relate="VOB" />
+                <word id="10" cont="蓄水" pos="v" ne="O" wsd="Dk03" wsdexp="科学_学科_学业" parent="8" relate="VV" />
+                <word id="11" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="19" cont="当船行驶到两个桥墩之间时，通过大坝调节水位的作用，使石块高度恰好高于桥墩高度，同时抛锚，接着，可以开闸放水。" tag="10%">
+                <word id="0" cont="当" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="2" relate="ADV" />
+                <word id="1" cont="船" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="0" relate="POB" />
+                <word id="2" cont="行驶" pos="v" ne="O" wsd="Hf03" wsdexp="行驶_划船" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="4" end="8" />
+                </word>
+                <word id="3" cont="到" pos="v" ne="O" wsd="Hf08" wsdexp="到达_停靠" parent="2" relate="CMP" />
+                <word id="4" cont="两" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="5" relate="QUN" />
+                <word id="5" cont="个" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="8" relate="ATT" />
+                <word id="6" cont="桥墩" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="7" relate="ATT" />
+                <word id="7" cont="之间" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="8" relate="ATT" />
+                <word id="8" cont="时" pos="n" ne="O" wsd="Ca04" wsdexp="时候_时机_关头" parent="2" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="10" cont="通过" pos="p" ne="O" wsd="Kb06" wsdexp="依靠_通过" parent="17" relate="ADV" />
+                <word id="11" cont="大坝" pos="n" ne="O" wsd="Bn14" wsdexp="水库_堤坝_水闸" parent="12" relate="ATT" />
+                <word id="12" cont="调节" pos="v" ne="O" wsd="Hc03" wsdexp="安置_部署_调动_整顿_整编" parent="13" relate="ATT" />
+                <word id="13" cont="水位" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="14" relate="DE" />
+                <word id="14" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="15" relate="ATT" />
+                <word id="15" cont="作用" pos="n" ne="O" wsd="Da25" wsdexp="效用_反应" parent="10" relate="POB" />
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="使" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="2" relate="VV">
+                    <arg id="0" type="受事" beg="18" end="18" />
+                    <arg id="1" type="受事" beg="19" end="23" />
+                </word>
+                <word id="18" cont="石块" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="17" relate="VOB" />
+                <word id="19" cont="高度" pos="d" ne="O" wsd="Ed16" wsdexp="深刻_深远_深厚_深沉" parent="21" relate="ADV" />
+                <word id="20" cont="恰好" pos="d" ne="O" wsd="Ka26" wsdexp="恰巧_幸亏_偏偏" parent="21" relate="ADV" />
+                <word id="21" cont="高于" pos="v" ne="O" wsd="Jb04" wsdexp="超过" parent="17" relate="VOB">
+                    <arg id="0" type="受事" beg="22" end="23" />
+                </word>
+                <word id="22" cont="桥墩" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="23" relate="ATT" />
+                <word id="23" cont="高度" pos="n" ne="O" wsd="Ed16" wsdexp="深刻_深远_深厚_深沉" parent="21" relate="VOB" />
+                <word id="24" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="同时" pos="c" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="26" relate="CNJ" />
+                <word id="26" cont="抛锚" pos="v" ne="O" wsd="Ig02" wsdexp="停止_中断" parent="2" relate="VV" />
+                <word id="27" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="28" cont="接着" pos="c" ne="O" wsd="Ka13" wsdexp="随即_即将_终于" parent="26" relate="VV" />
+                <word id="29" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="30" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="32" relate="ADV">
+                    <arg id="0" type="受事" beg="31" end="31" />
+                </word>
+                <word id="31" cont="开闸" pos="v" ne="O" wsd="Fa31" wsdexp="开_关" parent="30" relate="VOB" />
+                <word id="32" cont="放水" pos="v" ne="O" wsd="Hn10" wsdexp="贪污_舞弊_剽窃_侵吞" parent="2" relate="VV" />
+                <word id="33" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="20" cont="这样，随着水位的下降，石块就落在两桥墩之上。" tag="20%">
+                <word id="0" cont="这样" pos="r" ne="O" wsd="Ka34" wsdexp="这样_那样" parent="5" relate="SBV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="随着" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="4" relate="DE" />
+                <word id="3" cont="水位" pos="n" ne="O" wsd="Dn01" wsdexp="量度_温度" parent="2" relate="POB" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="5" cont="下降" pos="v" ne="O" wsd="Ih06" wsdexp="削弱" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                </word>
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="石块" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="9" relate="SBV" />
+                <word id="8" cont="就" pos="d" ne="O" wsd="Ka07" wsdexp="都_只_不止_甚至" parent="9" relate="ADV" />
+                <word id="9" cont="落" pos="v" ne="O" wsd="Ja06" wsdexp="归于_属于" parent="5" relate="IC">
+                    <arg id="0" type="施事" beg="7" end="7" />
+                </word>
+                <word id="10" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="9" relate="CMP" />
+                <word id="11" cont="两" pos="m" ne="S-Nm" wsd="Dn04" wsdexp="基数_序数" parent="12" relate="QUN" />
+                <word id="12" cont="桥墩" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="13" relate="ATT" />
+                <word id="13" cont="之上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="10" relate="POB" />
+                <word id="14" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="21" cont="此时，船便可以收锚，继续顺流而下，脱离石块。" tag="">
+                <word id="0" cont="此时" pos="nt" ne="O" wsd="Ca31" wsdexp="这时_那时_几时" parent="5" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="船" pos="n" ne="O" wsd="Bo22" wsdexp="船_筏子_飞机" parent="5" relate="SBV" />
+                <word id="3" cont="便" pos="d" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="4" relate="ADV" />
+                <word id="4" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="5" relate="ADV" />
+                <word id="5" cont="收" pos="v" ne="O" wsd="Hc07" wsdexp="收_发" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="0" />
+                    <arg id="1" type="施事" beg="2" end="2" />
+                    <arg id="2" type="受事" beg="6" end="6" />
+                </word>
+                <word id="6" cont="锚" pos="n" ne="O" wsd="Ba05" wsdexp="器具_设备" parent="5" relate="VOB" />
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="继续" pos="v" ne="O" wsd="Ig03" wsdexp="进行_继续_流逝" parent="5" relate="VV">
+                    <arg id="0" type="受事" beg="9" end="9" />
+                </word>
+                <word id="9" cont="顺流而下" pos="i" ne="O" wsd="Hj62" wsdexp="上来_下去" parent="8" relate="VOB" />
+                <word id="10" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="11" cont="脱离" pos="v" ne="O" wsd="Hj19" wsdexp="从事_参加_脱离" parent="8" relate="VV">
+                    <arg id="0" type="受事" beg="12" end="12" />
+                </word>
+                <word id="12" cont="石块" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="11" relate="VOB" />
+                <word id="13" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="22" cont="利用这种方法，便可以较容易地把石块一个个放到桥墩上。" tag="">
+                <word id="0" cont="利用" pos="v" ne="O" wsd="Hj28" wsdexp="使用_沿用_借鉴" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="1" end="2" />
+                </word>
+                <word id="1" cont="这种" pos="r" ne="O" wsd="-1" wsdexp="" parent="2" relate="ATT" />
+                <word id="2" cont="方法" pos="n" ne="O" wsd="Db09" wsdexp="方法_诀窍_步骤" parent="0" relate="VOB" />
+                <word id="3" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="4" cont="便" pos="d" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="5" relate="ADV" />
+                <word id="5" cont="可以" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="12" relate="ADV" />
+                <word id="6" cont="较" pos="d" ne="O" wsd="Ka05" wsdexp="相当_比较_稍微_大多" parent="7" relate="ADV" />
+                <word id="7" cont="容易" pos="a" ne="O" wsd="Ed07" wsdexp="困难_艰巨_容易" parent="8" relate="DI" />
+                <word id="8" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ADV" />
+                <word id="9" cont="把" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="12" relate="ADV" />
+                <word id="10" cont="石块" pos="n" ne="O" wsd="Bm04" wsdexp="石_土_泥_沙" parent="9" relate="POB" />
+                <word id="11" cont="一个个" pos="m" ne="S-Nm" wsd="-1" wsdexp="" parent="12" relate="ADV" />
+                <word id="12" cont="放到" pos="v" ne="O" wsd="Fa13" wsdexp="放_堆_叠_挂" parent="0" relate="VV">
+                    <arg id="0" type="受事" beg="13" end="14" />
+                </word>
+                <word id="13" cont="桥墩" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="14" relate="ATT" />
+                <word id="14" cont="上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="12" relate="VOB" />
+                <word id="15" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="23" cont="据考证，根据当时的建筑水平，完全具备建设这样一个小型水坝的技术条件。" tag="">
+                <word id="0" cont="据" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="1" relate="ADV" />
+                <word id="1" cont="考证" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="-1" relate="HED" />
+                <word id="2" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="3" cont="根据" pos="p" ne="O" wsd="Kb07" wsdexp="依照_根据_趁" parent="10" relate="ADV" />
+                <word id="4" cont="当时" pos="nt" ne="O" wsd="Ca31" wsdexp="这时_那时_几时" parent="5" relate="DE" />
+                <word id="5" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="7" relate="ATT" />
+                <word id="6" cont="建筑" pos="n" ne="O" wsd="Bn01" wsdexp="建筑_房屋" parent="7" relate="ATT" />
+                <word id="7" cont="水平" pos="n" ne="O" wsd="Dd12" wsdexp="质量_基础" parent="3" relate="POB" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="完全" pos="a" ne="O" wsd="Ka06" wsdexp="完全_彻底_半半拉拉" parent="10" relate="ADV" />
+                <word id="10" cont="具备" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="1" relate="VV">
+                    <arg id="0" type="受事" beg="11" end="18" />
+                </word>
+                <word id="11" cont="建设" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="16" relate="DE">
+                    <arg id="0" type="受事" beg="12" end="15" />
+                </word>
+                <word id="12" cont="这样" pos="r" ne="O" wsd="Ka34" wsdexp="这样_那样" parent="13" relate="ATT" />
+                <word id="13" cont="一个" pos="m" ne="O" wsd="Dn08" wsdexp="数量单位" parent="15" relate="QUN" />
+                <word id="14" cont="小型" pos="b" ne="O" wsd="Ea03" wsdexp="大_中_小" parent="15" relate="ATT" />
+                <word id="15" cont="水坝" pos="n" ne="O" wsd="Bn14" wsdexp="水库_堤坝_水闸" parent="11" relate="VOB" />
+                <word id="16" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="18" relate="ATT" />
+                <word id="17" cont="技术" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="18" relate="ATT" />
+                <word id="18" cont="条件" pos="n" ne="O" wsd="Da21" wsdexp="情况_境地_境界_环境" parent="10" relate="VOB" />
+                <word id="19" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="24" cont="而且，我们发现在新建的江东桥和北溪大桥之间的水域范围内，有几块不连续的“绿洲”，于是便猜测它是古代大坝所留下的遗址。" tag="">
+                <word id="0" cont="而且" pos="c" ne="O" wsd="Kc02" wsdexp="并且_况且" parent="3" relate="CNJ" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="3" relate="SBV" />
+                <word id="3" cont="发现" pos="v" ne="O" wsd="Gb08" wsdexp="了解_体会_不解" parent="15" relate="ATT">
+                    <arg id="0" type="施事" beg="2" end="2" />
+                    <arg id="1" type="受事" beg="4" end="10" />
+                </word>
+                <word id="4" cont="在" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="5" relate="ADV" />
+                <word id="5" cont="新建" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="3" relate="VOB">
+                    <arg id="0" type="受事" beg="6" end="10" />
+                </word>
+                <word id="6" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="10" relate="ATT" />
+                <word id="7" cont="江东桥" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="10" relate="ATT" />
+                <word id="8" cont="和" pos="c" ne="O" wsd="Kc01" wsdexp="和_或者" parent="10" relate="LAD" />
+                <word id="9" cont="北溪" pos="ns" ne="B-Ns" wsd="-1" wsdexp="" parent="10" relate="ATT" />
+                <word id="10" cont="大桥" pos="n" ne="E-Ns" wsd="Bn11" wsdexp="路_胡同_桥" parent="5" relate="VOB" />
+                <word id="11" cont="之间" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="12" relate="DE" />
+                <word id="12" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="14" relate="ATT" />
+                <word id="13" cont="水域" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="14" relate="ATT" />
+                <word id="14" cont="范围" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="15" relate="ATT" />
+                <word id="15" cont="内" pos="nd" ne="O" wsd="Cb05" wsdexp="内_外" parent="17" relate="ADV" />
+                <word id="16" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="17" cont="有" pos="v" ne="O" wsd="Jd04" wsdexp="有_占有" parent="-1" relate="HED">
+                    <arg id="0" type="方位" beg="0" end="15" />
+                    <arg id="1" type="受事" beg="18" end="24" />
+                </word>
+                <word id="18" cont="几" pos="m" ne="O" wsd="Dn05" wsdexp="半_概数_若干" parent="19" relate="QUN" />
+                <word id="19" cont="块" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="24" relate="ATT" />
+                <word id="20" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="21" relate="ADV" />
+                <word id="21" cont="连续" pos="a" ne="O" wsd="Ka11" wsdexp="不断_一直_动辄" parent="22" relate="DE" />
+                <word id="22" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="24" relate="ATT" />
+                <word id="23" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="绿洲" pos="n" ne="O" wsd="Be01" wsdexp="陆地_原野_沙漠" parent="17" relate="VOB" />
+                <word id="25" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="26" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="27" cont="于是" pos="c" ne="O" wsd="Kc11" wsdexp="于是_此外" parent="29" relate="CNJ" />
+                <word id="28" cont="便" pos="d" ne="O" wsd="Ka08" wsdexp="立刻_赶快_逐渐" parent="29" relate="ADV" />
+                <word id="29" cont="猜测" pos="v" ne="O" wsd="Gb03" wsdexp="推测_猜想" parent="17" relate="VV">
+                    <arg id="0" type="受事" beg="30" end="37" />
+                </word>
+                <word id="30" cont="它" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="31" relate="SBV" />
+                <word id="31" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="29" relate="VOB">
+                    <arg id="0" type="施事" beg="30" end="30" />
+                    <arg id="1" type="受事" beg="32" end="37" />
+                </word>
+                <word id="32" cont="古代" pos="nt" ne="O" wsd="Ca02" wsdexp="时代_朝代_年代" parent="33" relate="ATT" />
+                <word id="33" cont="大坝" pos="n" ne="O" wsd="Bn14" wsdexp="水库_堤坝_水闸" parent="35" relate="SBV" />
+                <word id="34" cont="所" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="35" relate="LAD" />
+                <word id="35" cont="留下" pos="v" ne="O" wsd="Jd01" wsdexp="无关" parent="36" relate="DE">
+                    <arg id="0" type="施事" beg="32" end="33" />
+                </word>
+                <word id="36" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="37" relate="ATT" />
+                <word id="37" cont="遗址" pos="n" ne="O" wsd="Cb08" wsdexp="地方_地点" parent="31" relate="VOB" />
+                <word id="38" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="25" cont="以上便是我们设想古人架桥技巧的可行性方案。" tag="">
+                <word id="0" cont="以上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="1" relate="ADV" />
+                <word id="1" cont="便是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="7" relate="DE">
+                    <arg id="0" type="方位" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="2" end="4" />
+                    <arg id="2" type="受事" beg="5" end="6" />
+                </word>
+                <word id="2" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="4" relate="ATT" />
+                <word id="3" cont="设想" pos="v" ne="O" wsd="Df14" wsdexp="想法_主意_见解" parent="4" relate="ATT" />
+                <word id="4" cont="古人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="1" relate="VOB" />
+                <word id="5" cont="架桥" pos="v" ne="O" wsd="Hd01" wsdexp="建筑_架设_铺设_养护" parent="1" relate="VOB">
+                    <arg id="0" type="受事" beg="6" end="6" />
+                </word>
+                <word id="6" cont="技巧" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="5" relate="VOB" />
+                <word id="7" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="9" relate="ATT" />
+                <word id="8" cont="可行性" pos="n" ne="O" wsd="Da20" wsdexp="形势_趋势_潮流" parent="9" relate="ATT" />
+                <word id="9" cont="方案" pos="n" ne="O" wsd="Df09" wsdexp="计划_计策_手段" parent="-1" relate="HED" />
+                <word id="10" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="10" />
+        <para id="11">
+            <sent id="0" cont="三江东桥啊！" tag="">
+                <word id="0" cont="三" pos="m" ne="S-Nm" wsd="Dn04" wsdexp="基数_序数" parent="2" relate="ATT" />
+                <word id="1" cont="江" pos="n" ne="O" wsd="Be05" wsdexp="海洋_江河_溪涧" parent="2" relate="ATT" />
+                <word id="2" cont="东桥" pos="ns" ne="S-Ns" wsd="-1" wsdexp="" parent="-1" relate="HED" />
+                <word id="3" cont="啊" pos="u" ne="O" wsd="Kd03" wsdexp="啊_呢_喽" parent="2" relate="NOT" />
+                <word id="4" cont="！" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="1" cont="你踏着岁月的长河，伴着澎湃汹涌的江水，跨过了八百年的沧桑旅程。" tag="">
+                <word id="0" cont="你" pos="r" ne="O" wsd="Aa03" wsdexp="你_你们" parent="1" relate="SBV" />
+                <word id="1" cont="踏" pos="v" ne="O" wsd="Fb02" wsdexp="跳_踢_踩_踮" parent="4" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="0" />
+                    <arg id="1" type="受事" beg="3" end="3" />
+                </word>
+                <word id="2" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="1" relate="MT" />
+                <word id="3" cont="岁月" pos="n" ne="O" wsd="Ca03" wsdexp="时期_时间" parent="1" relate="VOB" />
+                <word id="4" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="5" cont="长河" pos="n" ne="O" wsd="Da05" wsdexp="过程_内中" parent="7" relate="SBV" />
+                <word id="6" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="7" cont="伴" pos="v" ne="O" wsd="Hi05" wsdexp="迎接_会面_陪伴" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="5" />
+                    <arg id="1" type="受事" beg="9" end="12" />
+                    <arg id="2" type="受事" beg="14" end="20" />
+                </word>
+                <word id="8" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="7" relate="MT" />
+                <word id="9" cont="澎湃" pos="v" ne="O" wsd="Ed21" wsdexp="威武_雄壮_险要" parent="7" relate="VOB">
+                    <arg id="0" type="受事" beg="10" end="12" />
+                </word>
+                <word id="10" cont="汹涌" pos="a" ne="O" wsd="Ed21" wsdexp="威武_雄壮_险要" parent="11" relate="DE" />
+                <word id="11" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="12" relate="ATT" />
+                <word id="12" cont="江水" pos="n" ne="O" wsd="Bg01" wsdexp="水_汁_浆" parent="9" relate="VOB" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="跨过" pos="v" ne="O" wsd="Fb04" wsdexp="跨_越" parent="18" relate="DE">
+                    <arg id="0" type="受事-数量性质" beg="16" end="17" />
+                </word>
+                <word id="15" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="14" relate="MT" />
+                <word id="16" cont="八百" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="17" relate="QUN" />
+                <word id="17" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="14" relate="VOB" />
+                <word id="18" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="20" relate="ATT" />
+                <word id="19" cont="沧桑" pos="n" ne="O" wsd="Da02" wsdexp="变故_动乱_风潮" parent="20" relate="ATT" />
+                <word id="20" cont="旅程" pos="n" ne="O" wsd="Cb27" wsdexp="道路_路线" parent="7" relate="VOB" />
+                <word id="21" cont="。" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="2" cont="看神州大地山水含笑，祖国山河欣欣向荣；" tag="">
+                <word id="0" cont="看" pos="v" ne="O" wsd="Fc04" wsdexp="看" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="1" end="3" />
+                    <arg id="1" type="受事" beg="4" end="4" />
+                    <arg id="2" type="受事" beg="6" end="8" />
+                </word>
+                <word id="1" cont="神州" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="2" relate="ATT" />
+                <word id="2" cont="大地" pos="n" ne="O" wsd="Cb07" wsdexp="天_地" parent="3" relate="ATT" />
+                <word id="3" cont="山水" pos="n" ne="O" wsd="Dc02" wsdexp="风景_景象" parent="0" relate="VOB" />
+                <word id="4" cont="含笑" pos="v" ne="O" wsd="Ic01" wsdexp="笑_哭" parent="0" relate="VOB" />
+                <word id="5" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="6" cont="祖国" pos="n" ne="O" wsd="Di02" wsdexp="国家_行政区划" parent="7" relate="ATT" />
+                <word id="7" cont="山河" pos="n" ne="O" wsd="Cb13" wsdexp="领土_失地" parent="8" relate="SBV" />
+                <word id="8" cont="欣欣向荣" pos="i" ne="O" wsd="Ef02" wsdexp="繁荣_萧条" parent="0" relate="VOB" />
+                <word id="9" cont="；" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="3" cont="战争的硝烟如何把你撼动，大自然的无数次挑战又怎能令你屈服？" tag="">
+                <word id="0" cont="战争" pos="n" ne="O" wsd="Di11" wsdexp="军队_战争" parent="1" relate="DE" />
+                <word id="1" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="2" relate="ATT" />
+                <word id="2" cont="硝烟" pos="n" ne="O" wsd="Bf05" wsdexp="烟_雾" parent="6" relate="SBV" />
+                <word id="3" cont="如何" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="6" relate="ADV" />
+                <word id="4" cont="把" pos="p" ne="O" wsd="Kb03" wsdexp="跟_替_把_比" parent="6" relate="ADV" />
+                <word id="5" cont="你" pos="r" ne="O" wsd="Aa03" wsdexp="你_你们" parent="4" relate="POB" />
+                <word id="6" cont="撼动" pos="v" ne="O" wsd="Fa32" wsdexp="搬动_摇动_抖动_挥动鎹" parent="-1" relate="HED">
+                    <arg id="0" type="施事" beg="0" end="2" />
+                </word>
+                <word id="7" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="8" cont="大自然" pos="n" ne="O" wsd="Bd01" wsdexp="宇宙_星辰" parent="9" relate="DE" />
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="10" cont="无数" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="11" relate="QUN" />
+                <word id="11" cont="次" pos="q" ne="O" wsd="Dn08" wsdexp="数量单位" parent="12" relate="ATT" />
+                <word id="12" cont="挑战" pos="v" ne="O" wsd="Hb02" wsdexp="誓师_检阅_作战" parent="16" relate="SBV" />
+                <word id="13" cont="又" pos="c" ne="O" wsd="Ka14" wsdexp="再" parent="16" relate="CNJ" />
+                <word id="14" cont="怎" pos="r" ne="O" wsd="Ka35" wsdexp="哪里_怎样_为什么" parent="15" relate="ADV" />
+                <word id="15" cont="能" pos="v" ne="O" wsd="Gc02" wsdexp="能够_不能_可以_不可" parent="16" relate="ADV" />
+                <word id="16" cont="令" pos="v" ne="O" wsd="Je04" wsdexp="引起_导致_使得" parent="6" relate="VV">
+                    <arg id="0" type="施事" beg="8" end="12" />
+                    <arg id="1" type="受事" beg="17" end="18" />
+                </word>
+                <word id="17" cont="你" pos="r" ne="O" wsd="Aa03" wsdexp="你_你们" parent="18" relate="SBV" />
+                <word id="18" cont="屈服" pos="v" ne="O" wsd="Hi45" wsdexp="调解_屈服_降伏_讲和" parent="16" relate="VOB">
+                    <arg id="0" type="施事" beg="17" end="17" />
+                </word>
+                <word id="19" cont="？" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="4" cont="如今，你依然傲然于江面之上，挺立于峻岭之间，实实在在地创造了“沧海桑田”般的奇迹，皇皇地立下一座后人心中不倒的碑！" tag="">
+                <word id="0" cont="如今" pos="nt" ne="O" wsd="Ca10" wsdexp="现在" parent="9" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="2" cont="你" pos="r" ne="O" wsd="Aa03" wsdexp="你_你们" parent="4" relate="SBV" />
+                <word id="3" cont="依然" pos="d" ne="O" wsd="Ka28" wsdexp="仍然_尚且" parent="4" relate="ADV" />
+                <word id="4" cont="傲然" pos="d" ne="O" wsd="Ee34" wsdexp="谦虚_自卑_恭顺_骄傲" parent="9" relate="ADV" />
+                <word id="5" cont="于" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="9" relate="ADV" />
+                <word id="6" cont="江面" pos="n" ne="O" wsd="Dd08" wsdexp="表面_实质_根本" parent="7" relate="ATT" />
+                <word id="7" cont="之上" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="5" relate="POB" />
+                <word id="8" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="9" cont="挺立" pos="v" ne="O" wsd="Fb03" wsdexp="坐_蹲_立_骑" parent="-1" relate="HED">
+                    <arg id="0" type="时间" beg="0" end="0" />
+                    <arg id="1" type="方位" beg="5" end="7" />
+                </word>
+                <word id="10" cont="于" pos="p" ne="O" wsd="Kb01" wsdexp="向_背_在" parent="9" relate="CMP" />
+                <word id="11" cont="峻岭" pos="n" ne="O" wsd="Be04" wsdexp="山_坡" parent="12" relate="ATT" />
+                <word id="12" cont="之间" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="10" relate="POB" />
+                <word id="13" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="14" cont="实实在在" pos="a" ne="O" wsd="Ed01" wsdexp="真实_虚假_确实_虚妄" parent="15" relate="DI" />
+                <word id="15" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="16" relate="ADV" />
+                <word id="16" cont="创造" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="9" relate="VV">
+                    <arg id="0" type="受事" beg="19" end="19" />
+                    <arg id="1" type="受事" beg="21" end="23" />
+                    <arg id="2" type="受事" beg="25" end="37" />
+                </word>
+                <word id="17" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="16" relate="MT" />
+                <word id="18" cont="“" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="19" cont="沧海桑田" pos="i" ne="O" wsd="Da02" wsdexp="变故_动乱_风潮" parent="16" relate="VOB" />
+                <word id="20" cont="”" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="21" cont="般" pos="u" ne="O" wsd="Jb03" wsdexp="相似_例如" parent="22" relate="DE" />
+                <word id="22" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="23" relate="ATT" />
+                <word id="23" cont="奇迹" pos="n" ne="O" wsd="Ka16" wsdexp="突然_偶然" parent="16" relate="VOB" />
+                <word id="24" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="25" cont="皇皇" pos="a" ne="O" wsd="Ed20" wsdexp="伟大_渺小" parent="26" relate="DI" />
+                <word id="26" cont="地" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="ADV" />
+                <word id="27" cont="立" pos="v" ne="O" wsd="Hc05" wsdexp="建立_设立_创立_命名" parent="28" relate="ATT" />
+                <word id="28" cont="下" pos="nd" ne="O" wsd="Cb03" wsdexp="上_下_左_右" parent="32" relate="ATT" />
+                <word id="29" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="30" relate="QUN" />
+                <word id="30" cont="座" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="32" relate="ATT" />
+                <word id="31" cont="后" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="32" relate="ATT" />
+                <word id="32" cont="人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="33" relate="ATT" />
+                <word id="33" cont="心中" pos="nl" ne="O" wsd="Df02" wsdexp="内心_良心_丹心" parent="35" relate="ADV" />
+                <word id="34" cont="不" pos="d" ne="O" wsd="Ka18" wsdexp="不_没" parent="35" relate="ADV" />
+                <word id="35" cont="倒" pos="v" ne="O" wsd="Fa24" wsdexp="浇_洒_沏_斟" parent="36" relate="DE">
+                    <arg id="0" type="地点" beg="25" end="33" />
+                </word>
+                <word id="36" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="37" relate="ATT" />
+                <word id="37" cont="碑" pos="n" ne="O" wsd="Bn22" wsdexp="坟墓_墓穴_碑" parent="16" relate="VOB" />
+                <word id="38" cont="！" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+            <sent id="5" cont="八百年前的劳动人民给我们留下的不仅仅是一座记载着当时两岸繁华景象的古桥，更重要的是它给我们留下了许许多多有待考证的古人智慧，正等待着我们去探求、去思索…… " tag="">
+                <word id="0" cont="八百" pos="m" ne="B-Nm" wsd="-1" wsdexp="" parent="1" relate="QUN" />
+                <word id="1" cont="年" pos="q" ne="E-Nm" wsd="Ca18" wsdexp="年" parent="2" relate="ATT" />
+                <word id="2" cont="前" pos="nd" ne="O" wsd="Cb04" wsdexp="前_后_中" parent="3" relate="DE" />
+                <word id="3" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="5" relate="ATT" />
+                <word id="4" cont="劳动" pos="v" ne="O" wsd="Hj11" wsdexp="工作_劳动" parent="5" relate="ATT" />
+                <word id="5" cont="人民" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="8" relate="SBV" />
+                <word id="6" cont="给" pos="p" ne="O" wsd="Je05" wsdexp="给予_寄予_加以_冠以" parent="8" relate="ADV" />
+                <word id="7" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="6" relate="POB" />
+                <word id="8" cont="留下" pos="v" ne="O" wsd="Jd01" wsdexp="无关" parent="9" relate="DE">
+                    <arg id="0" type="施事" beg="0" end="5" />
+                </word>
+                <word id="9" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="11" relate="ATT" />
+                <word id="10" cont="不仅仅" pos="d" ne="O" wsd="Kc05" wsdexp="不但_何止" parent="11" relate="ADV" />
+                <word id="11" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="-1" relate="HED">
+                    <arg id="0" type="受事" beg="12" end="22" />
+                </word>
+                <word id="12" cont="一" pos="m" ne="B-Nm" wsd="Dn04" wsdexp="基数_序数" parent="13" relate="QUN" />
+                <word id="13" cont="座" pos="q" ne="E-Nm" wsd="Dn08" wsdexp="数量单位" parent="22" relate="ATT" />
+                <word id="14" cont="记载" pos="v" ne="O" wsd="Hi13" wsdexp="演讲_论述_列举_叙述_描写" parent="20" relate="DE">
+                    <arg id="0" type="受事" beg="16" end="17" />
+                    <arg id="1" type="受事" beg="18" end="19" />
+                </word>
+                <word id="15" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="14" relate="MT" />
+                <word id="16" cont="当时" pos="nt" ne="O" wsd="Ca31" wsdexp="这时_那时_几时" parent="17" relate="ATT" />
+                <word id="17" cont="两岸" pos="n" ne="O" wsd="Dd05" wsdexp="范围_方面_环节" parent="14" relate="VOB" />
+                <word id="18" cont="繁华" pos="a" ne="O" wsd="Ef03" wsdexp="热闹_拥挤" parent="19" relate="ATT" />
+                <word id="19" cont="景象" pos="n" ne="O" wsd="Dc02" wsdexp="风景_景象" parent="14" relate="VOB" />
+                <word id="20" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="22" relate="ATT" />
+                <word id="21" cont="古" pos="a" ne="O" wsd="Eb29" wsdexp="老式" parent="22" relate="ATT" />
+                <word id="22" cont="桥" pos="n" ne="O" wsd="Bn11" wsdexp="路_胡同_桥" parent="11" relate="VOB" />
+                <word id="23" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="24" cont="更" pos="d" ne="O" wsd="Ka04" wsdexp="更加" parent="25" relate="ADV" />
+                <word id="25" cont="重要" pos="a" ne="O" wsd="Ed28" wsdexp="重要_次要_不足道" parent="26" relate="DE" />
+                <word id="26" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="27" relate="ADV" />
+                <word id="27" cont="是" pos="v" ne="O" wsd="Ja01" wsdexp="是_当做_比作" parent="11" relate="VV">
+                    <arg id="0" type="受事" beg="28" end="32" />
+                </word>
+                <word id="28" cont="它" pos="r" ne="O" wsd="Ba10" wsdexp="它_什么" parent="31" relate="SBV" />
+                <word id="29" cont="给" pos="p" ne="O" wsd="Je05" wsdexp="给予_寄予_加以_冠以" parent="31" relate="ADV" />
+                <word id="30" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="29" relate="POB" />
+                <word id="31" cont="留下" pos="v" ne="O" wsd="Jd01" wsdexp="无关" parent="27" relate="VOB">
+                    <arg id="0" type="施事" beg="28" end="28" />
+                </word>
+                <word id="32" cont="了" pos="u" ne="O" wsd="Kd05" wsdexp="吗_的话_罢了_了_哉" parent="31" relate="MT" />
+                <word id="33" cont="许许多多" pos="m" ne="O" wsd="Eb01" wsdexp="多_少_稀少" parent="34" relate="ADV" />
+                <word id="34" cont="有待" pos="v" ne="O" wsd="Hi07" wsdexp="等候_驱逐_收留_挽留" parent="11" relate="VV">
+                    <arg id="0" type="受事" beg="35" end="38" />
+                </word>
+                <word id="35" cont="考证" pos="v" ne="O" wsd="Hg14" wsdexp="分析_推敲_研究_考证" parent="36" relate="DE" />
+                <word id="36" cont="的" pos="u" ne="O" wsd="Kd01" wsdexp="的_然_所" parent="38" relate="ATT" />
+                <word id="37" cont="古人" pos="n" ne="O" wsd="Aa01" wsdexp="人_人民_众人" parent="38" relate="ATT" />
+                <word id="38" cont="智慧" pos="n" ne="O" wsd="De04" wsdexp="智慧_才能_能力_功夫" parent="34" relate="VOB" />
+                <word id="39" cont="，" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="40" cont="正" pos="d" ne="O" wsd="Ka12" wsdexp="已经_方才_正在" parent="41" relate="ADV" />
+                <word id="41" cont="等待" pos="v" ne="O" wsd="Hi07" wsdexp="等候_驱逐_收留_挽留" parent="34" relate="VV">
+                    <arg id="0" type="受事" beg="43" end="43" />
+                    <arg id="1" type="受事" beg="45" end="45" />
+                </word>
+                <word id="42" cont="着" pos="u" ne="O" wsd="Fa18" wsdexp="穿_戴_佩带" parent="41" relate="MT" />
+                <word id="43" cont="我们" pos="r" ne="O" wsd="Aa02" wsdexp="我_我们" parent="41" relate="VOB" />
+                <word id="44" cont="去" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="41" relate="CMP" />
+                <word id="45" cont="探求" pos="v" ne="O" wsd="Gb04" wsdexp="希望_要求_追求" parent="41" relate="VOB" />
+                <word id="46" cont="、" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+                <word id="47" cont="去" pos="v" ne="O" wsd="Hj63" wsdexp="来_去_来去" parent="48" relate="ADV" />
+                <word id="48" cont="思索" pos="v" ne="O" wsd="Gb01" wsdexp="想象_思考_斟酌_着想_存心" parent="41" relate="COO" />
+                <word id="49" cont="……" pos="wp" ne="O" wsd="-1" wsdexp="" parent="-2" relate="PUN" />
+            </sent>
+        </para>
+        <para id="12" />
+        <para id="13" />
+    </doc>
+    <class>旅游</class>
+    <coref />
+</xml4nlp>
