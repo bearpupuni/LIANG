@@ -1,0 +1,5 @@
+哈工大信息检索研究室多文档自动文摘语料
+［HIT IR-lab Multi-Document Summarization Corpus］
+
+多文档自动文摘语料库包含40个主题。同一主题下是同一事件的不同报道。
+ 
